@@ -1,0 +1,52 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "gt-planar-i-45";
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: hsla(0, 0%, 53%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  #app {
+    display: flex;
+  }
+}
+
+
+/* FUENTES */
+
+@font-face {
+  font-family: "gt-planar-i-15";
+  src: url("@/assets/fonts/GT-Planar-Italic-15-Light.woff") format('woff');
+}
+
+@font-face {
+  font-family: "gt-planar-i-30";
+  src: url("fonts/GT-Planar-Italic-30-Light.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "gt-planar-i-45";
+  src: url("fonts/GT-Planar-Italic-45-Light.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gt-planar-light";
+  src: url("fonts/GT-Planar-Light.woff") format('woff');
+  font-style: italic;
+}

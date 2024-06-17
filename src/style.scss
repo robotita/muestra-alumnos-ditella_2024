@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  transition: 0.4s;
+}
+
+#app {
+  font-family: "gt-planar-i-45";
+
+  .container {
+    padding:2vw;
+    min-height: 100vh;
+  }
+  #visualizador {
+    display: flex;
+    //border: 1px solid red;
+    margin-bottom: 4vw;
+    width: 67vw;
+    height: 60px;
+    column-gap: 30px;
+    .slidecontainer {
+      width: calc(100% - 120px);
+      height: 100%;
+      //border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      //padding-right: 30px;
+
+      .slider {
+        width: 100%;
+        -webkit-appearance: none;
+        width: 100%;
+        height: 2px;
+        background: #000;
+        outline: none;
+        //opacity: 0.7;
+        -webkit-transition: 0.2s;
+        transition: opacity 0.2s;
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .slider::-webkit-slider-thumb, .slider::-moz-range-thumb  {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 22px;
+        height: 22px;
+        background: #FFF;
+        border: #707070 1px solid;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+
+      ///
+
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 22px;
+        height: 22px;
+        background: #FFF;
+        border: #707070 1px solid;
+        border-radius: 50px;
+        cursor: pointer;
+     }
+    }
+
+    #showimg{
+      width: 30px;
+      height: 30px;
+      //background-color: yellow;
+
+      svg{
+        width: 100%;
+      }
+    }
+
+    #showlist{
+      width: 30px;
+      height: 30px;
+      //background-color: yellow;
+
+      svg{
+        width: 100%;
+      }
+    }
+
+    .active {
+      svg {
+        opacity: 1;
+      }
+    }
+
+    svg {
+      //width: 20px;
+      //margin-right: 5px;
+      opacity: 0.3;
+    }
+  }
+}
+
+// @media (hover: hover) {
+//   a:hover {
+//   }
+// }
+
+/* FUENTES */
+@font-face {
+  font-family: "gt-planar-i-45";
+  src: url("assets/fonts/GT-Planar-Italic-45-Light.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
