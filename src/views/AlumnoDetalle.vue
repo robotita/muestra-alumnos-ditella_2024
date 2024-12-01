@@ -25,6 +25,7 @@
     <h1>{{ nombre }} {{ apellido }}</h1>
 
     <p v-if="alumno">Cohorte {{ alumno.Cohorte }}</p>
+
     <p>
       <span v-for="(value, key) in filteredData" :key="key">
         <router-link
@@ -36,11 +37,12 @@
         </router-link>
       </span>
     </p>
-
+    
     <div id="thumbails">
       <div id="megaContainer" ref="scrollDiv" @wheel="handleScroll">
         <div id="container">
           <!--thumbails-->
+
           <span v-for="(value, key) in filteredData" :key="key">
             <router-link
               :to="`/alumno-tp/${formatear(nombre)}-${formatear(
@@ -49,12 +51,10 @@
             >
               <img
                 v-for="(imageUrl, index) in value.split(', ')"
-                :src="thumbailImg(imageUrl)"
+                :src="imageUrl"
                 :style="{ height: `${sliderValue * 5}px` }"
                 :key="index"
               />
-              <!-- //:src="transformarURL(imageUrl)" onerror="this.src='/video.png'"  :alt="key"-->
-
             </router-link>
           </span>
           <!--//thumbails--->
@@ -67,7 +67,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { fetchData, dataURL, transformarURL, thumbailImg, iframeURL} from "../helpers/api";
+import { fetchData, dataURL,iframeURL} from "../helpers/api"; //transformarURL
 import { useZoom } from "../zoom.js";
 
 const { sliderValue, outputValue, updateOutput } = useZoom();
@@ -98,7 +98,7 @@ const handleScroll = (event) => {
 
 const filterData = () => {
   for (const key in alumno.value) {
-    if (alumno.value[key].includes("https://")) {
+    if (alumno.value[key].includes("imgs/")) {
       filteredData.value = { ...filteredData.value, [key]: alumno.value[key] };
     }
   }

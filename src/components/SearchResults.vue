@@ -84,7 +84,7 @@
             :key="materia"
           >
             <img
-              :src="thumbailImg(url)"
+              :src="url"
               height="100"
               :style="{ height: `${sliderValue * 3}px` }"
               v-if="
@@ -92,9 +92,8 @@
                 materiaSeleccionada === null
               "
             />
-
-            <!--               onerror="this.src='/video.png'"
- -->
+            <!-- eliminar >>> :src="thumbailImg(url)" -->
+            <!-- onerror="this.src='/video.png'" -->
             <!--test-->
           </div>
         </router-link>
@@ -105,7 +104,7 @@
 
 <script setup>
 import { computed, ref, watch, onMounted } from "vue";
-import { fetchData, dataURL, thumbailImg } from "../helpers/api";
+import { fetchData, dataURL } from "../helpers/api";
 
 const props = defineProps({
   query: String,

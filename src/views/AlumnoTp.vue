@@ -115,14 +115,15 @@
             >
               <!--VIDEO-->
               <video controls>
-                <source :src="transformarURL(imagen)" type="video/mp4" />
+                <source :src="imagen" type="video/mp4" />
                 Tu navegador no soporta el tag de video.
               </video>
               <!--VIDEO-->
             </span>
             <span v-else>
+              <!-- :src="imagen" CAMBIAR SEGUIR -->
               <img
-                :src="transformarURL(imagen)"
+               :src="imagen"
                 alt="slide image"
                 ref="imageRef"
               />
@@ -147,7 +148,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { fetchData, dataURL, transformarURL } from "../helpers/api";
+import { fetchData, dataURL } from "../helpers/api"; //, transformarURL
 
 const route = useRoute();
 const nombre = route.params.nombre;
@@ -168,7 +169,7 @@ const obtenerMaterias = () => {
   const linksArray = [];
 
   for (const key in alumno.value) {
-    if (alumno.value[key].includes("https://")) {
+    if (alumno.value[key].includes("imgs/")) {
       //const newKey = `http://localhost:5173/#/alumno-tp/${nombre}-${apellido}-${key}`;
 
       //arreglo rápido
@@ -208,8 +209,7 @@ const changeSlide = (next = true) => {
   // Calculate new current index
   const newCurrentIndex =
     Math.abs(current / slideWidth) + (next ? slideIndexOffset : 0);
-
-    //console.log("currentIndex", newCurrentIndex);
+    console.log("currentIndex", newCurrentIndex);
 
   // Add 'active' class to the new current slider
   const newCurrentSlider = slides.querySelector(
