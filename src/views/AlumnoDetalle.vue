@@ -98,7 +98,7 @@ const handleScroll = (event) => {
 
 const filterData = () => {
   for (const key in alumno.value) {
-    if (alumno.value[key].includes("imgs/")) {
+    if (alumno.value[key].includes("imgs/2023/")) {
       filteredData.value = { ...filteredData.value, [key]: alumno.value[key] };
     }
   }

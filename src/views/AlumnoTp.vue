@@ -169,7 +169,7 @@ const obtenerMaterias = () => {
   const linksArray = [];
 
   for (const key in alumno.value) {
-    if (alumno.value[key].includes("imgs/")) {
+    if (alumno.value[key].includes("imgs/2023/")) {
       //const newKey = `http://localhost:5173/#/alumno-tp/${nombre}-${apellido}-${key}`;
 
       //arreglo rápido
