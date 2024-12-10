@@ -1,7 +1,4 @@
 <template>
-  <!--dele-->
-  <!-- <div style="position: absolute;">  {{ sliderValue }}</div> -->
-  <!--dele-->
 
   <div id="visualizador">
     <div class="slidecontainer">
@@ -92,9 +89,6 @@
                 materiaSeleccionada === null
               "
             />
-            <!-- eliminar >>> :src="thumbailImg(url)" -->
-            <!-- onerror="this.src='/video.png'" -->
-            <!--test-->
           </div>
         </router-link>
       </li>
@@ -262,6 +256,8 @@ const getMateriasConImagenes = (alumno) => {
 
   return materiasConImagenes;
 };
+
+
 </script>
 
 <style scoped lang="scss">
@@ -340,9 +336,8 @@ const getMateriasConImagenes = (alumno) => {
 
 
           img {
-            display: block; /* Muestra las imágenes */
+            display: block;
             border: 1px solid rgb(212, 212, 212);
-            // margin-right: 30px;
           }
         }
       }

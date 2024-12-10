@@ -4,7 +4,7 @@
       <div id="anuario">
         <router-link to="/">
           Anuario <br />
-          2023
+          {{ anio }}
         </router-link>
       </div>
 
@@ -37,12 +37,39 @@
         </router-link>
       </span>
     </p>
-    
+
     <div id="thumbails">
       <div id="megaContainer" ref="scrollDiv" @wheel="handleScroll">
         <div id="container">
           <!--thumbails-->
+          <span v-for="(value, key) in filteredData" :key="key">
+            <router-link
+              :to="`/alumno-tp/${formatear(nombre)}-${formatear(
+                apellido
+              )}-${key}`"
+            >
+              <template
+                v-for="(imageUrl, index) in value.split(', ')"
+                :key="index"
+              >
+                <video
+                  v-if="imageUrl.endsWith('.mp4') || imageUrl.endsWith('.mov')"
+                  muted autoplay
+                  :style="{ height: `${sliderValue * 5}px` }"
+                >
+                  <source :src="imageUrl" type="video/mp4" />
+                  Tu navegador no soporta el tag de video.
+                </video>
+                <img
+                  v-else
+                  :src="imageUrl"
+                  :style="{ height: `${sliderValue * 5}px` }"
+                />
+              </template>
+            </router-link>
+          </span>
 
+          <!-- 
           <span v-for="(value, key) in filteredData" :key="key">
             <router-link
               :to="`/alumno-tp/${formatear(nombre)}-${formatear(
@@ -56,7 +83,7 @@
                 :key="index"
               />
             </router-link>
-          </span>
+          </span> -->
           <!--//thumbails--->
         </div>
       </div>
@@ -67,7 +94,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { fetchData, dataURL,iframeURL} from "../helpers/api"; //transformarURL
+import { fetchData, dataURL } from "../helpers/api"; //transformarURL
 import { useZoom } from "../zoom.js";
 
 const { sliderValue, outputValue, updateOutput } = useZoom();
@@ -75,7 +102,6 @@ const { sliderValue, outputValue, updateOutput } = useZoom();
 const route = useRoute();
 const nombre = route.params.nombre;
 const apellido = route.params.apellido;
-
 
 const alumnos = ref([]);
 const alumno = ref(null);
@@ -98,7 +124,9 @@ const handleScroll = (event) => {
 
 const filterData = () => {
   for (const key in alumno.value) {
-    if (alumno.value[key].includes("imgs/2023/")) {
+    console.log("key", key);
+    console.log("alumno.value", alumno.value);
+    if (alumno.value[key].includes("imgs/2024/")) {
       filteredData.value = { ...filteredData.value, [key]: alumno.value[key] };
     }
   }
@@ -174,7 +202,6 @@ onMounted(async () => {
   // overflow: auto;
   overflow: hidden;
   #container {
-    // display: flex;
     display: inline-block;
     overflow-x: auto;
     width: max-content;
@@ -186,7 +213,7 @@ onMounted(async () => {
   margin-top: 3rem;
   width: 100%;
   overflow: hidden;
-  img {
+  img, video {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid rgb(212, 212, 212);

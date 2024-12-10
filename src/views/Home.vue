@@ -2,7 +2,7 @@
   <div class="content">
     <aside>
       <h1>
-        <a href="#" @click="reset"> Anuario<br />2023 </a>
+        <a href="#" @click="reset"> Anuario<br />{{anio}} </a>
       </h1>
 
       <div id="search">
@@ -17,7 +17,7 @@
       <h2>Materias</h2>
       <ul>
         <li
-          v-for="(materia, index) in materias"
+          v-for="(materia, index) in obtenerMaterias()"
           :key="index"
           :class="{ active: index === indiceActivo }"
         >
@@ -26,6 +26,11 @@
           </a>
         </li>
       </ul>
+
+      <div id="navegar">
+        <span v-if="anio === 2024" @click="cambiarAnio(anio - 1)"> &lt; ver Anuario {{anio  - 1}}  </span>
+        <span v-else @click="cambiarAnio(anio + 1)"> &gt; ver Anuario {{anio + 1}} </span> 
+      </div>
     </aside>
 
     <main>
@@ -41,6 +46,14 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import SearchResults from "../components/SearchResults.vue";
 
+const anio = ref(2024)
+
+const cambiarAnio = async (nuevoAnio) => {
+  if (nuevoAnio === 2023 || nuevoAnio === 2024) {
+    anio.value = nuevoAnio
+  }
+}
+
 const query = ref("");
 const materiaSeleccionada = ref(null);
 const indiceActivo = ref(null);
@@ -52,7 +65,8 @@ const reset = () => {
   indiceActivo.value = null;
 };
 
-const materias = ref([
+const materiasPorAnio = ref({
+  2023: [
   { nombre: "Lab I", nl:"Laboratorio de Diseño I" },
   { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
   { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
@@ -65,7 +79,27 @@ const materias = ref([
   { nombre: "POD", nl: "Programación Orientada al Diseño" },
   { nombre: "VI", nl: "Visualización de la Información" },
   { nombre: "FabLab", nl: "FabLab"},
-]);
+  ],
+  2024: [
+  { nombre: "Lab I", nl:"Laboratorio de Diseño I" },
+  // { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
+  { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
+  //{ nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
+  { nombre: "Lab V", nl: "Laboratorio de Diseño V"},
+  //{ nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
+  { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
+  //{ nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
+  { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
+  { nombre: "POD", nl: "Programación Orientada al Diseño" },
+  { nombre: "VI", nl: "Visualización de la Información" },
+  //{ nombre: "FabLab", nl: "FabLab"},
+  ]
+})
+
+const obtenerMaterias = () => {
+  return materiasPorAnio.value[anio.value] || 
+         materiasPorAnio.value[Math.max(...Object.keys(materiasPorAnio.value))] 
+}
 
 const filtrarPorMateria = (nombreMateria, index) => {
   if (indiceActivo.value === index) {
@@ -114,8 +148,8 @@ const stopBlinking = () => {
 }
 
 aside {
-  //padding: 2vw;
-  //margin-right: 3vw;
+  display: flex;
+  flex-direction: column;
   border-right: 2px solid #000;
   height: 100%;
   width: 26vw;
@@ -210,6 +244,12 @@ aside {
         padding-bottom: 0.2rem;
       }
     }
+  }
+
+
+  #navegar {
+    font-size: 2rem;
+    margin-top: auto;
   }
 }
 

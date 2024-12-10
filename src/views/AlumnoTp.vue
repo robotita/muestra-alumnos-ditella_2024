@@ -15,7 +15,7 @@
 
           <router-link to="/">
           Anuario <br />
-          2023
+          {{anio}}
         </router-link>
 
         </div>
@@ -42,77 +42,7 @@
             :key="index"
           >
             <!--video o img-->
-            <span
-              v-if="
-                //camila bertoli
-                imagen.includes('1OMDukS6sOxtZOE8O5rsK8WrMc0VUmBr6') ||
-                imagen.includes('1v5kRHy53wmZkpHbsQK4fArqrkKrsl4s9') ||
-                imagen.includes('17w5nunnQfSHXt8_epKo9Lb1vkXhdkz6X') ||
-                imagen.includes('1ZpBuB2-367nb-Fw0wsaZ7udx0Xf2CsDA') ||
-                imagen.includes('1a7aQsxTFIyn_BmRLvEU31D3MoYC7Ej53') ||
-                imagen.includes('1KWh9I4VpKZ3omePHiXJG_8qlwywuJkk9') ||
-                imagen.includes('1GwV5c4oimE1jUmeqX0dVIiAIU4KIl7qn') ||
-                imagen.includes('1C1uqniUUync-GAI5Wjib9YY8XhiJrkN_') ||
-                imagen.includes('1wBahvQst-yp9Gxzgw3D0GcH8u_g34EdK') ||
-                imagen.includes('1C19kzcheeG12ffsIYQlARHu_5udq-ZIK') ||
-                imagen.includes('1vE2xHNnRaXQNg3tVHbcbWoBhFuwSUSvw') ||
-                imagen.includes('1BjpKszY5EQuZo6reAlQkMxMWlDZZGW0w') ||
-                imagen.includes('18MN6Ln07dmi6bRI7KsAaJLjlMa2JyD3m') ||
-                imagen.includes('1SmzzORxX60PWlBEfWKfhLlLboBCraYmv') ||
-                imagen.includes('1pRIzFdukeSRjQrCAb6uWtevAhVBaedGE') ||
-                imagen.includes('16gfkcPK25mORszehGBfybFx-GBqrO01W') ||
-                imagen.includes('1s5Rj0Kvp7mOFRJCJuJXBtSCJgCEzLv9Y') ||
-                imagen.includes('1WyOVbRYCO7OnmToNXSZtV4GkLmlTm7NQ') ||
-                //milagros ruiz berruti
-                imagen.includes('1v8kXcdEIm1y9EXOJwpjEuIT7wqCCrnKA') ||
-                //giuliana lauria - un par no andan
-                imagen.includes('1tXxsKqLNB-EVgETKScALaJufQ-jA1Prl') ||
-                imagen.includes('1pgUqgFyIXLV29VFQHhzG1TbfUcDw0zpB') ||
-                imagen.includes('1WvUnb_fV5gPK99zr8RZm6hQfe4SCy3CO') ||
-                imagen.includes('1tb-1bY_oBb-GTwQqeApEbwHjkol3vt-v') ||
-                imagen.includes('1n7dQ9yibzf5by92JOW0Y7h1P7bYeHyuu') ||
-                imagen.includes('19Iw-pmdOR12-XEf1-GxWyr6vywvcnLRK') ||
-                //
-                imagen.includes('1jklkQlx4GKX9b9hGB8U8kS00spZ9MtsU') ||
-                imagen.includes('1-q2EvRp9t--NVw5F3y2NtKb6Gsj25_ht') ||
-                //lara lester
-                imagen.includes('1SlWEqvQJy7jo_kgkJgqsl9u02s39PCQ1') ||
-                imagen.includes('14winK8zgloKoKNLVr9vdAj_u6bkdU4-O') ||
-                imagen.includes('1zqAcrB9TPkb4OGztsM0f492GOlcROkgy') ||
-                imagen.includes('1avvSbCWiNLOW31twy0uDBMocoCU9-veS') ||
-                imagen.includes('1Yqdqvk7FDJ8LgMUNLuFTPMOnVYQK-Wyv') ||
-                //Román Lopez Leone
-                imagen.includes('1iFZdPuDXIlQ2ed6TlQCWvG0mflkwn9io') ||
-                //pilar martigone
-                imagen.includes('1LzGTjRpFhRJ8SwX2ZzuA6-kPrmH0waHV') ||
-                //lucila moreno
-                imagen.includes('18zM0D1vrNGGn6OJsvySrTGgTcLacoN6G') ||
-                //jazmin novoa
-                imagen.includes('1mis39Z1Ww0hkxxZPoOYeqFqY8saTReDE') ||
-                //pastorino
-                imagen.includes('1YuRU8EYWxps-z4Zpr4t5xkb73cJSEeBN') ||
-                imagen.includes('18xBRP5fdEzosPoGxu3-lp4FgtQLdBpmV') ||
-                imagen.includes('1Hzng8Jw_gO3w3aSOP9Ely8PG7FXCdtHO') ||
-                imagen.includes('1JGz7yOLGv5fZnrbPeL51QAlq8peg8b-U') ||
-                imagen.includes('1DyUEpyBkKFFCRn8LBPVyHqVIJ5Oy9pC7') ||
-                imagen.includes('1bBAqxcnucSF6262sJShE7qEYOQ3359lK') ||
-                //julieta regueira
-                imagen.includes('1-23qbgWsDoHdy5RDarSpGPQcTPDAk9zW') ||
-                //maitena van houtte
-                imagen.includes('1Xtrw2u0_w70bMui7-WcQJ0q4WMT4HUYc') ||
-                //lucia vazquez mallo
-                imagen.includes('1iHT0clX4EEGJRBxGK-yA1OdPB33s-Jxt') ||
-                imagen.includes('1tSlk3q86CK3vM-j4nvmfvhsTnK9pXwPf') ||
-                imagen.includes('1YFNexQdOa_iL9g14w3ssry19GQfvdfBl') ||
-                imagen.includes('1CINmV56_mN3ybwJ-PAyhtl8_WIuq3HBL') ||
-                imagen.includes('1485p6amw9T8DmYsNGttrquND9IiRx4_c') ||
-                nombreTp === 'Lab II - Clips' ||
-                nombreTp === 'DGC - Video-Teaser' ||
-                nombreTp === 'Lab VI - De Marziani  -  Entornos lumínicos' ||
-                nombreTp === 'Lab VII -  De Marziani - Video mapping' ||
-                nombreTp === 'POD - Araujo - Interactivo audiovisual'
-              "
-            >
+            <span v-if="imagen.endsWith('.mp4') || imagen.endsWith('.mov')">
               <!--VIDEO-->
               <video controls>
                 <source :src="imagen" type="video/mp4" />
@@ -169,7 +99,7 @@ const obtenerMaterias = () => {
   const linksArray = [];
 
   for (const key in alumno.value) {
-    if (alumno.value[key].includes("imgs/2023/")) {
+    if (alumno.value[key].includes("imgs/2024/")) {
       //const newKey = `http://localhost:5173/#/alumno-tp/${nombre}-${apellido}-${key}`;
 
       //arreglo rápido
@@ -177,9 +107,7 @@ const obtenerMaterias = () => {
       const parts = currentUrl.split('#/');
         const parteAnterior = parts[0];
         console.log('Parte anterior a #/:', parteAnterior);
-     
       //arreglo rápido
-
       const newKey = `${parteAnterior}#/alumno-tp/${nombre}-${apellido}-${key}`;
       linksArray.push(newKey);
     }

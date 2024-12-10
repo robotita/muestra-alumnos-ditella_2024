@@ -15,29 +15,6 @@ export const fetchData = async (dataURL) => {
   }
 };
 
-export const dataURL = "json/respuestas-form_2023.json";
-//export const dataURL = "https://opensheet.elk.sh/1eAgJOrtx8oGLf1L43IxoydMOWqwnvM_vIE0Y8zmdj9E/Respuestas%20de%20formulario%201n"; //el que se estaba usando
-//googledocs > https://docs.google.com/spreadsheets/d/1eAgJOrtx8oGLf1L43IxoydMOWqwnvM_vIE0Y8zmdj9E/edit#gid=140568844
+export const dataURL = "json/respuestas-form_2024.json";
 
-// export const transformarURL = (url) => {
-//   const regex = /open\?id=([^&]+)/;
-//   const match = url.match(regex);
-//   const id = match[1];
-//   return `https://drive.google.com/thumbnail?id=${id}&sz=w1000`; //NEW LINE OF CODE
-//   //return `https://drive.google.com/uc?id=${id}`; //OLD LINE OF CODE
-// };
-
-
-// export const thumbailImg = (url) => {
-//   const regex = /open\?id=([^&]+)/;
-//   const match = url.match(regex);
-//   const id = match[1];
-//   return `https://drive.google.com/thumbnail?id=${id}`;
-// };
-
-export const iframeURL = (url) => {
-  const regex = /open\?id=([^&]+)/;
-  const match = url.match(regex);
-  const id = match[1];
-  return `https://drive.google.com/file/d/${id}/preview`;
-};
+//export const dataURL = (anio) => `json/respuestas-form_${anio}.json`;
