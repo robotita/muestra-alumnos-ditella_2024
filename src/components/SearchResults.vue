@@ -70,7 +70,7 @@
         <router-link
           :to="{
             path: `/alumno/${alumno.Nombre.toLowerCase()}-${alumno.Apellido.toLowerCase()}`,
-            query: {  anio: Number(anio)  },
+            query: { anio: Number(anio) },
           }"
         >
           <small>{{ alumno.Nombre }} {{ alumno.Apellido }} </small>
@@ -79,7 +79,17 @@
             v-for="(url, materia) in getMateriasConImagenes(alumno)"
             :key="materia"
           >
-            <img
+          <img
+      :src="processUrl(url)"
+      height="100"
+      :style="{ height: `${sliderValue * 3}px` }"
+      v-if="
+        materia.startsWith(materiaSeleccionada + ' -') ||
+        materiaSeleccionada === null
+      "
+    />
+
+            <!-- <img
               :src="url"
               height="100"
               :style="{ height: `${sliderValue * 3}px` }"
@@ -87,7 +97,7 @@
                 materia.startsWith(materiaSeleccionada + ' -') ||
                 materiaSeleccionada === null
               "
-            />
+            /> -->
           </div>
         </router-link>
       </li>
@@ -97,9 +107,7 @@
 
 <script setup>
 import { computed, ref, watch, onMounted } from "vue";
-//import { fetchData, dataURL } from "../helpers/api";
 import { fetchData, getDataURL } from "../helpers/api";
-
 
 const props = defineProps({
   query: String,
@@ -112,7 +120,6 @@ const alumnos = ref([]);
 const sliderValue = ref(40);
 const mostrarImg = ref(false);
 
-
 const loadData = async () => {
   const jsonData = await fetchData(props.anio);
   if (jsonData) {
@@ -120,15 +127,22 @@ const loadData = async () => {
   }
 };
 
+function processUrl(url) {
+  const isVideo = /\.(mov|mp4)$/i.test(url);
+  return isVideo ? 'video.png' : url;
+}
+
 onMounted(loadData);
 
-watch([() => props.anio, sliderValue, mostrarImg], 
+watch(
+  [() => props.anio, sliderValue, mostrarImg],
   ([newAnio, newSliderValue, newMostrarImg]) => {
     loadData();
-    
+
     const divAlumnos = document.getElementById("alumnos");
     ajustarAnchoDiv(newMostrarImg, newSliderValue);
-});
+  }
+);
 
 const filteredAlumnos = computed(() => {
   const query = props.query.toLowerCase();
