@@ -155,12 +155,9 @@ const stopBlinking = () => {
   &.anio-2023 {
     background:#000;
     color:#FFF;
-
-    
   }
 }
 
-#app #visualizador .slidecontainer .slider { background: #FFF}
 aside {
   display: flex;
   flex-direction: column;

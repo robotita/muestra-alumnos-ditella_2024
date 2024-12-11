@@ -70,7 +70,7 @@
         <router-link
           :to="{
             path: `/alumno/${alumno.Nombre.toLowerCase()}-${alumno.Apellido.toLowerCase()}`,
-            query: { anio },
+            query: {  anio: Number(anio)  },
           }"
         >
           <small>{{ alumno.Nombre }} {{ alumno.Apellido }} </small>
@@ -97,7 +97,9 @@
 
 <script setup>
 import { computed, ref, watch, onMounted } from "vue";
-import { fetchData, dataURL } from "../helpers/api";
+//import { fetchData, dataURL } from "../helpers/api";
+import { fetchData, getDataURL } from "../helpers/api";
+
 
 const props = defineProps({
   query: String,
@@ -110,19 +112,29 @@ const alumnos = ref([]);
 const sliderValue = ref(40);
 const mostrarImg = ref(false);
 
+
 onMounted(async () => {
   //console.log("mounted");
-  const jsonData = await fetchData(dataURL);
+  const jsonData = await fetchData(props.anio);
   if (jsonData) {
     alumnos.value = jsonData;
   }
 });
 
-watch([sliderValue, mostrarImg], ([newSliderValue, newMostrarImg]) => {
-  const divAlumnos = document.getElementById("alumnos");
 
-  ajustarAnchoDiv(newMostrarImg, newSliderValue);
+watch([() => props.anio, sliderValue, mostrarImg], 
+  ([newAnio, newSliderValue, newMostrarImg]) => {
+    loadData();
+    
+    const divAlumnos = document.getElementById("alumnos");
+    ajustarAnchoDiv(newMostrarImg, newSliderValue);
 });
+
+// watch([sliderValue, mostrarImg], ([newSliderValue, newMostrarImg]) => {
+//   const divAlumnos = document.getElementById("alumnos");
+
+//   ajustarAnchoDiv(newMostrarImg, newSliderValue);
+// });
 
 const filteredAlumnos = computed(() => {
   const query = props.query.toLowerCase();

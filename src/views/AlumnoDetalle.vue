@@ -29,7 +29,12 @@
     <p>
       <span v-for="(value, key) in filteredData" :key="key">
         <router-link
-          :to="`/alumno-tp/${formatear(nombre)}-${formatear(apellido)}-${key}`"
+          :to="{
+            path: `/alumno-tp/${formatear(nombre)}-${formatear(
+              apellido
+            )}-${key}`,
+            query: { anio: Number(anio) },
+          }"
         >
           {{ key }}
 
@@ -44,9 +49,12 @@
           <!--thumbails-->
           <span v-for="(value, key) in filteredData" :key="key">
             <router-link
-              :to="`/alumno-tp/${formatear(nombre)}-${formatear(
-                apellido
-              )}-${key}`"
+              :to="{
+                path: `/alumno-tp/${formatear(nombre)}-${formatear(
+                  apellido
+                )}-${key}`,
+                query: { anio: Number(anio) },
+              }"
             >
               <template
                 v-for="(imageUrl, index) in value.split(', ')"
@@ -54,12 +62,14 @@
               >
                 <video
                   v-if="imageUrl.endsWith('.mp4') || imageUrl.endsWith('.mov')"
-                  muted autoplay
+                  muted
+                  autoplay
                   :style="{ height: `${sliderValue * 5}px` }"
                 >
                   <source :src="imageUrl" type="video/mp4" />
                   Tu navegador no soporta el tag de video.
                 </video>
+
                 <img
                   v-else
                   :src="imageUrl"
@@ -68,23 +78,6 @@
               </template>
             </router-link>
           </span>
-
-          <!-- 
-          <span v-for="(value, key) in filteredData" :key="key">
-            <router-link
-              :to="`/alumno-tp/${formatear(nombre)}-${formatear(
-                apellido
-              )}-${key}`"
-            >
-              <img
-                v-for="(imageUrl, index) in value.split(', ')"
-                :src="imageUrl"
-                :style="{ height: `${sliderValue * 5}px` }"
-                :key="index"
-              />
-            </router-link>
-          </span> -->
-          <!--//thumbails--->
         </div>
       </div>
     </div>
@@ -92,14 +85,15 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { computed, ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { fetchData, dataURL } from "../helpers/api"; //transformarURL
+import { fetchData, getDataURL } from "../helpers/api";
 import { useZoom } from "../zoom.js";
 
 const props = defineProps({
   anio: Number,
 });
+const anio = computed(() => props.anio);
 
 const { sliderValue, outputValue, updateOutput } = useZoom();
 
@@ -143,7 +137,7 @@ const formatear = (n) => {
 };
 
 onMounted(async () => {
-  const jsonData = await fetchData(dataURL);
+  const jsonData = await fetchData(props.anio);
   if (jsonData) {
     alumnos.value = jsonData;
 
@@ -217,7 +211,8 @@ onMounted(async () => {
   margin-top: 3rem;
   width: 100%;
   overflow: hidden;
-  img, video {
+  img,
+  video {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid rgb(212, 212, 212);

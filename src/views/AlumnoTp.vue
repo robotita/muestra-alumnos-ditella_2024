@@ -1,9 +1,11 @@
 <template>
   <div class="container bg-dark">
-
     <!--close-->
     <router-link
-      :to="'/alumno/' + `${$route.params.nombre}-${$route.params.apellido}`"
+      :to="{
+        path: '/alumno/' + `${$route.params.nombre}-${$route.params.apellido}`,
+        query: { anio: Number(anio) },
+      }"
     >
       <img id="cerrar" src="/cerrar.png" />
     </router-link>
@@ -12,17 +14,19 @@
     <aside>
       <div id="header">
         <div id="anuario">
-
           <router-link to="/">
-          Anuario <br />
-          {{anio}}
-        </router-link>
-
+            Anuario <br />
+            {{ anio }}
+          </router-link>
         </div>
       </div>
 
       <router-link
-        :to="'/alumno/' + `${$route.params.nombre}-${$route.params.apellido}`"
+        :to="{
+          path:
+            '/alumno/' + `${$route.params.nombre}-${$route.params.apellido}`,
+          query: { anio: Number(anio) },
+        }"
       >
         <h1>{{ $route.params.nombre }} {{ $route.params.apellido }}</h1>
       </router-link>
@@ -52,11 +56,7 @@
             </span>
             <span v-else>
               <!-- :src="imagen" CAMBIAR SEGUIR -->
-              <img
-               :src="imagen"
-                alt="slide image"
-                ref="imageRef"
-              />
+              <img :src="imagen" alt="slide image" ref="imageRef" />
             </span>
             <!--//video o img-->
           </div>
@@ -76,9 +76,14 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { computed, ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { fetchData, dataURL } from "../helpers/api"; //, transformarURL
+import { fetchData, getDataURL } from "../helpers/api";
+
+const props = defineProps({
+  anio: Number,
+});
+const anio = computed(() => props.anio);
 
 const route = useRoute();
 const nombre = route.params.nombre;
@@ -104,9 +109,9 @@ const obtenerMaterias = () => {
 
       //arreglo rápido
       const currentUrl = window.location.href;
-      const parts = currentUrl.split('#/');
-        const parteAnterior = parts[0];
-        console.log('Parte anterior a #/:', parteAnterior);
+      const parts = currentUrl.split("#/");
+      const parteAnterior = parts[0];
+      console.log("Parte anterior a #/:", parteAnterior);
       //arreglo rápido
       const newKey = `${parteAnterior}#/alumno-tp/${nombre}-${apellido}-${key}`;
       linksArray.push(newKey);
@@ -117,17 +122,17 @@ const obtenerMaterias = () => {
 };
 
 const changeSlide = (next = true) => {
+  const anio = anio;
   const slides = slidesRef.value;
   const slideWidth = 100; // Ancho de cada slide en porcentaje
   const slideIndexOffset = 2;
 
   let current = currentRef.value;
 
-    // Buscar todos los videos y pausarlos
-    slides.querySelectorAll("video").forEach((video) => {
+  // Buscar todos los videos y pausarlos
+  slides.querySelectorAll("video").forEach((video) => {
     video.pause();
   });
-
 
   // Remove 'active' class from all slides
   slides.querySelectorAll(".slide").forEach((slider) => {
@@ -137,7 +142,7 @@ const changeSlide = (next = true) => {
   // Calculate new current index
   const newCurrentIndex =
     Math.abs(current / slideWidth) + (next ? slideIndexOffset : 0);
-    //console.log("currentIndex", newCurrentIndex);
+  //console.log("currentIndex", newCurrentIndex);
 
   // Add 'active' class to the new current slider
   const newCurrentSlider = slides.querySelector(
@@ -178,7 +183,7 @@ const adjustImageSize = () => {
     //console.log(image);
 
     if (image) {
-        const aspectRatio = image.naturalWidth / image.naturalHeight;
+      const aspectRatio = image.naturalWidth / image.naturalHeight;
 
       //en realidad 16:9 / => 1.77777777778
       if (aspectRatio > 1.7) {
@@ -191,8 +196,8 @@ const adjustImageSize = () => {
     }
 
     if (video) {
-        const aspectRatio = video.naturalWidth / video.naturalHeight;
-        //console.log("aspectratio", aspectRatio);
+      const aspectRatio = video.naturalWidth / video.naturalHeight;
+      //console.log("aspectratio", aspectRatio);
 
       //en realidad 16:9 / => 1.77777777778
       if (aspectRatio > 1.7) {
@@ -207,21 +212,25 @@ const adjustImageSize = () => {
 };
 
 const redirectToLinkNext = () => {
-  const linkIndex = links.value.findIndex((link) => link.includes(nombreTp.trim()));
+  const linkIndex = links.value.findIndex((link) =>
+    link.includes(nombreTp.trim())
+  );
   //const linkIndex = links.value.findIndex((link) => link.includes(nombreTp));
   if (linkIndex !== -1) {
     let nextIndex = (linkIndex + 1) % links.value.length;
     const link = links.value[nextIndex];
     window.location.href = link;
     window.location.reload(true);
-    //alert(link); 
+    //alert(link);
   } else {
     console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
   }
 };
 
 const redirectToLinkPrev = () => {
-  const linkIndex = links.value.findIndex((link) => link.includes(nombreTp.trim()));
+  const linkIndex = links.value.findIndex((link) =>
+    link.includes(nombreTp.trim())
+  );
   if (linkIndex !== -1) {
     let prevIndex = (linkIndex - 1 + links.value.length) % links.value.length;
     const link = links.value[prevIndex];
@@ -443,7 +452,7 @@ const obtenerDescripcion = (nombreMateria) => {
 };
 
 onMounted(async () => {
-  const jsonData = await fetchData(dataURL);
+  const jsonData = await fetchData(props.anio);
   if (jsonData) {
     alumnos.value = jsonData;
     alumno.value = alumnos.value.find(
@@ -474,8 +483,7 @@ onMounted(async () => {
     obtenerDescripcion(nombreTp);
     //console.log("nombreTp", nombreTp);
   }
-  setTimeout(() => {
-  }, 1000);
+  setTimeout(() => {}, 1000);
 });
 </script>
 
@@ -519,7 +527,6 @@ onMounted(async () => {
       text-transform: capitalize;
       //margin-bottom: 20px;
 
-      
       &:hover {
         text-decoration: underline;
         text-underline-offset: 3px;
@@ -618,11 +625,11 @@ onMounted(async () => {
       // align-items: center;
       justify-content: center;
       overflow: hidden;
-      opacity:0;        transition: opacity 0.3s;
-
+      opacity: 0;
+      transition: opacity 0.3s;
 
       &.active {
-        opacity:1;
+        opacity: 1;
       }
       img,
       video {
