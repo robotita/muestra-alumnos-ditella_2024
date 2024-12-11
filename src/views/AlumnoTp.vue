@@ -137,7 +137,7 @@ const changeSlide = (next = true) => {
   // Calculate new current index
   const newCurrentIndex =
     Math.abs(current / slideWidth) + (next ? slideIndexOffset : 0);
-    console.log("currentIndex", newCurrentIndex);
+    //console.log("currentIndex", newCurrentIndex);
 
   // Add 'active' class to the new current slider
   const newCurrentSlider = slides.querySelector(
@@ -192,7 +192,7 @@ const adjustImageSize = () => {
 
     if (video) {
         const aspectRatio = video.naturalWidth / video.naturalHeight;
-        console.log("aspectratio", aspectRatio);
+        //console.log("aspectratio", aspectRatio);
 
       //en realidad 16:9 / => 1.77777777778
       if (aspectRatio > 1.7) {

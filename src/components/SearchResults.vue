@@ -1,5 +1,4 @@
 <template>
-
   <div id="visualizador">
     <div class="slidecontainer">
       <input
@@ -69,10 +68,10 @@
         "
       >
         <router-link
-          :to="
-            '/alumno/' +
-            `${alumno.Nombre.toLowerCase()}-${alumno.Apellido.toLowerCase()}`
-          "
+          :to="{
+            path: `/alumno/${alumno.Nombre.toLowerCase()}-${alumno.Apellido.toLowerCase()}`,
+            query: { anio },
+          }"
         >
           <small>{{ alumno.Nombre }} {{ alumno.Apellido }} </small>
 
@@ -103,14 +102,16 @@ import { fetchData, dataURL } from "../helpers/api";
 const props = defineProps({
   query: String,
   materiaSeleccionada: String,
+  anio: Number,
 });
 
+const anio = computed(() => props.anio);
 const alumnos = ref([]);
 const sliderValue = ref(40);
 const mostrarImg = ref(false);
 
 onMounted(async () => {
-  console.log("mounted");
+  //console.log("mounted");
   const jsonData = await fetchData(dataURL);
   if (jsonData) {
     alumnos.value = jsonData;
@@ -219,7 +220,7 @@ const ajustarAnchoDiv = (mostrar, sliderValue) => {
         }px`;
       } else {
         divAlumnos.style.width = `${
-          divAlumnos.clientWidth * (sliderValue /4.55)
+          divAlumnos.clientWidth * (sliderValue / 4.55)
         }px`;
       }
     }
@@ -232,7 +233,7 @@ const mostrarImagenes = () => {
   mostrarImg.value = !mostrarImg.value;
 
   const divAlumnos = document.getElementById("alumnos");
-  console.log("mostrarImg", mostrarImg.value);
+  //console.log("mostrarImg", mostrarImg.value);
   ajustarAnchoDiv(mostrarImg.value, sliderValue.value);
 };
 
@@ -256,8 +257,6 @@ const getMateriasConImagenes = (alumno) => {
 
   return materiasConImagenes;
 };
-
-
 </script>
 
 <style scoped lang="scss">
@@ -271,7 +270,7 @@ const getMateriasConImagenes = (alumno) => {
     line-height: 1;
     // overflow-x: scroll;
     // overflow-y: hidden;
-    overflow:hidden;
+    overflow: hidden;
     column-gap: 30px;
     padding-left: 0.5rem;
 
@@ -322,7 +321,7 @@ const getMateriasConImagenes = (alumno) => {
           flex-direction: row;
 
           div {
-            background:rgb(27, 27, 27);
+            background: rgb(27, 27, 27);
             margin-right: 30px;
             max-width: 400px;
             overflow: hidden;
@@ -332,8 +331,6 @@ const getMateriasConImagenes = (alumno) => {
           small {
             display: none; /* Oculta nombres */
           }
-
-
 
           img {
             display: block;

@@ -14,6 +14,9 @@ const routes = [
     path: "/alumno/:nombre-:apellido",
     name: "AlumnoDetalle",
     component: AlumnoDetalle,
+    props: route => ({
+      anio: route.query.anio,
+    }),
   },
   {
     path: "/alumno-tp/:nombre-:apellido-:key",

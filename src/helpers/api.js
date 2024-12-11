@@ -15,6 +15,6 @@ export const fetchData = async (dataURL) => {
   }
 };
 
-export const dataURL = "json/respuestas-form_2024.json";
+export const dataURL = "json/respuestas-form_2023.json";
 
 //export const dataURL = (anio) => `json/respuestas-form_${anio}.json`;

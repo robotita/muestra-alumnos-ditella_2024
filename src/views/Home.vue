@@ -1,8 +1,8 @@
 <template>
-  <div class="content">
+  <div class="content" :class="`anio-${anio}`">
     <aside>
       <h1>
-        <a href="#" @click="reset"> Anuario<br />{{anio}} </a>
+        <a href="#" @click="reset"> Anuario<br />{{ anio }} </a>
       </h1>
 
       <div id="search">
@@ -28,8 +28,12 @@
       </ul>
 
       <div id="navegar">
-        <span v-if="anio === 2024" @click="cambiarAnio(anio - 1)"> &lt; ver Anuario {{anio  - 1}}  </span>
-        <span v-else @click="cambiarAnio(anio + 1)"> &gt; ver Anuario {{anio + 1}} </span> 
+        <span v-if="anio === 2024" @click="cambiarAnio(anio - 1)">
+          &lt; ver Anuario {{ anio - 1 }}
+        </span>
+        <span v-else @click="cambiarAnio(anio + 1)">
+          &gt; ver Anuario {{ anio + 1 }}
+        </span>
       </div>
     </aside>
 
@@ -37,6 +41,7 @@
       <search-results
         :query="query"
         :materiaSeleccionada="materiaSeleccionada"
+        :anio="anio"
       />
     </main>
   </div>
@@ -46,13 +51,13 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import SearchResults from "../components/SearchResults.vue";
 
-const anio = ref(2024)
+const anio = ref(2024);
 
 const cambiarAnio = async (nuevoAnio) => {
   if (nuevoAnio === 2023 || nuevoAnio === 2024) {
-    anio.value = nuevoAnio
+    anio.value = nuevoAnio;
   }
-}
+};
 
 const query = ref("");
 const materiaSeleccionada = ref(null);
@@ -67,39 +72,41 @@ const reset = () => {
 
 const materiasPorAnio = ref({
   2023: [
-  { nombre: "Lab I", nl:"Laboratorio de Diseño I" },
-  { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
-  { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
-  { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
-  { nombre: "Lab V", nl: "Laboratorio de Diseño V"},
-  { nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
-  { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
-  { nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
-  { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
-  { nombre: "POD", nl: "Programación Orientada al Diseño" },
-  { nombre: "VI", nl: "Visualización de la Información" },
-  { nombre: "FabLab", nl: "FabLab"},
+    { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
+    { nombre: "Lab II", nl: "Laboratorio de Diseño II" },
+    { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
+    { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
+    { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
+    { nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
+    { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
+    { nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
+    { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
+    { nombre: "POD", nl: "Programación Orientada al Diseño" },
+    { nombre: "VI", nl: "Visualización de la Información" },
+    { nombre: "FabLab", nl: "FabLab" },
   ],
   2024: [
-  { nombre: "Lab I", nl:"Laboratorio de Diseño I" },
-  // { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
-  { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
-  //{ nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
-  { nombre: "Lab V", nl: "Laboratorio de Diseño V"},
-  //{ nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
-  { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
-  //{ nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
-  { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
-  { nombre: "POD", nl: "Programación Orientada al Diseño" },
-  { nombre: "VI", nl: "Visualización de la Información" },
-  //{ nombre: "FabLab", nl: "FabLab"},
-  ]
-})
+    { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
+    // { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
+    { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
+    //{ nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
+    { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
+    //{ nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
+    { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
+    //{ nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
+    { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
+    { nombre: "POD", nl: "Programación Orientada al Diseño" },
+    { nombre: "VI", nl: "Visualización de la Información" },
+    //{ nombre: "FabLab", nl: "FabLab"},
+  ],
+});
 
 const obtenerMaterias = () => {
-  return materiasPorAnio.value[anio.value] || 
-         materiasPorAnio.value[Math.max(...Object.keys(materiasPorAnio.value))] 
-}
+  return (
+    materiasPorAnio.value[anio.value] ||
+    materiasPorAnio.value[Math.max(...Object.keys(materiasPorAnio.value))]
+  );
+};
 
 const filtrarPorMateria = (nombreMateria, index) => {
   if (indiceActivo.value === index) {
@@ -143,10 +150,17 @@ const stopBlinking = () => {
   padding: 2vw;
   width: 100vw;
   height: 100vh;
-  //border: 1px solid red;
   column-gap: 3vw;
+
+  &.anio-2023 {
+    background:#000;
+    color:#FFF;
+
+    
+  }
 }
 
+#app #visualizador .slidecontainer .slider { background: #FFF}
 aside {
   display: flex;
   flex-direction: column;
@@ -181,14 +195,14 @@ aside {
       align-items: center;
       color: #aaa;
       font-size: 2rem;
-      z-index:-1;
+      z-index: -1;
       span {
         margin-right: 5px;
         animation: blink-2dc54a20 0.5s infinite alternate;
         font-family: georgia;
         font-size: 1.5rem;
         position: relative;
-       margin-left: 2px;
+        margin-left: 2px;
         top: -2px;
         //background-color: red;
         border-left: 1px solid #000;
@@ -212,7 +226,7 @@ aside {
       color: #000;
 
       &:hover {
-      //  opacity: 0.8;
+        //  opacity: 0.8;
       }
     }
   }
@@ -245,7 +259,6 @@ aside {
       }
     }
   }
-
 
   #navegar {
     font-size: 2rem;

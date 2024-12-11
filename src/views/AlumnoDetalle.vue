@@ -97,6 +97,10 @@ import { useRoute } from "vue-router";
 import { fetchData, dataURL } from "../helpers/api"; //transformarURL
 import { useZoom } from "../zoom.js";
 
+const props = defineProps({
+  anio: Number,
+});
+
 const { sliderValue, outputValue, updateOutput } = useZoom();
 
 const route = useRoute();
@@ -124,8 +128,8 @@ const handleScroll = (event) => {
 
 const filterData = () => {
   for (const key in alumno.value) {
-    console.log("key", key);
-    console.log("alumno.value", alumno.value);
+    //console.log("key", key);
+    //console.log("alumno.value", alumno.value);
     if (alumno.value[key].includes("imgs/2024/")) {
       filteredData.value = { ...filteredData.value, [key]: alumno.value[key] };
     }
