@@ -122,7 +122,6 @@ const obtenerMaterias = () => {
 };
 
 const changeSlide = (next = true) => {
-  const anio = anio;
   const slides = slidesRef.value;
   const slideWidth = 100; // Ancho de cada slide en porcentaje
   const slideIndexOffset = 2;
@@ -215,12 +214,17 @@ const redirectToLinkNext = () => {
   const linkIndex = links.value.findIndex((link) =>
     link.includes(nombreTp.trim())
   );
-  //const linkIndex = links.value.findIndex((link) => link.includes(nombreTp));
   if (linkIndex !== -1) {
     let nextIndex = (linkIndex + 1) % links.value.length;
     const link = links.value[nextIndex];
-    window.location.href = link;
+
+    const url = new URL(link, window.location.origin);
+    url.searchParams.set('anio', anio.value);
+    
+    window.location.href = url.toString();
     window.location.reload(true);
+    // window.location.href = link;
+    // window.location.reload(true);
     //alert(link);
   } else {
     console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
@@ -234,8 +238,14 @@ const redirectToLinkPrev = () => {
   if (linkIndex !== -1) {
     let prevIndex = (linkIndex - 1 + links.value.length) % links.value.length;
     const link = links.value[prevIndex];
-    window.location.href = link;
+
+    const url = new URL(link, window.location.origin);
+    url.searchParams.set('anio', anio.value);
+    
+    window.location.href = url.toString();
     window.location.reload(true);
+    // window.location.href = link;
+    // window.location.reload(true);
   } else {
     console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
   }

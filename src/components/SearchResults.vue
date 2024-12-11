@@ -113,14 +113,14 @@ const sliderValue = ref(40);
 const mostrarImg = ref(false);
 
 
-onMounted(async () => {
-  //console.log("mounted");
+const loadData = async () => {
   const jsonData = await fetchData(props.anio);
   if (jsonData) {
     alumnos.value = jsonData;
   }
-});
+};
 
+onMounted(loadData);
 
 watch([() => props.anio, sliderValue, mostrarImg], 
   ([newAnio, newSliderValue, newMostrarImg]) => {
@@ -129,12 +129,6 @@ watch([() => props.anio, sliderValue, mostrarImg],
     const divAlumnos = document.getElementById("alumnos");
     ajustarAnchoDiv(newMostrarImg, newSliderValue);
 });
-
-// watch([sliderValue, mostrarImg], ([newSliderValue, newMostrarImg]) => {
-//   const divAlumnos = document.getElementById("alumnos");
-
-//   ajustarAnchoDiv(newMostrarImg, newSliderValue);
-// });
 
 const filteredAlumnos = computed(() => {
   const query = props.query.toLowerCase();
