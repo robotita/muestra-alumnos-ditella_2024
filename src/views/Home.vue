@@ -50,8 +50,11 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import SearchResults from "../components/SearchResults.vue";
+import { useRoute } from "vue-router";
 
-const anio = ref(2024);
+//const anio = ref(2024);
+const route = useRoute();
+const anio = ref(Number(route.query.anio) || 2024)
 
 const cambiarAnio = async (nuevoAnio) => {
   if (nuevoAnio === 2023 || nuevoAnio === 2024) {
@@ -87,17 +90,17 @@ const materiasPorAnio = ref({
   ],
   2024: [
     { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
-    // { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
+    { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
     { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
-    //{ nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
+    { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
     { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
-    //{ nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
+    { nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
     { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
-    //{ nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
+    { nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
     { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
     { nombre: "POD", nl: "Programación Orientada al Diseño" },
     { nombre: "VI", nl: "Visualización de la Información" },
-    //{ nombre: "FabLab", nl: "FabLab"},
+    { nombre: "FabLab", nl: "FabLab"},
   ],
 });
 
@@ -155,6 +158,18 @@ const stopBlinking = () => {
   &.anio-2023 {
     background:#000;
     color:#FFF;
+
+    &:hover, &:focus, a {
+      color:#FFF;
+    }
+
+    // aside #search .placeholder {
+    //   color:#FFF;
+
+    //   span {
+    //     border-left: 1px solid #FFF;
+    //   }
+    // }
   }
 }
 
@@ -182,6 +197,7 @@ aside {
   #search {
     display: flex;
     margin-bottom: 105px;
+    z-index: 1;
 
     .placeholder {
       position: absolute;
@@ -260,6 +276,10 @@ aside {
   #navegar {
     font-size: 2rem;
     margin-top: auto;
+    cursor: pointer;
+    &:hover {
+      opacity:0.8
+    }
   }
 }
 

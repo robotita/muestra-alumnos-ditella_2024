@@ -111,7 +111,7 @@ const obtenerMaterias = () => {
       const currentUrl = window.location.href;
       const parts = currentUrl.split("#/");
       const parteAnterior = parts[0];
-      console.log("Parte anterior a #/:", parteAnterior);
+      //console.log("Parte anterior a #/:", parteAnterior);
       //arreglo rápido
       const newKey = `${parteAnterior}#/alumno-tp/${nombre}-${apellido}-${key}`;
       linksArray.push(newKey);
@@ -217,15 +217,13 @@ const redirectToLinkNext = () => {
   if (linkIndex !== -1) {
     let nextIndex = (linkIndex + 1) % links.value.length;
     const link = links.value[nextIndex];
-
     const url = new URL(link, window.location.origin);
-    url.searchParams.set('anio', anio.value);
     
-    window.location.href = url.toString();
+    url.searchParams.set('anio', anio.value);
+    const fullUrl = `${url.toString()}?anio=${anio.value}`;
+    
+    window.location.href = fullUrl;
     window.location.reload(true);
-    // window.location.href = link;
-    // window.location.reload(true);
-    //alert(link);
   } else {
     console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
   }
@@ -238,14 +236,13 @@ const redirectToLinkPrev = () => {
   if (linkIndex !== -1) {
     let prevIndex = (linkIndex - 1 + links.value.length) % links.value.length;
     const link = links.value[prevIndex];
-
     const url = new URL(link, window.location.origin);
+
     url.searchParams.set('anio', anio.value);
-    
-    window.location.href = url.toString();
+    const fullUrl = `${url.toString()}?anio=${anio.value}`;
+
+    window.location.href = fullUrl;
     window.location.reload(true);
-    // window.location.href = link;
-    // window.location.reload(true);
   } else {
     console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
   }
@@ -268,6 +265,16 @@ const tpDescripcion = ref([
     descripcion:
       "Proyecto inscrito en la lógica del “diseño de superficies” adaptativas a diferentes condiciones y soportes a través de un mismo sistema de elementos formales y cromáticos en el espacio. Supone una transformación de la manera en que se ve y entiende una volumetría o una espacialidad.",
   },
+  {
+    nombre: "Lab I - lenguaje",
+    descripcion:
+      "Experiencia exploratoria de técnicas manuales y digitales para el procesamiento y tratamiento de imágenes, con el fin de traducir material icónico a un nueva gramática visual construida a partir de diversos recursos gráficos, cromáticos y compositivos, poniendo en juego la noción de identidad y diferenciación.",
+  },
+  {
+    nombre: "Lab I - lalalab",
+    descripcion:
+      "Proyecto centrado en la creación de elementos para una situación comunicacional concreta: el relanzamiento de un álbum en vinilo y su promoción. Se investigaron los códigos culturales y visuales alrededor de un género musical y se produjo un lenguaje visual para el desarrollo de un sistema de piezas con distintas funciones y contextos de uso.",
+  },
   //LabII
   {
     nombre: "Lab II - Labzine",
@@ -284,7 +291,27 @@ const tpDescripcion = ref([
     descripcion:
       "Imágenes y palabras en movimiento junto con información sonora (ritmos, velocidades y timbres) se integran en piezas audiovisuales breves que trabajan los principios del motion design —el diseño de la forma en movimiento— para abordar las gramáticas elementales de lo cinético.",
   },
-  // { nombre: "Itinerarios culturales - Diseño de información", descripcion: "El proyecto que culmina Laboratorio de Diseño 2 aborda los principios del “diseño de información”. Los datos y su organización requieren de la visualización para ser comprendidos en su complejidad. Las relaciones entre visualizar y comunicar necesitan de la organización de una “interfaz” gráfica cuyo objetivo es facilitar las tareas de sus usuarios. Por un lado, la búsqueda, encuentro y recuperación de información. Por el otro, la comprensión e interpretación de la misma como totalidad. Esto supone recurrir a diversos soportes y medios, entre los que se trabajan la infografía y la cartografía, el sistema de identidad (ID) y las narrativas del motion graphics." },
+  {
+    nombre: "Lab II - id:lab",
+    descripcion:
+      "Sistema de piezas editoriales impresas —y con funciones comunicacionales diferenciadas— centradas en el desarrollo de una identidad para un espacio donde públicos o consumidores específicos realizan prácticas y actividades concretas (librería, coleccionismo, gaming, crafts, etc.).",
+  },
+  {
+    nombre: "Lab II - Visualizer",
+    descripcion:
+      "Registros de videos, imágenes y palabras en movimiento junto con información sonora (ritmos, velocidades y timbres) integrados en una pieza audiovisual que acompaña la circulación de un tema musical. Se trabajan los principios del motion design (el diseño de la forma en movimiento).",
+  },
+  {
+    nombre: "Lab II - Línea de tiempo",
+    descripcion:
+      "Práctica integradora de fundamentos y metodologías propios del ámbito del diseño de información. Se trabaja en cómo la comprensión de datos en torno a un evento histórico puede interpretarse y comunicarse de maneras diferentes, de acuerdo a distintas matrices de organización y visualización.",
+  },
+  {
+    nombre: "Lab II - info:lab",
+    descripcion:
+      "Exploración de narrativas informativas construidas en torno a un hito sociocultural complejo y trabajadas sobre dos medios/soportes: un display tridimensional y una pieza audiovisual.",
+  },
+
 
   //LabIII
   {
@@ -302,11 +329,10 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño de un juego de construcción a partir del análisis e interpretación de soluciones presentes en la naturaleza: estructuras, tramas, módulos y vínculos.",
   },
-  // Lab III >>> está en lab IV >>> traerlo
 
   //LabIV
   {
-    nombre: "Lab IV -  Alimentos autoprocesados",
+    nombre: "Lab IV - Alimentos autoprocesados",
     descripcion:
       "Diseño de un producto que, sin uso de electricidad, procese algún alimento y facilite la autoproducción en el hogar para reemplazar el consumo de ultraprocesados.",
   },
@@ -320,7 +346,21 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño de un juego de construcción a partir del análisis e interpretación de soluciones presentes en la naturaleza (estructuras, tramas, módulos y vínculos).",
   },
-
+  {
+    nombre: "Lab IV - Parasite",
+    descripcion:
+      "Diseño para la fabricación con impresión 3D de un accesorio que permita ampliar, mejorar o resignificar la usabilidad de un producto ya existente y presente en la universidad.",
+  },
+  {
+    nombre: "Lab IV - Refill",
+    descripcion:
+      "Diseño de un producto personal reutilizable para usuarios que compran a granel alimentos secos en dietéticas, productos de limpieza en almacenes, alimentos para mascotas en veterinarias y helado en heladerías.",
+  },
+  {
+    nombre: "Lab IV - Juego urbano",
+    descripcion:
+      "Diseño de un juego de construcción —de implantación fija y de uso público para exteriores y usuarios de un lugar específico del AMBA que definió cada equipo— a partir del análisis y la interpretación de soluciones presentes en la naturaleza (estructuras, tramas, módulos y vínculos).",
+  },
   //LabV
   {
     nombre: "Lab V - Fanpage",
@@ -333,11 +373,15 @@ const tpDescripcion = ref([
       "Desarrollo de una narrativa web interactiva con temática libre y desde una perspectiva propia, profundizando en su complejidad y su conexión emocional.",
   },
   {
-    nombre: "Lab V -  Reserva natural",
+    nombre: "Lab V - Reserva natural",
     descripcion:
       "Diseño de experiencia informativa para la Reserva Ecológica de Costanera Sur que proponga conectar con el lugar desde una perspectiva sensible con el entorno y la naturaleza.",
   },
-
+  {
+    nombre: "Lab V - Experiencia informativa",
+    descripcion:
+      "Diseño de experiencia informativa para el Centro Cultural Recoleta con el propósito de potenciar la experiencia de los visitantes mediante la conexión con el lugar y comprender su valor.",
+  },
   //LabVI -  De Marziani
   {
     nombre: "Lab VI - De Marziani - Entornos lumínicos",
@@ -345,26 +389,34 @@ const tpDescripcion = ref([
       "Diseño de experiencia lumínica y sonora inmersiva que aborda dimensiones espaciales y temporales e incorpora la figura del visitante en el desarrollo experiencial. Se emplea la técnica de pixel mapping para controlar el comportamiento de las luces, programando escenas de forma visual e intuitiva.",
   },
   {
-    nombre: "Lab VI - De Marziani -  Entorno audiovisual",
+    nombre: "Lab VI - De Marziani - Entorno audiovisual",
     descripcion:
       "Diseño de pieza audiovisual inmersiva, de carácter abstracto y sensorial, para ser reproducida en una sala de imagen digital.",
   },
   {
-    nombre: "Lab VI - De Marziani -  Experiencia inmersiva interactiva",
+    nombre: "Lab VI - De Marziani - Experiencia inmersiva interactiva",
     descripcion:
       "Diseño de experiencia inmersiva e interactiva a partir de una temática libre, utilizando sonido, luz y video controlados por el visitante, desplegando información en una sala de exhibición.",
   },
-
+  {
+    nombre: "Lab VI - De Marziani - Experiencia inmersiva",
+    descripcion:
+      "Diseño de experiencia inmersiva e interactiva a partir de una temática libre, utilizando sonido, luz y video controlados por el visitante, desplegando información en una sala de exhibición.",
+  },
   //LabVI -  Berrecil
   {
     nombre: "Lab VI - Becerril - Diseño de videojuego de arcade",
     descripcion:
-      "Desarrollo en equipo de un videojuego de arcade 100 % finalizado y jugable para explorar el diseño de mecánicas y narrativas específicas de los videojuegos e interiorizar la práctica del prototipado, la iteración y el testeo como herramientas fundamentales en el proceso creativo.",
+      "Desarrollo en equipo de un videojuego de arcade 100% finalizado y jugable para explorar el diseño de mecánicas y narrativas específicas de los videojuegos e interiorizar la práctica del prototipado, la iteración y el testeo como herramientas fundamentales en el proceso creativo.",
   },
-
+  {
+    nombre: "Lab VI - Becerril - Juego de mesa original",
+    descripcion:
+      "Concepción (de la idea y de la mecánica central), desarrollo (de prototipos; iteración y testeo), contextualización de mecánicas (temáticas y arte), exploración de componentes y materiales de producción, balance de mecánicas, desarrollo de libro de reglas y producción final (diseño gráfico, packaging y materialidad) de un juego de mesa original.",
+  },
   //LabVII
   {
-    nombre: "Lab VII -  De Marziani - Video mapping",
+    nombre: "Lab VII - De Marziani - Video mapping",
     descripcion:
       "Realización de un video mapping para la presentación de un dispositivo tecnológico utilizando un set de elementos y superficies propuestos e incorporando diseño sonoro.",
   },
@@ -382,6 +434,32 @@ const tpDescripcion = ref([
     descripcion:
       "Proyecto-tesis nacida de una matriz de temas, enfoques y problemas que estructura las distintas investigaciones proyectuales que permiten avanzar en el tipo de outputs a desarrollar, las herramientas materiales y tecnológicas necesarias, los lenguajes y modelos organizativos y los prototipos para la verificación de las propuestas y las resoluciones.",
   },
+  {
+    nombre: "Lab VIII - Fase 1. Visualización de procesos previos",
+    descripcion:
+      "Objeto gráfico que, con una lectura no secuencial, múltiples puntos de entrada, capas de información, contenidos, datos y diversos niveles de codificación, permita evaluar información capaz de ofrecer oportunidades de optimización del proceso de diseño.",
+  },
+  {
+    nombre: "Lab VIII - Fase 2. Proyecto y campo temático",
+    descripcion:
+      "Definición del campo temático y ámbito de trabajo del proyecto. Se establece la relación entre la necesidad identificada y las acciones de diseño propuestas y se analizan los contextos, los destinatarios, los objetivos, las escalas de intervención, el impacto, los antecedentes y las interacciones proyectuales entre distintos ámbitos del diseño.",
+  },
+  {
+    nombre: "Lab VIII - Brief",
+    descripcion:
+      "Cierre de la primera etapa de trabajo, con la definición de las problemáticas, los usuarios, los actores, el contexto, las necesidades, los objetivos, el alcance y la proyección: enunciados que pondrán en marcha procesos de diseño. Se ejemplifican y representan gráficamente tales acciones describiendo el enfoque y anticipando su materialización.",
+  },
+  {
+    nombre: "Lab VIII - Fase 3. Planteo general y analítico del proyecto",
+    descripcion:
+      "Entrega de medio término articulada en cuatro outputs: la descripción del proyecto (antecedentes, investigación); la visualización y organización de su totalidad, de sus componentes y de sus relaciones internas y externas; la representación de sus componentes y la presentación de las diferentes propuestas en cuanto que acciones de diseño adoptadas.",
+  },
+  {
+    nombre: "Lab VIII - Fase 4. Detalle de componentes y recursos",
+    descripcion:
+      "Profundización en el desarrollo, las relaciones y las jerarquías de los diferentes componentes del proyecto en su totalidad, desde la verificación de su funcionamiento conceptual y práctico hasta aspectos relacionados con los modos de diseño adoptados, la elección de la materialidad posible y las posibles estrategias de comunicación.",
+  }, 
+
 
   //DGC
   {
@@ -416,6 +494,77 @@ const tpDescripcion = ref([
     descripcion:
       "Desarrollo de un interactivo que genera una salida visual, en tiempo real, a partir de los datos de un audio. El fin es la creación de un “instrumento audiovisual” que permita al usuario ejecutar efectos visuales a partir de la interacción con el teclado.",
   },
+  {
+    nombre: "POD - Araujo - Tipografia interactiva",
+    descripcion:
+      "Diseño de un nuevo alfabeto tipográfico expresivo en p5.js y desarrollo de un interactivo que permite al usuario verlo completo en distintas variantes de tamaños, filtros, colores, deformaciones, movimiento, composición de palabras, etc.",
+  },
+  {
+    nombre: "POD - Araujo - Proyecto final",
+    descripcion:
+      "Programación de interactivo basado en temas como videojuegos, visualización de datos, IA o aplicaciones interactivas. Se integran los conceptos de programación aprendidos y la investigación de herramientas para alcanzar el objetivo planteado por el equipo.",
+  },
+  {
+    nombre: "POD - Zárate - Generador de tramas",
+    descripcion:
+      "Creación de un programa que genere una composición textural tipo empapelado o tela. Los patrones, geométricos u orgánicos, que conforman la trama están diseñados para que puedan ser usados infinitamente.",
+  },
+  {
+    nombre: "POD - Zárate - Canción con visualización iterativa",
+    descripcion:
+      "Desarrollo de un patrón abstracto que refleja la estructura de una canción usando valores de escala de grises o componentes RGB (incluidas transparencias).",
+  },
+  {
+    nombre: "POD - Prof. Zárate - Instrumento sinestésico",
+    descripcion:
+      "Creación de un instrumento sinestésico audiovisual con una salida simultánea de imágenes y sonidos. La interacción del usuario con la computadora a través del teclado (o el mouse) genera una respuesta visual o sonora.",
+  },
+  {
+    nombre: "POD - Fairbairn - Líneas aleatorias",
+    descripcion:
+      "Composición visual aleatoria a pantalla completa usando, como figuras elementales, solamente líneas.",
+  },
+  {
+    nombre: "POD - Fairbairn - Generador de tramas",
+    descripcion:
+      "Creación de un programa que genera una composición textural tipo empapelado o tela. Los patrones, geométricos u orgánicos, que conforman la trama están diseñados para que puedan ser usados infinitamente.",
+  },
+  {
+    nombre: "POD - Fairbairn - Visualización de datos",
+    descripcion:
+      "Programación de representación de datos en un archivo JSON sobre un tema específico buscando ir más allá de la sola presentación de datos matemáticos en gráficos.",
+  },
+  {
+    nombre: "POD - Fairbairn - Instalación audiovisual interactiva",
+    descripcion:
+      "Creación de una instalación interactiva audiovisual para informar y concientizar sobre los Objetivos de Desarrollo Sostenible de las Naciones Unidas.",
+  },
+  {
+    nombre: "POD - Torres - Space Invaders",
+    descripcion:
+      "Dibujo con p5.js de uno de los alienígenas del videojuego Space Invaders (1978), del diseñador Toshihiro Nishikado.",
+  },
+  {
+    nombre: "POD - Torres - Líneas aleatorias",
+    descripcion:
+      "Composición visual aleatoria a pantalla completa usando, como figuras elementales, solamente líneas.",
+  },
+  {
+    nombre: "POD - Torres - Generador de tramas",
+    descripcion:
+      "Creación de un programa que genera una composición textural tipo empapelado o tela. Los patrones, geométricos u orgánicos, que conforman la trama están diseñados para que puedan ser usados infinitamente.",
+  },
+  {
+    nombre: "POD - Torres - Visualización de datos",
+    descripcion:
+      "Programación de representación de datos en un archivo JSON sobre un tema específico buscando ir más allá de la sola presentación de datos matemáticos en gráficos.",
+  },
+  {
+    nombre: "POD - Torres - Instalación audiovisual interactiva",
+    descripcion:
+      "Creación de una instalación interactiva audiovisual para informar y concientizar sobre los Objetivos de Desarrollo Sostenible de las Naciones Unidas.",
+  },
+
 
   // VI
   {
@@ -450,7 +599,18 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño y fabricación de un laberinto de mesa con piezas previamente modeladas en 3D y movimiento generado por motores y controlado por mandos analógicos, todo conectado mediante una placa controladora Arduino.",
   },
+  {
+    nombre: "FabLab - Luz y forma",
+    descripcion:
+      "Diseño de luminarias y realización de maquetas funcionales a partir de diferentes tipologías formales asignadas por los docentes, con el objetivo de experimentar distintos métodos de transformación de materiales y técnicas de maquetería.",
+  },
+  {
+    nombre: "FabLab - Las ciudades invisibles",
+    descripcion:
+      "Diseño de un objeto que —inspirado en los escritos de Italo Calvino sobre ciudades imaginarias y materializado mediante la combinando de herramientas de fabricación digital y componentes de electrónica— permite a una esfera realizar un recorrido de un punto A a un punto B.",
+  },
 ]);
+
 
 const obtenerDescripcion = (nombreMateria) => {
   setTimeout(() => {

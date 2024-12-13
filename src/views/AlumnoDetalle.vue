@@ -1,8 +1,16 @@
 <template>
-  <div class="container">
+  <div class="container" :class="`anio-${anio}`">
+    <aside></aside>
     <div id="header">
       <div id="anuario">
-        <router-link to="/">
+        <!-- <router-link to="/"> -->
+
+          <router-link
+          :to="{
+            path: `/`,
+            query: { anio: Number(anio) },
+          }"
+        >
           Anuario <br />
           {{ anio }}
         </router-link>
@@ -124,7 +132,7 @@ const filterData = () => {
   for (const key in alumno.value) {
     //console.log("key", key);
     //console.log("alumno.value", alumno.value);
-    if (alumno.value[key].includes("imgs/2024/")) {
+    if (alumno.value[key].includes(`imgs/${anio.value}/`)) {
       filteredData.value = { ...filteredData.value, [key]: alumno.value[key] };
     }
   }
@@ -153,7 +161,14 @@ onMounted(async () => {
 </script>
 
 <style scoped lang="scss">
+
 .container {
+
+  &.anio-2023 {
+    background:#000;
+    color:#FFF;
+  }
+
   #header {
     display: flex;
     //margin-bottom: 16px;

@@ -9,13 +9,16 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    props: route => ({
+      anio: Number(route.query.anio),
+    }),
   },
   {
     path: "/alumno/:nombre-:apellido",
     name: "AlumnoDetalle",
     component: AlumnoDetalle,
     props: route => ({
-      anio: route.query.anio,
+      anio: Number(route.query.anio),
     }),
   },
   {
@@ -23,7 +26,7 @@ const routes = [
     name: "AlumnoTp",
     component: AlumnoTp,
     props: route => ({
-      anio: route.query.anio,
+      anio: Number(route.query.anio),
     }),
   },
 ];

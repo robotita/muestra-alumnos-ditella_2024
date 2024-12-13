@@ -62,11 +62,11 @@
           fontSize: `${sliderValue}px`,
           width: `${sliderValue * 0.6}vw`,
         }"
-        :class="{ seleccionado: alumno.id === alumnoSeleccionadoId }"
         :data-materia="
           JSON.stringify(Object.keys(getMateriasConImagenes(alumno)))
         "
       >
+      <!-- :class="{ seleccionado: alumno.id === alumnoSeleccionadoId }" -->
         <router-link
           :to="{
             path: `/alumno/${alumno.Nombre.toLowerCase()}-${alumno.Apellido.toLowerCase()}`,
@@ -79,25 +79,15 @@
             v-for="(url, materia) in getMateriasConImagenes(alumno)"
             :key="materia"
           >
-          <img
-      :src="processUrl(url)"
-      height="100"
-      :style="{ height: `${sliderValue * 3}px` }"
-      v-if="
-        materia.startsWith(materiaSeleccionada + ' -') ||
-        materiaSeleccionada === null
-      "
-    />
-
-            <!-- <img
-              :src="url"
+            <img
+              :src="processUrl(url)"
               height="100"
               :style="{ height: `${sliderValue * 3}px` }"
               v-if="
                 materia.startsWith(materiaSeleccionada + ' -') ||
                 materiaSeleccionada === null
               "
-            /> -->
+            />
           </div>
         </router-link>
       </li>
@@ -129,7 +119,7 @@ const loadData = async () => {
 
 function processUrl(url) {
   const isVideo = /\.(mov|mp4)$/i.test(url);
-  return isVideo ? 'video.png' : url;
+  return isVideo ? "video.png" : url;
 }
 
 onMounted(loadData);
@@ -172,6 +162,11 @@ const filteredAlumnos = computed(() => {
     //const materiaMatch = !materiaSeleccionada || materias.startsWith(materiaSeleccionada);
     const materiaMatch =
       !materiaSeleccionada || materias.includes(materiaSeleccionada + " -");
+
+    //console.log("materias", materias);
+    //console.log("nombreApellidoMatch", nombreApellidoMatch);
+    //console.log("materiaMatch", materiaMatch);
+
     return nombreApellidoMatch && materiaMatch;
   });
 });
