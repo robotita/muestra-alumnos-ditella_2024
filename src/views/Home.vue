@@ -162,14 +162,6 @@ const stopBlinking = () => {
     &:hover, &:focus, a {
       color:#FFF;
     }
-
-    // aside #search .placeholder {
-    //   color:#FFF;
-
-    //   span {
-    //     border-left: 1px solid #FFF;
-    //   }
-    // }
   }
 }
 

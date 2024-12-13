@@ -82,7 +82,7 @@
 
 <script setup>
 import { computed, ref, onMounted } from "vue";
-import { useRoute, useRouter } from "vue-router";
+import { useRoute } from "vue-router";
 import { fetchData, getDataURL } from "../helpers/api";
 
 const props = defineProps({
@@ -110,8 +110,9 @@ const obtenerMaterias = () => {
 
   for (const key in alumno.value) {
     if (alumno.value[key].includes(`imgs/${anio.value}/`)) {
-      //console.log("key", key);
+      console.log("key", key);
       //const newKey = `http://localhost:5173/#/alumno-tp/${nombre}-${apellido}-${key}`;
+
       //arreglo rápido
       const currentUrl = window.location.href;
       const parts = currentUrl.split("#/");
@@ -119,6 +120,7 @@ const obtenerMaterias = () => {
       //console.log("Parte anterior a #/:", parteAnterior);
       //arreglo rápido
       const newKey = `${parteAnterior}#/alumno-tp/${nombre}-${apellido}-${key}`;
+      console.log("newKey", newKey);
       linksArray.push(newKey);
     }
   }
@@ -214,13 +216,6 @@ const adjustImageSize = () => {
   }, 0);
 };
 
-const router = useRouter();
-
-const extractPath = (url) => {
-  const match = url.match(/#\/alumno-tp\/(.+)/);
-  return match ? match[1] : null;
-};
-
 const redirectToLinkNext = () => {
   const linkIndex = links.value.findIndex((link) =>
     link.includes(nombreTp.trim())
@@ -228,22 +223,17 @@ const redirectToLinkNext = () => {
   if (linkIndex !== -1) {
     let nextIndex = (linkIndex + 1) % links.value.length;
     const link = links.value[nextIndex];
-    const path = extractPath(link);
+    const url = new URL(link, window.location.origin);
 
-    router
-      .push({
-        path, // Ruta relativa
-        query: { anio: anio.value }, // Parámetros
-      })
-      .then(() => {
-        window.location.reload(); // Recarga completa
-      });
+    url.searchParams.set("anio", anio.value);
+    const fullUrl = `${url.toString()}?anio=${anio.value}`;
 
-    console.log("Navegando a:", path, "con anio:", anio.value);
+    window.location.href = fullUrl;
+    setTimeout(() => {
+      window.location.reload(true);
+    }, 50);
   } else {
-    console.error(
-      `No se encontró el enlace correspondiente a ${nombreTp.value}`
-    );
+    console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
   }
 };
 
@@ -254,17 +244,15 @@ const redirectToLinkPrev = () => {
   if (linkIndex !== -1) {
     let prevIndex = (linkIndex - 1 + links.value.length) % links.value.length;
     const link = links.value[prevIndex];
-    const path = extractPath(link);
-    router
-      .push({
-        path, // Ruta relativa
-        query: { anio: anio.value }, // Parámetros
-      })
-      .then(() => {
-        window.location.reload(); // Recarga completa
-      });
+    const url = new URL(link, window.location.origin);
 
-    console.log("Navegando a:", path, "con anio:", anio.value);
+    url.searchParams.set("anio", anio.value);
+    const fullUrl = `${url.toString()}?anio=${anio.value}`;
+
+    window.location.href = fullUrl;
+    setTimeout(() => {
+      window.location.reload(true);
+    }, 50);
   } else {
     console.error(`No se encontró el enlace correspondiente a ${nombreTp}`);
   }
@@ -671,7 +659,7 @@ onMounted(async () => {
     obtenerDescripcion(nombreTp);
     //console.log("nombreTp", nombreTp);
   }
-  //console.log("links", links);
+  console.log("links", links);
   setTimeout(() => {}, 1000);
 });
 </script>

@@ -5,7 +5,7 @@
       <div id="anuario">
         <!-- <router-link to="/"> -->
 
-          <router-link
+        <router-link
           :to="{
             path: `/`,
             query: { anio: Number(anio) },
@@ -161,12 +161,10 @@ onMounted(async () => {
 </script>
 
 <style scoped lang="scss">
-
 .container {
-
   &.anio-2023 {
-    background:#000;
-    color:#FFF;
+    background: #000;
+    color: #fff;
   }
 
   #header {
