@@ -405,6 +405,11 @@ const tpDescripcion = ref([
   },
   //LabVI -  De Marziani
   {
+    nombre: "Lab VI - De Marziani - Entorno virtual",
+    descripcion:
+      "Diseño de entorno audiovisual de realidad virtual.",
+  },
+  {
     nombre: "Lab VI - De Marziani - Entornos lumínicos",
     descripcion:
       "Diseño de experiencia lumínica y sonora inmersiva que aborda dimensiones espaciales y temporales e incorpora la figura del visitante en el desarrollo experiencial. Se emplea la técnica de pixel mapping para controlar el comportamiento de las luces, programando escenas de forma visual e intuitiva.",

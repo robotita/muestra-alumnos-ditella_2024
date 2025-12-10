@@ -162,6 +162,15 @@ const stopBlinking = () => {
     &:hover, &:focus, a {
       color:#FFF;
     }
+
+    
+  }
+
+  aside #search input[type="text"] {
+    color:#FFF
+  }
+  aside #search button[data-v-2dc54a20] {
+    color: #FFF;
   }
 }
 
