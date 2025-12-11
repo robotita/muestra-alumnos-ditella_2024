@@ -26,15 +26,17 @@
           </a>
         </li>
       </ul>
-
-      <div id="navegar">
-        <span v-if="anio === 2024" @click="cambiarAnio(anio - 1)">
-          &lt; ver Anuario {{ anio - 1 }}
-        </span>
-        <span v-else @click="cambiarAnio(anio + 1)">
-          &gt; ver Anuario {{ anio + 1 }}
-        </span>
-      </div>
+  <div id="navegar">
+    <!-- mostramos SIEMPRE los dos otros años -->
+    <span
+      v-for="a in opciones"
+      :key="a"
+      @click="cambiarAnio(a)"
+      style="cursor:pointer;display:block;"
+    >
+      &#60; Anuario {{ a }}
+    </span>
+  </div>
     </aside>
 
     <main>
@@ -48,19 +50,26 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, computed  } from "vue";
 import SearchResults from "../components/SearchResults.vue";
 import { useRoute } from "vue-router";
 
 //const anio = ref(2024);
 const route = useRoute();
-const anio = ref(Number(route.query.anio) || 2024)
+const anio = ref(Number(route.query.anio) || 2025)
 
-const cambiarAnio = async (nuevoAnio) => {
-  if (nuevoAnio === 2023 || nuevoAnio === 2024) {
-    anio.value = nuevoAnio;
+const cambiarAnio = (nuevoAnio) => {
+  if ([2023, 2024, 2025].includes(nuevoAnio)) {
+    anio.value = nuevoAnio
   }
-};
+}
+// cálculo de los dos años a mostrar
+const anios = [2023, 2024, 2025]
+
+const opciones = computed(() => {
+  return anios.filter(a => a !== anio.value)
+})
+
 
 const query = ref("");
 const materiaSeleccionada = ref(null);
@@ -89,6 +98,20 @@ const materiasPorAnio = ref({
     { nombre: "FabLab", nl: "FabLab" },
   ],
   2024: [
+    { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
+    { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
+    { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
+    { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
+    { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
+    { nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
+    { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
+    { nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
+    { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
+    { nombre: "POD", nl: "Programación Orientada al Diseño" },
+    { nombre: "VI", nl: "Visualización de la Información" },
+    { nombre: "FabLab", nl: "FabLab"},
+  ],
+  2025: [
     { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
     { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
     { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
@@ -155,7 +178,7 @@ const stopBlinking = () => {
   height: 100vh;
   column-gap: 3vw;
 
-  &.anio-2023 {
+  &.anio-2023,  &.anio-2024  {
     background:#000;
     color:#FFF;
 
@@ -278,6 +301,8 @@ aside {
     font-size: 2rem;
     margin-top: auto;
     cursor: pointer;
+    line-height: 100%;
+
     &:hover {
       opacity:0.8
     }

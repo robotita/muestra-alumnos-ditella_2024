@@ -1,5 +1,5 @@
-# muestra-alumnos-2024
-Imágenes 2023/2024 estpan subidas al drive de microsoft
+# muestra-alumnos-2025
+Imágenes 2023/2024/2025 están subidas al drive de microsoft
 
 ## Recommended IDE Setup
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
