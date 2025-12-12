@@ -303,8 +303,10 @@ aside {
     cursor: pointer;
     line-height: 100%;
 
-    &:hover {
-      opacity:0.8
+    span:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 2px;
     }
   }
 }

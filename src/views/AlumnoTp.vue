@@ -842,3 +842,4 @@ onMounted(async () => {
   }
 }
 </style>
+Diseño de experiencia lumíni

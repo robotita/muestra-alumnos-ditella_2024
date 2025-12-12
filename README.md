@@ -25,3 +25,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+## TODOIT
+navegr subrayado hover
+chequear colores internos anuarios anteriores
+chequar que siempre estén todos los botones en todas las instancias.

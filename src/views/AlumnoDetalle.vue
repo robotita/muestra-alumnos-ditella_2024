@@ -130,8 +130,8 @@ const handleScroll = (event) => {
 
 const filterData = () => {
   for (const key in alumno.value) {
-    //console.log("key", key);
-    //console.log("alumno.value", alumno.value);
+    console.log("key", key);
+    console.log("alumno.value", alumno.value);
     if (alumno.value[key].includes(`imgs/${anio.value}/`)) {
       filteredData.value = { ...filteredData.value, [key]: alumno.value[key] };
     }
@@ -162,7 +162,7 @@ onMounted(async () => {
 
 <style scoped lang="scss">
 .container {
-  &.anio-2023 {
+  &.anio-2023, &.anio-2024 {
     background: #000;
     color: #fff;
   }
