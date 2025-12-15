@@ -26,17 +26,17 @@
           </a>
         </li>
       </ul>
-  <div id="navegar">
-    <!-- mostramos SIEMPRE los dos otros años -->
-    <span
-      v-for="a in opciones"
-      :key="a"
-      @click="cambiarAnio(a)"
-      style="cursor:pointer;display:block;"
-    >
-      &#60; Anuario {{ a }}
-    </span>
-  </div>
+      <div id="navegar">
+        <!-- mostramos SIEMPRE los dos otros años -->
+        <span
+          v-for="a in opciones"
+          :key="a"
+          @click="cambiarAnio(a)"
+          style="cursor: pointer; display: block"
+        >
+          &#60; Anuario {{ a }}
+        </span>
+      </div>
     </aside>
 
     <main>
@@ -50,26 +50,25 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, computed  } from "vue";
+import { ref, onMounted, onUnmounted, computed } from "vue";
 import SearchResults from "../components/SearchResults.vue";
 import { useRoute } from "vue-router";
 
 //const anio = ref(2024);
 const route = useRoute();
-const anio = ref(Number(route.query.anio) || 2025)
+const anio = ref(Number(route.query.anio) || 2025);
 
 const cambiarAnio = (nuevoAnio) => {
   if ([2023, 2024, 2025].includes(nuevoAnio)) {
-    anio.value = nuevoAnio
+    anio.value = nuevoAnio;
   }
-}
+};
 // cálculo de los dos años a mostrar
-const anios = [2023, 2024, 2025]
+const anios = [2023, 2024, 2025];
 
 const opciones = computed(() => {
-  return anios.filter(a => a !== anio.value)
-})
-
+  return anios.filter((a) => a !== anio.value);
+});
 
 const query = ref("");
 const materiaSeleccionada = ref(null);
@@ -99,7 +98,7 @@ const materiasPorAnio = ref({
   ],
   2024: [
     { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
-    { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
+    { nombre: "Lab II", nl: "Laboratorio de Diseño II" },
     { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
     { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
     { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
@@ -109,11 +108,11 @@ const materiasPorAnio = ref({
     { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
     { nombre: "POD", nl: "Programación Orientada al Diseño" },
     { nombre: "VI", nl: "Visualización de la Información" },
-    { nombre: "FabLab", nl: "FabLab"},
+    { nombre: "FabLab", nl: "FabLab" },
   ],
   2025: [
     { nombre: "Lab I", nl: "Laboratorio de Diseño I" },
-    { nombre: "Lab II", nl:"Laboratorio de Diseño II"},
+    { nombre: "Lab II", nl: "Laboratorio de Diseño II" },
     { nombre: "Lab III", nl: "Laboratorio de Diseño III" },
     { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
     { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
@@ -123,7 +122,7 @@ const materiasPorAnio = ref({
     { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
     { nombre: "POD", nl: "Programación Orientada al Diseño" },
     { nombre: "VI", nl: "Visualización de la Información" },
-    { nombre: "FabLab", nl: "FabLab"},
+    { nombre: "FabLab", nl: "FabLab" },
   ],
 });
 
@@ -178,22 +177,23 @@ const stopBlinking = () => {
   height: 100vh;
   column-gap: 3vw;
 
-  &.anio-2023,  &.anio-2024  {
-    background:#000;
-    color:#FFF;
+  &.anio-2023,
+  &.anio-2024 {
+    background: #000;
+    color: #fff;
 
-    &:hover, &:focus, a {
-      color:#FFF;
+    &:hover,
+    &:focus,
+    a {
+      color: #fff;
     }
 
-    
-  }
-
-  aside #search input[type="text"] {
-    color:#FFF
-  }
-  aside #search button[data-v-2dc54a20] {
-    color: #FFF;
+    aside #search input[type="text"] {
+      color: #fff;
+    }
+    aside #search button {
+      color: #fff;
+    }
   }
 }
 
