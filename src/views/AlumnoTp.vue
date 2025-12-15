@@ -297,6 +297,16 @@ const tpDescripcion = ref([
     descripcion:
       "Proyecto centrado en la creación de elementos para una situación comunicacional concreta: el relanzamiento de un álbum en vinilo y su promoción. Se investigaron los códigos culturales y visuales alrededor de un género musical y se produjo un lenguaje visual para el desarrollo de un sistema de piezas con distintas funciones y contextos de uso.",
   },
+  {
+    nombre: "Lab I - OBJ:IMG",
+    descripcion:
+      "Representación de objetos a partir de una traducción estructural o sintética de una bidimensionalidad a una tridimensional mediante acciones constructivas primarias y la exploración de diferentes materialidades.",
+  },
+  {
+    nombre: "Lab I - BI:TRI",
+    descripcion:
+      "  Experiencia introductoria a distintos sistemas de representación y su pasaje a un lenguaje de expresión, para la obtención de la mayor cantidad de visualidades posibles de un mismo objeto, la sistematización en reglas y códigos de un styling particular y la presentación de resultados en una pieza-panel de lectura simultánea.",
+  },
   //LabII
   {
     nombre: "Lab II - Labzine",
@@ -333,6 +343,11 @@ const tpDescripcion = ref([
     descripcion:
       "Exploración de narrativas informativas construidas en torno a un hito sociocultural complejo y trabajadas sobre dos medios/soportes: un display tridimensional y una pieza audiovisual.",
   },
+  {
+    nombre: "Lab II - movie:lab",
+    descripcion:
+      "  Sistema de piezas editoriales impresas y audiovisuales —con funciones comunicacionales diferenciadas— centradas en el desarrollo de una identidad para un ciclo de cine.",
+  },
 
   //LabIII
   {
@@ -350,7 +365,23 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño de un juego de construcción a partir del análisis e interpretación de soluciones presentes en la naturaleza: estructuras, tramas, módulos y vínculos.",
   },
+  {
+    nombre: "Lab III - Sumale una D",
+    descripcion:
+      "A partir del diseño y la maquetación de una composición en tres dimensiones basada en otra 2D realizada en el Lab I, se definió, en una segunda etapa, una acción que inicia un movimiento —como soplar, tirar, empujar, etc.— y una reacción a este lograda mediante un mecanismo simple.",
+  },
+  {
+    nombre: "Lab III - Proyector cubo",
+    descripcion:
+      "Diseño de un proyector portátil bluetooth que resuelve cuatro categorías funcionales (encendido, agarre, apoyo y difusión de sonido) y cumple con las exigencias y necesidades de un contexto asignado (náutico, playa y camping).",
+  },
+  {
+    nombre: "Lab III - Biojuego",
+    descripcion:
+      "Diseño de un juego de construcción a partir del análisis y la interpretación de soluciones presentes en la naturaleza, como estructuras, tramas, módulos y vínculos.",
+  },
 
+  
   //LabIV
   {
     nombre: "Lab IV - Alimentos autoprocesados",
@@ -382,6 +413,16 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño de un juego de construcción —de implantación fija y de uso público para exteriores y usuarios de un lugar específico del AMBA que definió cada equipo— a partir del análisis y la interpretación de soluciones presentes en la naturaleza (estructuras, tramas, módulos y vínculos).",
   },
+  {
+    nombre: "Lab IV - IArtefacto",
+    descripcion:
+      "Diseño de dispositivos wearables que funcionan como interfaz para que las personas puedan interactuar con la inteligencia artificial por fuera del teléfono, imaginando un futuro donde existen objetos diseñados específicamente para este uso.",
+  },
+  {
+    nombre: "Lab IV - Equipamiento urbano",
+    descripcion:
+      "Diseño de equipamiento urbano de uso público para un territorio específico del AMBA definido por cada grupo de estudiantes, a partir de hallazgos o insights surgidos de la observación en campo.",
+  },
   //LabV
   {
     nombre: "Lab V - Fanpage",
@@ -403,6 +444,17 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño de experiencia informativa para el Centro Cultural Recoleta con el propósito de potenciar la experiencia de los visitantes mediante la conexión con el lugar y comprender su valor.",
   },
+  {
+    nombre: "Lab V - Diseño para el espacio público",
+    descripcion:
+      "Diseño de experiencia informativa para el Museo de los Inmigrantes con el propósito de potenciar la experiencia de los visitantes y conectar con la temática y comprender su valor.",
+  },
+  {
+    nombre: "Lab V - Construir sentido",
+    descripcion:
+      "Desarrollo de una narrativa web interactiva sobre un artista. Desde una perspectiva personal, se profundiza en su complejidad y en la conexión emocional.",
+  },
+
   //LabVI -  De Marziani
   {
     nombre: "Lab VI - De Marziani - Entorno virtual",
@@ -420,6 +472,11 @@ const tpDescripcion = ref([
       "Diseño de pieza audiovisual inmersiva, de carácter abstracto y sensorial, para ser reproducida en una sala de imagen digital.",
   },
   {
+    nombre: "Lab VI - De Marziani - Entorno sonoro",
+    descripcion:
+      "Diseño de un entorno sonoro espacializado mediante la recolección y procesamiento de muestras de sonidos a partir del ejercicio de una escucha atenta. Se utilizan técnicas de espacialización Ambisonics, estándar en la industria de videojuegos y sistemas de audio inmersivos.",
+  },
+  {
     nombre: "Lab VI - De Marziani - Experiencia inmersiva interactiva",
     descripcion:
       "Diseño de experiencia inmersiva e interactiva a partir de una temática libre, utilizando sonido, luz y video controlados por el visitante, desplegando información en una sala de exhibición.",
@@ -429,6 +486,17 @@ const tpDescripcion = ref([
     descripcion:
       "Diseño de experiencia inmersiva e interactiva a partir de una temática libre, utilizando sonido, luz y video controlados por el visitante, desplegando información en una sala de exhibición.",
   },
+  {
+    nombre: "Lab VI - De Marziani - Experiencia sonoro",
+    descripcion:
+      "Diseño de un entorno sonoro espacializado mediante la recolección y procesamiento de muestras de sonidos a partir del ejercicio de una escucha atenta. Se utilizan técnicas de espacialización Ambisonics, estándar en la industria de videojuegos y sistemas de audio inmersivos.",
+  },
+  {
+    nombre: "Lab VI - De Marziani - Experiencia audiovisual",
+    descripcion:
+      "Diseño de experiencia audiovisual inmersiva a partir de una temática libre. De carácter abstracto y sensorial, está pensada para reproducirse en el sistema inmersivo de audio y video del MediaLab.",
+  },
+
   //LabVI -  Berrecil
   {
     nombre: "Lab VI - Becerril - Diseño de videojuego de arcade",
@@ -452,8 +520,17 @@ const tpDescripcion = ref([
       "Diseño y desarrollo de un espacio multimedia interactivo que integre tecnologías para comunicar información de forma innovadora y efectiva (uso de técnicas de proyección de video, mapping, iluminación, sonido multicanal y toma de decisiones en relación con las instancias de interacción) para potenciar la experiencia del visitante.",
   },
 
-  //LabVII - no se subió nada
-
+  //Lab VI y VII 
+  {
+    nombre: "Lab VI y VII - Juego de mesa original",
+    descripcion:
+      "Concepción (de la idea y de la mecánica central), desarrollo (de prototipos; iteración y testeo), contextualización de mecánicas (temáticas y arte), exploración de componentes y materiales de producción, balance de mecánicas, desarrollo de libro de reglas y producción final (diseño gráfico, packaging y materialidad) de un juego de mesa original.",
+  },
+  {
+    nombre: "Lab VI y VII - Diseño de videojuego de arcade",
+    descripcion:
+      "Desarrollo en equipo de un videojuego de arcade 100 % finalizado y jugable para explorar el diseño de mecánicas y narrativas específicas de los videojuegos e interiorizar la práctica del prototipado, la iteración y el testeo como herramientas fundamentales en el proceso creativo.",
+  },
   //LabVIII
   {
     nombre: "Lab VIII - Proyecto final de Carrera. Working in Progress",
@@ -484,6 +561,33 @@ const tpDescripcion = ref([
     nombre: "Lab VIII - Fase 4. Detalle de componentes y recursos",
     descripcion:
       "Profundización en el desarrollo, las relaciones y las jerarquías de los diferentes componentes del proyecto en su totalidad, desde la verificación de su funcionamiento conceptual y práctico hasta aspectos relacionados con los modos de diseño adoptados, la elección de la materialidad posible y las posibles estrategias de comunicación.",
+  },
+
+  //LabVIII - 2025
+  {
+    nombre: "Lab VIII - Visualización de procesos previos",
+    descripcion:
+      "Objeto gráfico que, con una lectura no secuencial, múltiples puntos de entrada, capas de contenidos y datos, y diversos niveles de codificación, permita evaluar y evidenciar las relaciones entre sus partes y la forma total adoptada, para obtener un panorama integral del proceso proyectual y, así, optimizar el proceso de diseño.",
+  },
+  {
+    nombre: "Lab VIII - Investigación de proyecto y campo temático",
+    descripcion:
+      "Detección de temas o enfoques y recortes de las zonas asignadas para la comprensión de necesidades, intenciones y contextos. Mediante la formulación de preguntas y objetivos, se establece la relación entre la necesidad identificada y las acciones de diseño propuestas, junto con las escalas de intervención, el impacto y los antecedentes.",
+  },
+  {
+    nombre: "Lab VIII - Planteo general y analítico del proyecto",
+    descripcion:
+      "Entrega de medio término articulada en cuatro outputs: la descripción del proyecto (antecedentes, investigación); la visualización y organización de su totalidad, de sus componentes y de sus relaciones internas y externas; la representación de sus componentes y la presentación de las diferentes propuestas en cuanto que acciones de diseño adoptadas.",
+  },
+  {
+    nombre: "Lab VIII - Detalle de componentes y recursos",
+    descripcion:
+      "Profundización en el desarrollo, las relaciones y las jerarquías de los diferentes componentes del proyecto en su totalidad, desde la verificación de su funcionamiento conceptual y práctico hasta aspectos relacionados con los modos de diseño adoptados, la elección de la materialidad posible y las posibles estrategias de comunicación.",
+  },
+  {
+    nombre: "Lab VIII - Definición y presentación de proyecto",
+    descripcion:
+      "Evidencia de la propuesta, las acciones y los modos de diseño, así como del funcionamiento, la pertinencia y el potencial de aplicación del sistema diseñado. Diseño de la narrativa total y definición de los medios de comunicación y materialización del proyecto (piezas gráficas, modelos tridimensionales, presentaciones digitales y exposición oral).",
   },
 
   //DGC
@@ -606,6 +710,16 @@ const tpDescripcion = ref([
     descripcion:
       "Representación didáctica una estructura, un fenómeno o un proceso para diferentes plataformas.",
   },
+  {
+    nombre: "VI - Gráfica descriptiva estática e interactiva",
+    descripcion:
+      "Representación didáctica de una estructura, un fenómeno o un proceso para diferentes plataformas.",
+  },
+  {
+    nombre: "VI - Gráfica esquemática",
+    descripcion:
+      "Desarrollo de un gráfico que estructura y comunica información de manera clara y efectiva a través del uso de líneas de tiempo, organigramas, esquemas de red, diagramas de flujo, mapas conceptuales, gráficos estadísticos, esquemas espaciales y mapas.",
+  },
 
   // FabLab
   {
@@ -632,6 +746,16 @@ const tpDescripcion = ref([
     nombre: "FabLab - Las ciudades invisibles",
     descripcion:
       "Diseño de un objeto que —inspirado en los escritos de Italo Calvino sobre ciudades imaginarias y materializado mediante la combinando de herramientas de fabricación digital y componentes de electrónica— permite a una esfera realizar un recorrido de un punto A a un punto B.",
+  },
+  {
+    nombre: "FabLab - Diseño ciberciruja",
+    descripcion:
+      "Exploración de la relación entre forma y función a partir de componentes electrónicos en desuso. Diseño de dispositivos ficticios con funciones inventadas y desarrollo de carcasas coherentes mediante herramientas de modelado SubD.",
+  },
+  {
+    nombre: "FabLab - Diseño de accesorio ocular",
+    descripcion:
+      "Diseño y prototipado de un accesorio inspirado en producciones audiovisuales (películas, series o videoclips), tomando sus rasgos formales y adaptándolos a un objeto de uso o integrado en la narrativa elegida. El objetivo fue poner en práctica herramientas de modelado digital y técnicas de impresión 3D.",
   },
 ]);
 

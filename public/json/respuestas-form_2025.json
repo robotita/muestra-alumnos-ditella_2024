@@ -48,8 +48,8 @@
     "DNI": "47881692",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/Garcia_Quires-S3-posteo7_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-I/lalalab/Garcia_Quires-S3-poster_frente_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-I/lalalab/Garcia_Quires-S3-story2_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-I/lalalab/Garcia_Quires-S3-vinilo_Elian%20Garcia%20Quires.jpg",
-    "Lab I - OBJ:IMG.": "imgs/2025/lab-I/objimg/Garcia-Quires-PANEL_Elian%20Garcia%20Quires.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/GARCIA-QUIRES-S3-OBJ2-V2_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-I/bitri/GARCIA-QUIRES-S3-OBJ1-V2_Elian%20Garcia%20Quires.jpg",
+    "Lab I - OBJ:IMG": "imgs/2025/lab-I/objimg/Garcia-Quires-PANEL_Elian%20Garcia%20Quires.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/GARCIA-QUIRES-S3-OBJ2-V2_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-I/bitri/GARCIA-QUIRES-S3-OBJ1-V2_Elian%20Garcia%20Quires.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Garcia_Quires-S3-AFICHETA_CLIMATICA_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/expolab/Garcia_Quires-S3-AFICHETA_PROMOCIONAL_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/expolab/Garcia_Quires-S3-MOCKUP_VALLA_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/expolab/Garcia_Quires-S3-PANEL_1_Elian%20Garcia%20Quires.jpg",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/GARCIA-QUIRES-LARDINO-S1-DUPLA_1_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/labzine/GARCIA-QUIRES-LARDINO-S1-DUPLA_3_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/labzine/GARCIA-QUIRES-LARDINO-S1-DUPLA_8_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/labzine/GARCIA-QUIRES-LARDINO-S1-DUPLA_9_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/labzine/GARCIA-QUIRES-LARDINO-S1-DUPLA_11_Elian%20Garcia%20Quires.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Garcia-Quires,-Agenda-desplegada_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/movielab/Garcia-Quires,-editorial-dupla-1_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/movielab/Garcia-Quires,-editorial-dupla-2_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/movielab/Garcia-Quires,-editorial-tapa_Elian%20Garcia%20Quires.jpg, imgs/2025/lab-II/movielab/TEASER%20ENTREGA_1_Elian%20Garcia%20Quires.mp4",
@@ -63,7 +63,7 @@
     "DNI": "46654401",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/Lardino-S2-Poster_Frente_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-I/lalalab/Lardino-S2-Post6_Mar%C3%ADa%20Lardino.jpg",
-    "Lab I - OBJ:IMG.": "imgs/2025/lab-I/objimg/Mar%C3%ADa-Lardino_S2_PANEL_Mar%C3%ADa%20Lardino.jpg",
+    "Lab I - OBJ:IMG": "imgs/2025/lab-I/objimg/Mar%C3%ADa-Lardino_S2_PANEL_Mar%C3%ADa%20Lardino.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/LARDINO_S2__POSTAL%203_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-II/expolab/LARDINO_S2__POSTAL%204_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-II/expolab/LARDINO_S2__POSTAL%206_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-II/expolab/LARDINO_S2_AFICHETA-PROMOCIONAL_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-II/expolab/LARDINO_S2_AFICHETA-CLIM%C3%81TICA_Mar%C3%ADa%20Lardino.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Lardino_S1_TEASER_Mar%C3%ADa%20Lardino.mp4, imgs/2025//lab-II/movielab/FLYER__3_Mar%C3%ADa%20Lardino.jpg, imgs/2025//lab-II/movielab/FLYER__5_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-II/movielab/LARDINO-S1_COLLAR-STAFF_2_Mar%C3%ADa%20Lardino.jpg, imgs/2025/lab-II/movielab/EDITORIAL_5_Mar%C3%ADa%20Lardino.jpg",
     "Lab II - Línea de tiempo": "imgs/2025/lab-II/linea-de-tiempo/LARDINO-S1_L%C3%8DNEA-DE-TIEMPO_Mar%C3%ADa%20Lardino.jpg",
@@ -77,7 +77,7 @@
     "DNI": "47437103",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/CachaguaAlfaro-S1-dorsovinilo_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/lalalab/CachaguaAlfaro-S1-frentevinilo_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/lalalab/CachaguaAlfaro-S1-frenteposter_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/lalalab/CachaguaAlfaro-S1-dorsoposter_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/lalalab/CachaguaAlfaro-S1-post6_Mayra%20Cachagua%20Alfar.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/Img2_M1_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img1_M4_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img1_M2_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img3_M3_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img4_M4_Mayra%20Cachagua%20Alfar.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/Img2_M1_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img1_M4_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img1_M2_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img3_M3_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-I/bitri/Img4_M4_Mayra%20Cachagua%20Alfar.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Afichetasfinal_Mesa%20de%20trabajo%201-01_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/expolab/Afichetasfinal_Mesa%20de%20trabajo%201-02_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/expolab/Afichetasfinal_Mesa%20de%20trabajo%201-03_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/expolab/Panel%20%5BRecuperado%5D_Mesa%20de%20trabajo%201_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/expolab/Catalogo2final_Mesa%20de%20trabajo%201_Mayra%20Cachagua%20Alfar.jpg",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/GONZALEZ-CACHAGUA-S1-P%C3%81G1_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/labzine/GONZALEZ-CACHAGUA-S1-P%C3%81G2_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/labzine/GONZALEZ-CACHAGUA-S1-P%C3%81G3_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/labzine/GONZALEZ-CACHAGUA-S1-P%C3%81G4_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/labzine/GONZALEZ-CACHAGUA-S1-P%C3%81G17_Mayra%20Cachagua%20Alfar.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Catalogo-07_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/movielab/Catalogo-06_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/movielab/Editorial-01_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/movielab/Editorial-02_Mayra%20Cachagua%20Alfar.jpg, imgs/2025/lab-II/movielab/Catalogo-09_Mayra%20Cachagua%20Alfar.jpg",
@@ -113,7 +113,7 @@
     "Apellido": "Lamo",
     "DNI": "47569846",
     "Cohorte": "2025",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/Panel-Definitivo_Francisco%20Lamo.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/Panel-Definitivo_Francisco%20Lamo.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Lamo-S5-Panel-1_Francisco%20Lamo.jpg, imgs/2025/lab-II/expolab/Lamo-S5-Panel-2_Francisco%20Lamo.jpg, imgs/2025/lab-II/expolab/Lamo-S5-GIF_Francisco%20Lamo.gif, imgs/2025/lab-II/expolab/Lamo-S5-Publicidad_Francisco%20Lamo.jpg, imgs/2025/lab-II/expolab/Lamo-S5-Postal-Frente--02_Francisco%20Lamo.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Flyer-07_Francisco%20Lamo.jpg, imgs/2025/lab-II/movielab/Flyer-10_Francisco%20Lamo.jpg",
     "Lab II - Línea de tiempo": "imgs/2025/lab-II/linea-de-tiempo/Berlin-FINAL-final_Francisco%20Lamo.jpg"
@@ -127,7 +127,7 @@
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/veron-s3-sistema.jpg_Milagros%20Veron.jpg, imgs/2025/lab-I/lalalab/veron-s3-vinilo%20dorso_Milagros%20Veron.jpg, imgs/2025/lab-I/lalalab/veron-s3-vinilo%20frente_Milagros%20Veron.jpg",
     "Lab I - OBJ:IMG": "imgs/2025/lab-I/objimg/VERON-S3-PANEL_Milagros%20Veron.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto1-Vista1.jpg_Milagros%20Veron.jpg, imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto2-Vista4_Milagros%20Veron.jpg, imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto3-Vista3.jpg_Milagros%20Veron.jpg, imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto4-Vista1_Milagros%20Veron.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto1-Vista1.jpg_Milagros%20Veron.jpg, imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto2-Vista4_Milagros%20Veron.jpg, imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto3-Vista3.jpg_Milagros%20Veron.jpg, imgs/2025/lab-I/bitri/Milagros%20Veron-S3-Objeto4-Vista1_Milagros%20Veron.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/VERON-S3-PANEL%201_Milagros%20Veron.jpg, imgs/2025/lab-II/expolab/VERON-S3-PANEL%202_Milagros%20Veron.jpg, imgs/2025/lab-II/expolab/VERON-S3-GIF_Milagros%20Veron.gif",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/Veron-S1-Pagina%201_Milagros%20Veron.jpg, imgs/2025/lab-II/labzine/Veron-S1-Pagina%202_Milagros%20Veron.jpg, imgs/2025/lab-II/labzine/Veron-S1-Pagina%203_Milagros%20Veron.jpg, imgs/2025/lab-II/labzine/Veron-S1-Pagina%204_Milagros%20Veron.jpg, imgs/2025/lab-II/labzine/Veron-S1-Portada%20y%20Contraportada_Milagros%20Veron.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Veron-S1-Teaser_Milagros%20Veron.mp4, imgs/2025/lab-II/movielab/Veron-S1-Agenda_Milagros%20Veron.jpg, imgs/2025/lab-II/movielab/Veron-S1-Pagina_Milagros%20Veron.jpg, imgs/2025/lab-II/movielab/Veron-S1-Portada%20y%20Contraportada_Milagros%20Veron.jpg, imgs/2025/lab-II/movielab/Veron-S1-Poster_Milagros%20Veron.jpg",
@@ -141,7 +141,7 @@
     "Apellido": "Chiressi",
     "DNI": "47026165",
     "Cohorte": "2025",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/IMG_5658_Paula%20Chiressi.jpg, imgs/2025/lab-I/bitri/IMG_5663_Paula%20Chiressi.jpg, imgs/2025/lab-I/bitri/IMG_5659_Paula%20Chiressi.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/IMG_5658_Paula%20Chiressi.jpg, imgs/2025/lab-I/bitri/IMG_5663_Paula%20Chiressi.jpg, imgs/2025/lab-I/bitri/IMG_5659_Paula%20Chiressi.jpg",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/Lab_Paula%20Chiressi.jpg, imgs/2025/lab-II/labzine/Labb_Paula%20Chiressi.jpg, imgs/2025/lab-II/labzine/labbb_Paula%20Chiressi.jpg, imgs/2025/lab-II/labzine/labbbb_Paula%20Chiressi.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/ffff_Paula%20Chiressi.jpg, imgs/2025/lab-II/movielab/Perfect_Binding_Brochure_Mockup_1_Paula%20Chiressi.jpg, imgs/2025/lab-II/movielab/looo_Paula%20Chiressi.jpg, imgs/2025/lab-II/movielab/Mockup_2_Carteles_Flotando_mockupgratis_Paula%20Chiressi.jpg, imgs/2025/lab-II/movielab/Sin-t%C3%ADtulo-3_Paula%20Chiressi.jpg",
     "Lab II - info:lab": "imgs/2025/lab-II/infolab/Mesa%20de%20trabajo%201-100_Paula%20Chiressi.jpg, imgs/2025/lab-II/infolab/Mesa%20de%20trabajo%202-100_Paula%20Chiressi.jpg, imgs/2025/lab-II/infolab/Mesa%20de%20trabajo%203-100_Paula%20Chiressi.jpg, imgs/2025/lab-II/infolab/Mesa%20de%20trabajo%205%20copia-100_Paula%20Chiressi.jpg, imgs/2025/lab-II/infolab/Mesa%20de%20trabajo%205-100_Paula%20Chiressi.jpg"
@@ -153,8 +153,8 @@
     "Apellido": "Gonzalez San Marco",
     "DNI": "47344236",
     "Cohorte": "2025",
-    "Lab I - OBJ:IMG.": "imgs/2025/lab-I/objimg/Gonzalez%20San%20Marco_OBJ-IMG_Luc%C3%ADa%20Gonzalez%20San%20M.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 1_Lucia Gonzalez San M.jpg, imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 2_Lucia Gonzalez San M.jpg, imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 3_Lucia Gonzalez San M.jpg, imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 4_Lucia Gonzalez San M.jpg",
+    "Lab I - OBJ:IMG": "imgs/2025/lab-I/objimg/Gonzalez%20San%20Marco_OBJ-IMG_Luc%C3%ADa%20Gonzalez%20San%20M.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 1_Lucia Gonzalez San M.jpg, imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 2_Lucia Gonzalez San M.jpg, imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 3_Lucia Gonzalez San M.jpg, imgs/2025/lab-I/bitri/Gonzalez San Marco_BI-TRI modelo 4_Lucia Gonzalez San M.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Gonzalez San Marco_EXPO-LAB afiche_Lucia Gonzalez San M 1.jpg, imgs/2025/lab-II/expolab/Gonzalez San Marco_EXPO-LAB catálogo ext_Lucia Gonzalez San M 1.jpg, imgs/2025/lab-II/expolab/Gonzalez San Marco_EXPO-LAB catálogo int_Lucia Gonzalez San M 1.jpg, imgs/2025/lab-II/expolab/Gonzalez San Marco_EXPO-LAB postales_Lucia Gonzalez San M.jpg",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/Gonzalez San Marco_Cachagua_LABZINE 1_Lucia Gonzalez San M.jpg, imgs/2025/lab-II/labzine/Gonzalez San Marco_Cachagua_LABZINE 2_Lucia Gonzalez San M.jpg, imgs/2025/lab-II/labzine/Gonzalez San Marco_Cachagua_LABZINE 3_Lucia Gonzalez San M.jpg, imgs/2025/lab-II/labzine/Gonzalez San Marco_Cachagua_LABZINE 4_Lucia Gonzalez San M.jpg, imgs/2025/lab-II/labzine/Gonzalez San Marco_Cachagua_LABZINE 5_Lucia Gonzalez San M.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Gonzalez%20San%20Marco_MOVIE-LAB%20agenda%20desplegab_Luc%C3%ADa%20Gonzalez%20San%20M.jpg, imgs/2025/lab-II/movielab/Gonzalez%20San%20Marco_MOVIE-LAB%20editorial%201_Luc%C3%ADa%20Gonzalez%20San%20M.jpg, imgs/2025/lab-II/movielab/Gonzalez%20San%20Marco_MOVIE-LAB%20editorial%202_Luc%C3%ADa%20Gonzalez%20San%20M.jpg, imgs/2025/lab-II/movielab/Gonzalez%20San%20Marco_MOVIE-LAB%20flyers_Luc%C3%ADa%20Gonzalez%20San%20M.jpg, imgs/2025/lab-II/movielab/Gonzalez%20San%20Marco_MOVIE-LAB%20teaser_Luc%C3%ADa%20Gonzalez%20San%20M.mp4",
@@ -179,7 +179,7 @@
     "DNI": "46646949",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/McLoughlin-s3-sistema.completo_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/lalalab/McLoughlin-s3-vinilo.frente_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/lalalab/McLoughlin-s3-remera.frente_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/lalalab/McLoughlin-s3-poster.dorso_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/lalalab/McLoughlin-s3-post4_Agustina Mc Loughlin.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ1-VS1_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ2-VS1_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ3-VS3_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ3-VS1_Agustina Mc Loughlin.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ1-VS1_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ2-VS1_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ3-VS3_Agustina Mc Loughlin.jpg, imgs/2025/lab-I/bitri/MCLOUGHLIN-S3-OBJ3-VS1_Agustina Mc Loughlin.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/MCLOUGHLIN-S3-AFICHETA_PROMOCIONAL_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/expolab/MCLOUGHLIN-S3-AFICHE_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/expolab/MCLOUGHLIN-S3-POSTAL_1_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/expolab/MCLOUGHLIN-S3-OBJ2_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/expolab/MCLOUGHLIN-S3-CATALOGO_2_Agustina Mc Loughlin.jpg",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/MC LOUGHLIN - DESTASSIO - S1 - DUPLA 2_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/labzine/MC LOUGHLIN - DESTASSIO - S1 - DUPLA 5_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/labzine/MC LOUGHLIN - DESTASSIO - S1 - DUPLA 4_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/labzine/MC LOUGHLIN - DESTASSIO - S1 - DUPLA 10_Agustina Mc Loughlin.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/TEASER - Agustina Mc Loughlin_Agustina Mc Loughlin.mp4, imgs/2025/lab-II/movielab/Dossier - Agustina Mc Loughlin_Agustina Mc Loughlin.jpg, imgs/2025/lab-II/movielab/Historia 1 - Agustina Mc Loughlin_Agustina Mc Loughlin.mp4, imgs/2025/lab-II/movielab/Historia 2 - Agustina Mc Loughlin_Agustina Mc Loughlin.mp4",
@@ -194,7 +194,7 @@
     "DNI": "47268067",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/GOMEZ ADILLON S4 Sistema_Juanita Gomez Adillo.jpg, imgs/2025/lab-I/lalalab/GOMEZ ADILLON S4 Vinilo Adelante_Juanita Gomez Adillo.jpg, imgs/2025/lab-I/lalalab/GOMEZ ADILLON S4 Vinilo Atras_Juanita Gomez Adillo.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/Cafetera 4_Juanita Gomez Adillo.jpg, imgs/2025/lab-I/bitri/Cafetera 2 c copia_Juanita Gomez Adillo.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/Cafetera 4_Juanita Gomez Adillo.jpg, imgs/2025/lab-I/bitri/Cafetera 2 c copia_Juanita Gomez Adillo.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Aficheta Climatica copia_Juanita Gomez Adillo.jpg, imgs/2025/lab-II/expolab/Catalogo Afuera_Juanita Gomez Adillo.jpg, imgs/2025/lab-II/expolab/Mockup_Juanita Gomez Adillo.jpg, imgs/2025/lab-II/expolab/Panel 1 JPG_Juanita Gomez Adillo.jpg",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/ADILLON.CARMAN-S4-1_Juanita Gomez Adillo.jpg, imgs/2025/lab-II/labzine/ADILLON.CARMAN-S4-3_Juanita Gomez Adillo.jpg",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Poster_Juanita Gomez Adillo.jpg, imgs/2025/lab-II/movielab/Flyer 1_Juanita Gomez Adillo.jpg, imgs/2025/lab-II/movielab/TEASER_Juanita Gomez Adillo.mp4, imgs/2025/lab-II/movielab/CATALOGO_Juanita Gomez Adillo.jpg",
@@ -209,7 +209,7 @@
     "DNI": "47392657",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/A3 para miro_Mesa de trabajo 1_Candela Coronel More.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/(1) Instagram - Google Chrome 10_12_2025 13_1_Candela Coronel More.png",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/(1) Instagram - Google Chrome 10_12_2025 13_1_Candela Coronel More.png",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Paneles resumen_Mesa de trabajo 1-01_Candela Coronel More.jpg, imgs/2025/lab-II/expolab/Paneles resumen_Mesa de trabajo 1-02_Candela Coronel More.jpg, imgs/2025/lab-II/expolab/Gif_Candela Coronel More.gif",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Teaser - final_Candela Coronel More.mp4, imgs/2025/lab-II/movielab/MovieLab-01_Candela Coronel More.png, imgs/2025/lab-II/movielab/MovieLab-02_Candela Coronel More.png, imgs/2025/lab-II/movielab/MovieLab-03_Candela Coronel More.png, imgs/2025/lab-II/movielab/MovieLab-04_Candela Coronel More.png",
     "Lab II - Línea de tiempo": "imgs/2025/lab-II/linea-de-tiempo/Linea del tiempo FINAL-01_Candela Coronel More.png",
@@ -223,7 +223,7 @@
     "DNI": "47538748",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/POSTEO 8_Ludmila Martinez de.png, imgs/2025/lab-I/lalalab/AFICHE ATRAS_Ludmila Martinez de.png, imgs/2025/lab-I/lalalab/POSTEO 6_Ludmila Martinez de.png, imgs/2025/lab-I/lalalab/VINILO pt2_Ludmila Martinez de.png",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/IMG_20250608_185243_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250608_185857_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250608_185707_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250609_074049_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250608_190228_Ludmila Martinez de.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/IMG_20250608_185243_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250608_185857_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250608_185707_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250609_074049_Ludmila Martinez de.jpg, imgs/2025/lab-I/bitri/IMG_20250608_190228_Ludmila Martinez de.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Panel-95_Ludmila Martinez de.png, imgs/2025/lab-II/expolab/Panel-94_Ludmila Martinez de.png",
     "Lab II - Labzine": "imgs/2025/lab-II/labzine/entrega_Ludmila Martinez de.jpg, imgs/2025/lab-II/labzine/entregaa_Ludmila Martinez de.jpg, imgs/2025/lab-II/labzine/entrega 2-07_Ludmila Martinez de.png, imgs/2025/lab-II/labzine/entrega 2-08_Ludmila Martinez de.png",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/Catalogo_Ludmila Martinez de.png, imgs/2025/lab-II/movielab/pieza libre lado A_Ludmila Martinez de.png, imgs/2025/lab-II/movielab/pieza libre lado B_Ludmila Martinez de.png, imgs/2025/lab-II/movielab/PIEZAS-11_Ludmila Martinez de.png, imgs/2025/lab-II/movielab/PIEZAS-17_Ludmila Martinez de.png",
@@ -249,8 +249,8 @@
     "DNI": "47805778",
     "Cohorte": "2025",
     "Lab I - lalalab": "imgs/2025/lab-I/lalalab/Sacerdote-S1-Post3_Margarita Sacerdote.jpg, imgs/2025/lab-I/lalalab/Sacerdote-S1-Post5_Margarita Sacerdote.jpg, imgs/2025/lab-I/lalalab/Sacerdote-S1-Sobre de vinilo frontal_Margarita Sacerdote.jpg, imgs/2025/lab-I/lalalab/Sacerdote-S1-Story1_Margarita Sacerdote.jpg, imgs/2025/lab-I/lalalab/Sacerdote-S1-Post3 2_Margarita Sacerdote.jpg",
-    "Lab I - OBJ:IMG.": "imgs/2025/lab-I/bitri/PANEL-OFICIAL_Margarita Sacerdote.jpg",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/Bi.Tri_Margarita Sacerdote.jpg, imgs/2025/lab-I/bitri/Bi.Tri 2_Margarita Sacerdote.jpg",
+    "Lab I - OBJ:IMG": "imgs/2025/lab-I/bitri/PANEL-OFICIAL_Margarita Sacerdote.jpg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/Bi.Tri_Margarita Sacerdote.jpg, imgs/2025/lab-I/bitri/Bi.Tri 2_Margarita Sacerdote.jpg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/AFICHE_Margarita Sacerdote.jpg, imgs/2025/lab-II/expolab/AFICHETA INFORMATIVA_Margarita Sacerdote.jpg, imgs/2025/lab-II/expolab/AFICHETA PROMOCIONAL_Margarita Sacerdote.jpg, imgs/2025/lab-II/expolab/ESPACIO 1_Margarita Sacerdote.jpg, imgs/2025/lab-II/expolab/GIF.PARA-REDES_Margarita Sacerdote.gif",
     "Lab II - movie:lab": "imgs/2025/lab-II/movielab/STORY 1 definitiva_Margarita Sacerdote.mp4, imgs/2025/lab-II/movielab/STORY 2 definitiva_Margarita Sacerdote.mp4, imgs/2025/lab-II/movielab/STORY 3 definitiva_Margarita Sacerdote.mp4, imgs/2025/lab-II/movielab/TEASER definitivo_Margarita Sacerdote.mp4, imgs/2025/lab-II/movielab/Editorial. Pagina 1_Margarita Sacerdote.jpg",
     "Lab II - Línea de tiempo": "imgs/2025/lab-II/linea-de-tiempo/MIROMesa de trabajo 57-100_Margarita Sacerdote.jpg",
@@ -259,7 +259,7 @@
   {
     "ID": "21",
     "Email": "bcervila@mail.utdt.edu",
-    "Nombre": "Bianca Aramí",
+    "Nombre": "Bianca",
     "Apellido": "Cervila",
     "DNI": "48115543",
     "Cohorte": "2025",
@@ -269,7 +269,7 @@
   {
     "ID": "22",
     "Email": "ctapia@mail.utdt.edu",
-    "Nombre": "Carolina Jazmín",
+    "Nombre": "Carolina",
     "Apellido": "Tapia",
     "DNI": "47849577",
     "Cohorte": "2025",
@@ -285,7 +285,7 @@
     "Apellido": "Moya",
     "DNI": "47696318",
     "Cohorte": "2025",
-    "Lab I - BI:TRI ": "imgs/2025/lab-I/bitri/WhatsApp Image 2025-06-09 at 07.15.46_Celeste Moya.jpeg, imgs/2025/lab-I/bitri/WhatsApp Image 2025-06-09 at 07.15.45_Celeste Moya.jpeg, imgs/2025/lab-I/bitri/WhatsApp Image 2025-06-09 at 07.15.43_Celeste Moya.jpeg",
+    "Lab I - BI:TRI": "imgs/2025/lab-I/bitri/WhatsApp Image 2025-06-09 at 07.15.46_Celeste Moya.jpeg, imgs/2025/lab-I/bitri/WhatsApp Image 2025-06-09 at 07.15.45_Celeste Moya.jpeg, imgs/2025/lab-I/bitri/WhatsApp Image 2025-06-09 at 07.15.43_Celeste Moya.jpeg",
     "Lab II - Expolab": "imgs/2025/lab-II/expolab/Flag_Mockup_3_Celeste Moya.jpg, imgs/2025/lab-II/expolab/Free_Grid_Legal_Size_Flyer_Mockup_6_Celeste Moya.jpg, imgs/2025/lab-II/expolab/DL_Trifold_DL_Flyer_Mockup_1_Celeste Moya.jpg",
     "Lab II - Línea de tiempo": "imgs/2025/lab-II/linea-de-tiempo/ENTREGA ESQUEMATICO-01_Celeste Moya.jpg"
   },
@@ -361,8 +361,8 @@
     "Apellido": "Labrador Keiner",
     "DNI": "45987997",
     "Cohorte": "2025",
-    "Lab III -Proyector cubo": "imgs/2025/lab-III/proyector-cubo/Panel 1_Romeo Labrador Keine.jpg, imgs/2025/lab-III/proyector-cubo/Panel 2_Romeo Labrador Keine.jpg",
-    "Lab III -Biojuego": "imgs/2025/lab-III/biojuego/JPG Blanco_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-2_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-3_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-4_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-6_Romeo Labrador Keine.jpg",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/Panel 1_Romeo Labrador Keine.jpg, imgs/2025/lab-III/proyector-cubo/Panel 2_Romeo Labrador Keine.jpg",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/JPG Blanco_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-2_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-3_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-4_Romeo Labrador Keine.jpg, imgs/2025/lab-III/biojuego/Labrador Keiner-Romeo-6_Romeo Labrador Keine.jpg",
     "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/Fotomontaje 2_Romeo Labrador Keine.png, imgs/2025/lab-IV/IArtefacto/Mascara Keyshot Final.60_Romeo Labrador Keine.png, imgs/2025/lab-IV/IArtefacto/Mascara Keyshot Final.74_Romeo Labrador Keine.png, imgs/2025/lab-IV/IArtefacto/PANELES ENTREGA-1_Romeo Labrador Keine.png, imgs/2025/lab-IV/IArtefacto/PANELES ENTREGA-2_Romeo Labrador Keine.png",
     "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/Gemini_Generated_Image_ojvyp9ojvyp9ojvy_Romeo Labrador Keine.png, imgs/2025/lab-IV/parasite/GifAnimado (1)_Romeo Labrador Keine.gif, imgs/2025/lab-IV/parasite/Imagen en uso_Romeo Labrador Keine.jpg, imgs/2025/lab-IV/parasite/Mesa de trabajo 8PanelssMural_Romeo Labrador Keine.jpg, imgs/2025/lab-IV/parasite/Mesa de trabajo 9PanelssMural_Romeo Labrador Keine.jpg",
     "Lab IV - Equipamiento urbano": "imgs/2025/lab-IV/equipamiento-urbano/Mesa de trabajo 1Imprimir Emita_Romeo Labrador Keine.jpg, imgs/2025/lab-IV/equipamiento-urbano/Mesa de trabajo 2Imprimir Emita_Romeo Labrador Keine.jpg, imgs/2025/lab-IV/equipamiento-urbano/Mesa de trabajo 3Imprimir Emita_Romeo Labrador Keine.jpg, imgs/2025/lab-IV/equipamiento-urbano/Postal_Romeo Labrador Keine.jpg, imgs/2025/lab-IV/equipamiento-urbano/Montaje goat_Romeo Labrador Keine.jpg",
@@ -375,10 +375,10 @@
     "Apellido": "Blanco",
     "DNI": "47092276",
     "Cohorte": "2024",
-    "Lab III  - Sumale una D": "imgs/2025/lab-III/sumale-una-d/Blanco Valentina - S2_Valentina Blanco.mp4, imgs/2025/lab-III/sumale-una-d/3D ENTREGA_Valentina Blanco.jpg, imgs/2025/lab-III/sumale-una-d/WhatsApp Image 2025-03-26 at 10.29.12_Valentina Blanco.jpeg, imgs/2025/lab-III/sumale-una-d/WhatsApp Image 2025-03-26 at 10.29.14_Valentina Blanco.jpeg, imgs/2025/lab-III/sumale-una-d/2_Valentina Blanco.jpeg",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/_A7A2007_Valentina Blanco.jpg",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/2_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/IMG_3607_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/IMG_3608_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/IMG_3611_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/4_Valentina Blanco.jpg",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/01_Valentina Blanco.png, imgs/2025/lab-IV/parasite/02_Valentina Blanco.png, imgs/2025/lab-IV/parasite/S3 _ BLANCO-Valentina _ Cebate_Valentina Blanco.mp4"
+    "Lab III - Sumale una D": "imgs/2025/lab-III/sumale-una-d/Blanco Valentina - S2_Valentina Blanco.mp4, imgs/2025/lab-III/sumale-una-d/3D ENTREGA_Valentina Blanco.jpg, imgs/2025/lab-III/sumale-una-d/WhatsApp Image 2025-03-26 at 10.29.12_Valentina Blanco.jpeg, imgs/2025/lab-III/sumale-una-d/WhatsApp Image 2025-03-26 at 10.29.14_Valentina Blanco.jpeg, imgs/2025/lab-III/sumale-una-d/2_Valentina Blanco.jpeg",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/_A7A2007_Valentina Blanco.jpg",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/2_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/IMG_3607_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/IMG_3608_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/IMG_3611_Valentina Blanco.jpg, imgs/2025/lab-III/biojuego/4_Valentina Blanco.jpg",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/01_Valentina Blanco.png, imgs/2025/lab-IV/parasite/02_Valentina Blanco.png, imgs/2025/lab-IV/parasite/S3 _ BLANCO-Valentina _ Cebate_Valentina Blanco.mp4"
   },
   {
     "ID": "31",
@@ -387,8 +387,8 @@
     "Apellido": "Benitez",
     "DNI": "46652086",
     "Cohorte": "2025",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/BENITEZ CONSTANZA PANEL_Constanza Benitez.jpg, imgs/2025/lab-III/biojuego/foto 1_Constanza Benitez.jpg, imgs/2025/lab-III/biojuego/foto2_Constanza Benitez.jpg, imgs/2025/lab-III/biojuego/Mesa de trabajo 1_2-100_Constanza Benitez.jpg",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/Benitez Constanza Panel A_Constanza Benitez.jpg, imgs/2025/lab-IV/parasite/foto parasitando 1_Constanza Benitez.jpg, imgs/2025/lab-IV/parasite/gif 1_Constanza Benitez.gif, imgs/2025/lab-IV/parasite/gif2_Constanza Benitez.gif"
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/BENITEZ CONSTANZA PANEL_Constanza Benitez.jpg, imgs/2025/lab-III/biojuego/foto 1_Constanza Benitez.jpg, imgs/2025/lab-III/biojuego/foto2_Constanza Benitez.jpg, imgs/2025/lab-III/biojuego/Mesa de trabajo 1_2-100_Constanza Benitez.jpg",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/Benitez Constanza Panel A_Constanza Benitez.jpg, imgs/2025/lab-IV/parasite/foto parasitando 1_Constanza Benitez.jpg, imgs/2025/lab-IV/parasite/gif 1_Constanza Benitez.gif, imgs/2025/lab-IV/parasite/gif2_Constanza Benitez.gif"
   },
   {
     "ID": "32",
@@ -397,11 +397,11 @@
     "Apellido": "Rotelli",
     "DNI": "47273961",
     "Cohorte": "2025",
-    "Lab III  - Sumale una D": "imgs/2025/lab-III/sumale-una-d/Sumale una D_Martina Rotelli.mp4",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/_A7A2032_Martina Rotelli.jpg, imgs/2025/lab-III/proyector-cubo/_A7A2007_Martina Rotelli.jpg",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/1_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/2_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/3_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/6_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/7_Martina Rotelli.jpg",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/GRUPO1-ROTELLI_SBARRA_Martina Rotelli.mp4",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/Rotelli-Puesto Birra_Martina Rotelli.mp4, imgs/2025/lab-IV/parasite/GE4A3775_Martina Rotelli.jpg, imgs/2025/lab-IV/parasite/GE4A3789_Martina Rotelli.jpg"
+    "Lab III - Sumale una D": "imgs/2025/lab-III/sumale-una-d/Sumale una D_Martina Rotelli.mp4",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/_A7A2032_Martina Rotelli.jpg, imgs/2025/lab-III/proyector-cubo/_A7A2007_Martina Rotelli.jpg",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/1_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/2_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/3_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/6_Martina Rotelli.jpg, imgs/2025/lab-III/biojuego/7_Martina Rotelli.jpg",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/GRUPO1-ROTELLI_SBARRA_Martina Rotelli.mp4",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/Rotelli-Puesto Birra_Martina Rotelli.mp4, imgs/2025/lab-IV/parasite/GE4A3775_Martina Rotelli.jpg, imgs/2025/lab-IV/parasite/GE4A3789_Martina Rotelli.jpg"
   },
   {
     "ID": "33",
@@ -413,8 +413,8 @@
     "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/PROYECTOR MAQUETA sipowicz-basaldua-avich_Julieta Avich.jpg, imgs/2025/lab-III/proyector-cubo/Captura de pantalla 2025-12-09 215149_Julieta Avich.png, imgs/2025/lab-III/proyector-cubo/Captura de pantalla 2025-12-09 215202_Julieta Avich.png",
     "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/Imagen de WhatsApp 2025-07-12 a las 16.09.01__Julieta Avich.jpg, imgs/2025/lab-III/biojuego/post1.1-100_Julieta Avich.jpg, imgs/2025/lab-III/biojuego/PANEL ENTREGA LAB 3_Julieta Avich.jpg, imgs/2025/lab-III/biojuego/Avich Julieta Sec 4- reel biojuego (1)_Julieta Avich.mp4",
     "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/Captura de pantalla 2025-12-09 215622_Julieta Avich.png, imgs/2025/lab-IV/IArtefacto/Captura de pantalla 2025-12-09 215641_Julieta Avich.png",
-    "Lab IV - parasite": "imgs/2025/lab-IV/parasite/poster parasite acoplame-100_Julieta Avich.jpg, imgs/2025/lab-IV/parasite/Parasite_Julieta_Avich.mp4",
-    "FabLab -  Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/IMG_8341_Julieta Avich.jpeg"
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/poster parasite acoplame-100_Julieta Avich.jpg, imgs/2025/lab-IV/parasite/Parasite_Julieta_Avich.mp4",
+    "FabLab - Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/IMG_8341_Julieta Avich.jpeg"
   },
   {
     "ID": "34",
@@ -423,12 +423,12 @@
     "Apellido": "Basaldua",
     "DNI": "47201633",
     "Cohorte": "2024",
-    "Lab III  - Sumale una D": "imgs/2025/lab-III/sumale-una-d/rhino jpg_Catalina Basaldua.jpg",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/proyector maqueta basaldua_Catalina Basaldua.jpg",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/Untitled design-8_Catalina Basaldua.mp4, imgs/2025/lab-III/biojuego/biojuego basaldua_Catalina Basaldua.png, imgs/2025/lab-III/biojuego/kreelab 1_Catalina Basaldua.png, imgs/2025/lab-III/biojuego/kreelab video_Catalina Basaldua.mp4, imgs/2025/lab-III/biojuego/biojuego panel_Catalina Basaldua.png",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/yuyo basaldua y dagna_Catalina Basaldua.mp4, imgs/2025/lab-IV/IArtefacto/image-4_Catalina Basaldua.png, imgs/2025/lab-IV/IArtefacto/image-5_Catalina Basaldua.png, imgs/2025/lab-IV/IArtefacto/image-3_Catalina Basaldua.png, imgs/2025/lab-IV/IArtefacto/image-8_Catalina Basaldua.png",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/sploosh_Catalina Basaldua.png, imgs/2025/lab-IV/parasite/sploosh poster_Catalina Basaldua.png, imgs/2025/lab-IV/parasite/tempImageoitaMX_Catalina Basaldua.jpg, imgs/2025/lab-IV/parasite/sploosh vista principal_Catalina Basaldua.png, imgs/2025/lab-IV/parasite/sploosh vista base_Catalina Basaldua.png",
-    "FabLab  -  Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/anteojos lali_Catalina Basaldua.jpeg"
+    "Lab III - Sumale una D": "imgs/2025/lab-III/sumale-una-d/rhino jpg_Catalina Basaldua.jpg",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/proyector maqueta basaldua_Catalina Basaldua.jpg",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/Untitled design-8_Catalina Basaldua.mp4, imgs/2025/lab-III/biojuego/biojuego basaldua_Catalina Basaldua.png, imgs/2025/lab-III/biojuego/kreelab 1_Catalina Basaldua.png, imgs/2025/lab-III/biojuego/kreelab video_Catalina Basaldua.mp4, imgs/2025/lab-III/biojuego/biojuego panel_Catalina Basaldua.png",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/yuyo basaldua y dagna_Catalina Basaldua.mp4, imgs/2025/lab-IV/IArtefacto/image-4_Catalina Basaldua.png, imgs/2025/lab-IV/IArtefacto/image-5_Catalina Basaldua.png, imgs/2025/lab-IV/IArtefacto/image-3_Catalina Basaldua.png, imgs/2025/lab-IV/IArtefacto/image-8_Catalina Basaldua.png",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/sploosh_Catalina Basaldua.png, imgs/2025/lab-IV/parasite/sploosh poster_Catalina Basaldua.png, imgs/2025/lab-IV/parasite/tempImageoitaMX_Catalina Basaldua.jpg, imgs/2025/lab-IV/parasite/sploosh vista principal_Catalina Basaldua.png, imgs/2025/lab-IV/parasite/sploosh vista base_Catalina Basaldua.png",
+    "FabLab - Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/anteojos lali_Catalina Basaldua.jpeg"
   },
   {
     "ID": "35",
@@ -437,24 +437,24 @@
     "Apellido": "Dagna",
     "DNI": "47068917",
     "Cohorte": "2024",
-    "Lab III  - Sumale una D": "imgs/2025/lab-III/sumale-una-d/GIF 2_Sofía Dagna.mp4, imgs/2025/lab-III/sumale-una-d/GIF_Sofía Dagna.mp4, imgs/2025/lab-III/sumale-una-d/Sofia Dagna- Lab 3- S4_Sofía Dagna.mp4, imgs/2025/lab-III/sumale-una-d/foto1_Sofía Dagna.jpg, imgs/2025/lab-III/sumale-una-d/foto2_Sofía Dagna.jpg",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/1_Sofía Dagna.jpg, imgs/2025/lab-III/proyector-cubo/2_Sofía Dagna.jpg, imgs/2025/lab-III/proyector-cubo/proyce_Sofía Dagna.jpg",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/caja manual panel-06_Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/caja manual panel-08_Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/caja manual panel-04_Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/Imagen de WhatsApp 2025-11-18 a las 17.52.59__Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/Imagen de WhatsApp 2025-11-18 a las 17.52.58__Sofía Dagna.jpg",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/image (8)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/image (9)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/image (6)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/image (3)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/GRUPO 10 - Basaldua _ Dagna_Sofía Dagna.mp4",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/image_Sofía Dagna.gif, imgs/2025/lab-IV/parasite/image (15)_Sofía Dagna.jpg, imgs/2025/lab-IV/parasite/image (13)_Sofía Dagna.jpg, imgs/2025/lab-IV/parasite/image 2_Sofía Dagna.gif",
-    "FabLab  -  Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/ori_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/ori1_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/ori2_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/lete_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/umbra_Sofía Dagna.jpg"
+    "Lab III - Sumale una D": "imgs/2025/lab-III/sumale-una-d/GIF 2_Sofía Dagna.mp4, imgs/2025/lab-III/sumale-una-d/GIF_Sofía Dagna.mp4, imgs/2025/lab-III/sumale-una-d/Sofia Dagna- Lab 3- S4_Sofía Dagna.mp4, imgs/2025/lab-III/sumale-una-d/foto1_Sofía Dagna.jpg, imgs/2025/lab-III/sumale-una-d/foto2_Sofía Dagna.jpg",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/1_Sofía Dagna.jpg, imgs/2025/lab-III/proyector-cubo/2_Sofía Dagna.jpg, imgs/2025/lab-III/proyector-cubo/proyce_Sofía Dagna.jpg",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/caja manual panel-06_Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/caja manual panel-08_Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/caja manual panel-04_Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/Imagen de WhatsApp 2025-11-18 a las 17.52.59__Sofía Dagna.jpg, imgs/2025/lab-III/biojuego/Imagen de WhatsApp 2025-11-18 a las 17.52.58__Sofía Dagna.jpg",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/image (8)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/image (9)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/image (6)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/image (3)_Sofía Dagna.png, imgs/2025/lab-IV/IArtefacto/GRUPO 10 - Basaldua _ Dagna_Sofía Dagna.mp4",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/image_Sofía Dagna.gif, imgs/2025/lab-IV/parasite/image (15)_Sofía Dagna.jpg, imgs/2025/lab-IV/parasite/image (13)_Sofía Dagna.jpg, imgs/2025/lab-IV/parasite/image 2_Sofía Dagna.gif",
+    "FabLab - Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/ori_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/ori1_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/ori2_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/lete_Sofía Dagna.jpg, imgs/2025/fablab/diseno-accesorio-ocular/umbra_Sofía Dagna.jpg"
   },
   {
     "ID": "36",
     "Email": "ibedouret@mail.utdt.edu",
     "Nombre": "Inés",
-    "Apellido": "Bédouret ",
+    "Apellido": "Bédouret",
     "DNI": "46945573",
     "Cohorte": "2024",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/ig fibukio-01_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-06_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-02_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-03_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-04_Ines Bedouret.jpg",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/PROGRAMA-NUEVO_Ines Bedouret.jpg, imgs/2025/lab-IV/IArtefacto/imagenes-maqueta_Ines Bedouret.jpg, imgs/2025/lab-IV/IArtefacto/POSTER_Ines Bedouret.jpg, imgs/2025/lab-IV/IArtefacto/manifiesto_Ines Bedouret.jpg",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/2Artboard 2-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/3Artboard 3-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/4Artboard 4-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/1Artboard 1-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/video parasite_Ines Bedouret.mp4",
-    "FabLab  -  Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/Captura de pantalla 2025-08-24 a la(s) 21.09._Ines Bedouret.png, imgs/2025/fablab/diseno-ciberciruja/Captura de pantalla 2025-08-24 a la(s) 21.03._Ines Bedouret.png, imgs/2025/fablab/diseno-ciberciruja/ICONIK_Ines Bedouret.jpg"
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/ig fibukio-01_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-06_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-02_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-03_Ines Bedouret.jpg, imgs/2025/lab-III/biojuego/ig fibukio-04_Ines Bedouret.jpg",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/PROGRAMA-NUEVO_Ines Bedouret.jpg, imgs/2025/lab-IV/IArtefacto/imagenes-maqueta_Ines Bedouret.jpg, imgs/2025/lab-IV/IArtefacto/POSTER_Ines Bedouret.jpg, imgs/2025/lab-IV/IArtefacto/manifiesto_Ines Bedouret.jpg",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/2Artboard 2-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/3Artboard 3-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/4Artboard 4-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/1Artboard 1-100_Ines Bedouret.jpg, imgs/2025/lab-IV/parasite/video parasite_Ines Bedouret.mp4",
+    "FabLab - Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/Captura de pantalla 2025-08-24 a la(s) 21.09._Ines Bedouret.png, imgs/2025/fablab/diseno-ciberciruja/Captura de pantalla 2025-08-24 a la(s) 21.03._Ines Bedouret.png, imgs/2025/fablab/diseno-ciberciruja/ICONIK_Ines Bedouret.jpg"
   },
   {
     "ID": "37",
@@ -463,12 +463,12 @@
     "Apellido": "Boqué Undiano",
     "DNI": "46498598",
     "Cohorte": "2023",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/Boque-Lejtman-Rosas_Gaston_Boque_Undiano.jpg, imgs/2025/lab-III/proyector-cubo/Boque-Lejtman-Rosas_Gaston_Boque_Undiano-2.jpg, imgs/2025/lab-III/proyector-cubo/Boque - Lejtman - Rosas -maqueta proyector_Gaston Boque Undiano.png",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-4_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-10_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-5_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-2_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/ENTREGA BIOJUEGO copy_Gaston Boque Undiano.jpg",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Poster final_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - PANEL SECUENCIA DE USO_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/GRUPO 7 - Peral  Boqué Undiano._Gaston Boque Undiano.mp4, imgs/2025/lab-IV/IArtefacto/Boqué - Peral Programa de diseño_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Guante palma dorso_Gaston Boque Undiano.png",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/Boque Undiano - Poster jpg_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/parasite/Boque Undiano Gaston - Seccion 5 - Video_Gaston Boque Undiano.mp4, imgs/2025/lab-IV/parasite/Boque Undiano- parasite._Gaston Boque Undiano.png",
-    "FabLab  -  Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/Captura de pantalla 2025-06-24 a las 11.46.11_Gaston Boque Undiano.png, imgs/2025/fablab/diseno-accesorio-ocular/Boque - Peral - Lamina_Gaston Boque Undiano.png",
-    "FabLab  -  Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/TP Fablab Cirberciruja - Boque Undiano Gaston_Gaston Boque Undiano.jpg"
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/Boque-Lejtman-Rosas_Gaston_Boque_Undiano.jpg, imgs/2025/lab-III/proyector-cubo/Boque-Lejtman-Rosas_Gaston_Boque_Undiano-2.jpg, imgs/2025/lab-III/proyector-cubo/Boque - Lejtman - Rosas -maqueta proyector_Gaston Boque Undiano.png",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-4_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-10_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-5_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/Boque Undiano-Gaston-2_Gaston Boque Undiano.jpg, imgs/2025/lab-III/biojuego/ENTREGA BIOJUEGO copy_Gaston Boque Undiano.jpg",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Poster final_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - PANEL SECUENCIA DE USO_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/GRUPO 7 - Peral  Boqué Undiano._Gaston Boque Undiano.mp4, imgs/2025/lab-IV/IArtefacto/Boqué - Peral Programa de diseño_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Guante palma dorso_Gaston Boque Undiano.png",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/Boque Undiano - Poster jpg_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/parasite/Boque Undiano Gaston - Seccion 5 - Video_Gaston Boque Undiano.mp4, imgs/2025/lab-IV/parasite/Boque Undiano- parasite._Gaston Boque Undiano.png",
+    "FabLab - Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/Captura de pantalla 2025-06-24 a las 11.46.11_Gaston Boque Undiano.png, imgs/2025/fablab/diseno-accesorio-ocular/Boque - Peral - Lamina_Gaston Boque Undiano.png",
+    "FabLab - Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/TP Fablab Cirberciruja - Boque Undiano Gaston_Gaston Boque Undiano.jpg"
   },
   {
     "ID": "38",
@@ -477,7 +477,7 @@
     "Apellido": "Lassi",
     "DNI": "46960560",
     "Cohorte": "2024",
-    "Lab IV  - Parasite": "imgs/2025/lab-IV/parasite/VideoParcial_Eugenia Lassi.mp4, imgs/2025/lab-IV/parasite/Lassi-Parasite-Poster_Eugenia_Lassi.png, imgs/2025/lab-IV/parasite/Foto1Lassi-Parasite_Eugenia Lassi.jpg, imgs/2025/lab-IV/parasite/Foto2Lassi-Parasite_Eugenia Lassi.jpg, imgs/2025/lab-IV/parasite/Foto3Lassi-Parasite_Eugenia Lassi.jpg"
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/VideoParcial_Eugenia Lassi.mp4, imgs/2025/lab-IV/parasite/Lassi-Parasite-Poster_Eugenia_Lassi.png, imgs/2025/lab-IV/parasite/Foto1Lassi-Parasite_Eugenia Lassi.jpg, imgs/2025/lab-IV/parasite/Foto2Lassi-Parasite_Eugenia Lassi.jpg, imgs/2025/lab-IV/parasite/Foto3Lassi-Parasite_Eugenia Lassi.jpg"
   },
   {
     "ID": "39",
@@ -486,13 +486,13 @@
     "Apellido": "Nazer Troitiño",
     "DNI": "47031161",
     "Cohorte": "2024",
-    "Lab III  - Sumale una D": "imgs/2025/lab-III/sumale-una-d/IMG_8513 3_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/sumale-una-d/IMG_8514 3_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/sumale-una-d/IMG_8521 2_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/sumale-una-d/IMG_8532_Macarena Nazer Troit.jpeg",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/39006a21-6259-47a7-ad9c-b97eed46ad10_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/337de53e-69a3-45cb-ad72-d506038eafba_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/6b9714aa-5eaf-4f5b-bda6-4653a67eefa7 2_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/22c89ec8-8525-489e-b10f-351790ef973e_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/be6ae40c-adcb-4c47-8c99-20e1fd0a3438_Macarena Nazer Troit",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/IMG_0591 2_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/biojuego/IMG_0600 3_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/biojuego/IMG_0589 3_Macarena Nazer Troit.jpeg",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/IMG_3761_Macarena Nazer Troit.jpg",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/IMG_2195 2_Macarena Nazer Troit.jpg, imgs/2025/lab-IV/parasite/IMG_2230_Macarena Nazer Troit.png, imgs/2025/lab-IV/parasite/IMG_2229_Macarena Nazer Troit.png, imgs/2025/lab-IV/parasite/GE4A3965_Macarena Nazer Troit.jpg, imgs/2025/lab-IV/parasite/GE4A3962_Macarena Nazer Troit.jpg",
-    "FabLab  -  Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/IMG_0191_Macarena Nazer Troit.jpeg",
-    "FabLab  -  Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/fab lab ciberciruja_Mesa de trabajo 1-02 (1)_Macarena Nazer Troit.jpg"
+    "Lab III - Sumale una D": "imgs/2025/lab-III/sumale-una-d/IMG_8513 3_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/sumale-una-d/IMG_8514 3_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/sumale-una-d/IMG_8521 2_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/sumale-una-d/IMG_8532_Macarena Nazer Troit.jpeg",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/39006a21-6259-47a7-ad9c-b97eed46ad10_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/337de53e-69a3-45cb-ad72-d506038eafba_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/6b9714aa-5eaf-4f5b-bda6-4653a67eefa7 2_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/22c89ec8-8525-489e-b10f-351790ef973e_Macarena Nazer Troit.jpg, imgs/2025/lab-III/proyector-cubo/be6ae40c-adcb-4c47-8c99-20e1fd0a3438_Macarena Nazer Troit",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/IMG_0591 2_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/biojuego/IMG_0600 3_Macarena Nazer Troit.jpeg, imgs/2025/lab-III/biojuego/IMG_0589 3_Macarena Nazer Troit.jpeg",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/IMG_3761_Macarena Nazer Troit.jpg",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/IMG_2195 2_Macarena Nazer Troit.jpg, imgs/2025/lab-IV/parasite/IMG_2230_Macarena Nazer Troit.png, imgs/2025/lab-IV/parasite/IMG_2229_Macarena Nazer Troit.png, imgs/2025/lab-IV/parasite/GE4A3965_Macarena Nazer Troit.jpg, imgs/2025/lab-IV/parasite/GE4A3962_Macarena Nazer Troit.jpg",
+    "FabLab - Diseño de accesorio ocular": "imgs/2025/fablab/diseno-accesorio-ocular/IMG_0191_Macarena Nazer Troit.jpeg",
+    "FabLab - Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/fab lab ciberciruja_Mesa de trabajo 1-02 (1)_Macarena Nazer Troit.jpg"
   },
   {
     "ID": "40",
@@ -502,7 +502,7 @@
     "DNI": "46962083",
     "Cohorte": "2024",
     "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/Krössler_Juan-1_Juan Krössler.jpg, imgs/2025/lab-III/biojuego/Krössler_Juan-6_Juan Krössler.jpg, imgs/2025/lab-III/biojuego/Krössler_Juan-2_Juan Krössler.jpg, imgs/2025/lab-III/biojuego/Screenshot_20251210_155426_Drive_Juan Krössler.jpg, imgs/2025/lab-III/biojuego/VID-20250713-WA0057_Juan Krössler.mp4",
-    "Lab IV - parasite": "imgs/2025/lab-IV/parasite/GE4A3628_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3625_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3622_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3632_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3629_Juan Krössler.jpg"
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/GE4A3628_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3625_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3622_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3632_Juan Krössler.jpg, imgs/2025/lab-IV/parasite/GE4A3629_Juan Krössler.jpg"
   },
   {
     "ID": "41",
@@ -511,12 +511,12 @@
     "Apellido": "Fox",
     "DNI": "46282691",
     "Cohorte": "2023",
-    "Lab III  - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/TP2_LAB3-02_Lautaro Fox.jpg, imgs/2025/lab-III/proyector-cubo/TP2_LAB3-01_Lautaro Fox.jpg",
-    "Lab III  - Biojuego": "imgs/2025/lab-III/biojuego/TP3_LAB3_Lautaro Fox.jpg",
-    "Lab IV  - IArtefacto": "imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Poster final_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - PANEL SECUENCIA DE USO_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/GRUPO 7 - Peral  Boqué Undiano._Gaston Boque Undiano.mp4, imgs/2025/lab-IV/IArtefacto/Boqué - Peral Programa de diseño_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Guante palma dorso_Gaston Boque Undiano.png",
-    "Lab IV  - parasite": "imgs/2025/lab-IV/parasite/TP2.1_LAB4_Lautaro Fox.jpg, imgs/2025/lab-IV/parasite/TP2.2_LAB4_Lautaro Fox.jpg",
-    "Lab IV  - Equipamiento urbano": "imgs/2025/lab-IV/equipamiento-urbano/TP3.1_LAB4_Lautaro Fox.jpg, imgs/2025/lab-IV/equipamiento-urbano/TP3.3_LAB4_Lautaro Fox.jpg, imgs/2025/lab-IV/equipamiento-urbano/TP3.2_LAB4_Lautaro Fox.jpg",
-    "FabLab  -  Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/Panel_Fox_Lautaro Fox.jpg",
+    "Lab III - Proyector cubo": "imgs/2025/lab-III/proyector-cubo/TP2_LAB3-02_Lautaro Fox.jpg, imgs/2025/lab-III/proyector-cubo/TP2_LAB3-01_Lautaro Fox.jpg",
+    "Lab III - Biojuego": "imgs/2025/lab-III/biojuego/TP3_LAB3_Lautaro Fox.jpg",
+    "Lab IV - IArtefacto": "imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Poster final_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - PANEL SECUENCIA DE USO_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/GRUPO 7 - Peral  Boqué Undiano._Gaston Boque Undiano.mp4, imgs/2025/lab-IV/IArtefacto/Boqué - Peral Programa de diseño_Gaston Boque Undiano.jpg, imgs/2025/lab-IV/IArtefacto/Boqué - Peral - Guante palma dorso_Gaston Boque Undiano.png",
+    "Lab IV - Parasite": "imgs/2025/lab-IV/parasite/TP2.1_LAB4_Lautaro Fox.jpg, imgs/2025/lab-IV/parasite/TP2.2_LAB4_Lautaro Fox.jpg",
+    "Lab IV - Equipamiento urbano": "imgs/2025/lab-IV/equipamiento-urbano/TP3.1_LAB4_Lautaro Fox.jpg, imgs/2025/lab-IV/equipamiento-urbano/TP3.3_LAB4_Lautaro Fox.jpg, imgs/2025/lab-IV/equipamiento-urbano/TP3.2_LAB4_Lautaro Fox.jpg",
+    "FabLab - Diseño ciberciruja": "imgs/2025/fablab/diseno-ciberciruja/Panel_Fox_Lautaro Fox.jpg",
     "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/Cabildo_BenitezSoro-Diberti-Fox_Lautaro Fox.jpg"
   },
   {
@@ -526,7 +526,7 @@
     "Apellido": "Quirno",
     "DNI": "46581182",
     "Cohorte": "2023",
-    "POD - Tipografía interactiva": "imgs/2025/POD/tipografia-interactiva/POD_TIPOGRAFIA_Antonia%20Quirno.mov, imgs/2025/POD/tipografia-interactiva/POD_TIPOGRAFIA_Antonia%20Quirno.jpeg",
+    "POD - Araujo - Tipografia interactiva": "imgs/2025/POD/tipografia-interactiva/POD_TIPOGRAFIA_Antonia%20Quirno.mov, imgs/2025/POD/tipografia-interactiva/POD_TIPOGRAFIA_Antonia%20Quirno.jpeg",
     "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/VI-TP3-FINAL_Antonia%20Quirno.jpg"
   },
   {
@@ -537,8 +537,8 @@
     "DNI": "46213915",
     "Cohorte": "2022",
     "Lab V - Diseño para el espacio público": "imgs/2025/lab-V/diseno-para-el-espacio-publico/EXPO%20MIGRACION%20POCAS%20CAPAS%20filtor@2x_Carolina%20Fabiano.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/EXPO%20MIGRACION%20POCAS%20CAPAS%20render%20general%202@2_Carolina%20Fabiano.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/render%20expo%20cartografia@2x_Carolina%20Fabiano.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/EXPO%20MIGRACION%20POCAS%20CAPAS.254_Carolina%20Fabiano.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/EXPO%20MIGRACION%20POCAS%20CAPAS.262_Carolina%20Fabiano.png",
-    "Lab VI - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL%209_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL%2010_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL3_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL5_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL6_Carolina%20Fabiano.jpg",
-    "Lab VI - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen2_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen3_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen4_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen5_Carolina%20Fabiano.png",
+    "Lab VI - De Marziani - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL%209_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL%2010_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL3_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL5_Carolina%20Fabiano.jpg, imgs/2025/lab-VI/entorno-virtual/RENDER%20FINAL6_Carolina%20Fabiano.jpg",
+    "Lab VI - De Marziani - Entorno audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen2_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen3_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen4_Carolina%20Fabiano.png, imgs/2025/lab-VI/experiencia-audiovisual/PR3-Imagen5_Carolina%20Fabiano.png",
     "VI - Gráfica esquemática": "imgs/2025/VI/grafica-esquematica/final%20p1_Carolina%20Fabiano.jpg, imgs/2025/VI/grafica-esquematica/final%20p2_Carolina%20Fabiano.jpg",
     "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/FINAL_Carolina-Fabiano.jpg, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/video%20final%20render%20charango%20interactivo_3_Carolina%20Fabiano.mp4"
   },
@@ -561,7 +561,7 @@
     "Cohorte": "2023",
     "VI - Gráfica instructiva": "imgs/2025/VI/grafica-instructiva/rpg%20jpg-01_Marina%20Ovando.jpg",
     "VI - Gráfica esquemática": "imgs/2025/VI/grafica-esquematica/Frame%206%20jpg_Marina%20Ovando.jpg, imgs/2025/VI/grafica-esquematica/Frame%207jpg_Marina%20Ovando.jpg",
-    "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/TITO_OVANDO_CHERVO_PAGURA_Marina%20Ovando.mp4, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/Captura%20de%20pantalla%202025-12-09%20123810_Marina%20Ovando.png"
+    "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/TITO_OVANDO_CHERVO_PAGURA_Marina%20Ovando.mp4, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/Captura-de-pantalla-2025-12-09-123810_Marina_Ovando.png"
   },
   {
     "ID": "46",
@@ -572,10 +572,10 @@
     "Cohorte": "2023",
     "Lab V - Construir sentido": "imgs/2025/lab-V/construir-sentido/entrega_Mesa%20de%20trabajo%201_Catalina%20Pagura.png, imgs/2025/lab-V/construir-sentido/garrick_Catalina%20Pagura.png, imgs/2025/lab-V/construir-sentido/Solista_Catalina%20Pagura.png, imgs/2025/lab-V/construir-sentido/6-Rafael%20Campos_Catalina%20Pagura.png, imgs/2025/lab-V/construir-sentido/segundo_Catalina%20Pagura.mp4",
     "Lab V - Diseño para el espacio público": "imgs/2025/lab-V/diseno-para-el-espacio-publico/2-3-a_Catalina%20Pagura.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/4-1-a_Catalina%20Pagura.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/2-3-b_Catalina%20Pagura.png, imgs/2025/lab-V/diseno-para-el-espacio-publico/propuesta_Catalina%20Pagura.jpg, imgs/2025/lab-V/diseno-para-el-espacio-publico/esquema%20general_page-0001_Catalina%20Pagura.jpg",
-    "Lab VI - Entorno sonoro": "imgs/2025/lab-VI/entorno-sonoro/pdf%20entrega_Mesa%20de%20trabajo%201_Catalina%20Pagura.jpg",
-    "Lab VI - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/Sin%20t%C3%ADtulo-3_Catalina%20Pagura.png, imgs/2025/lab-VI/entorno-virtual/WhatsApp%20Image%202025-09-02%20at%2017.30.21_Catalina%20Pagura.jpeg, imgs/2025/lab-VI/entorno-virtual/fin_Catalina%20Pagura.png, imgs/2025/lab-VI/entorno-virtual/avanza%201_Catalina%20Pagura.png, imgs/2025/lab-VI/entorno-virtual/rojo%202_Catalina%20Pagura.png",
-    "Lab VI - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/trailer%20pagura%20crivelli%20-%20COLISION_Catalina%20Pagura.mp4, imgs/2025/lab-VI/experiencia-audiovisual/Frame%2024_Catalina%20Pagura.png, imgs/2025/lab-VI/experiencia-audiovisual/WhatsApp%20Video%202025-12-06%20at%2013.38.10_Catalina%20Pagura.mp4",
-    "POD - Tipografía interactiva": "imgs/2025/POD/tipografia-interactiva/PUBLI_Mesa%20de%20trabajo%201_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/PUBLI-02_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/PUBLI-03_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/afiche_Mesa%20de%20trabajo%201_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/Comp%201_1_Catalina%20Pagura.mp4",
+    "Lab VI - De Marziani - Experiencia sonoro": "imgs/2025/lab-VI/entorno-sonoro/pdf%20entrega_Mesa%20de%20trabajo%201_Catalina%20Pagura.jpg",
+    "Lab VI - De Marziani - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/Sin%20t%C3%ADtulo-3_Catalina%20Pagura.png, imgs/2025/lab-VI/entorno-virtual/WhatsApp%20Image%202025-09-02%20at%2017.30.21_Catalina%20Pagura.jpeg, imgs/2025/lab-VI/entorno-virtual/fin_Catalina%20Pagura.png, imgs/2025/lab-VI/entorno-virtual/avanza%201_Catalina%20Pagura.png, imgs/2025/lab-VI/entorno-virtual/rojo%202_Catalina%20Pagura.png",
+    "Lab VI - De Marziani - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/trailer%20pagura%20crivelli%20-%20COLISION_Catalina%20Pagura.mp4, imgs/2025/lab-VI/experiencia-audiovisual/Frame%2024_Catalina%20Pagura.png, imgs/2025/lab-VI/experiencia-audiovisual/WhatsApp%20Video%202025-12-06%20at%2013.38.10_Catalina%20Pagura.mp4",
+    "POD - Araujo - Tipografia interactiva": "imgs/2025/POD/tipografia-interactiva/PUBLI_Mesa%20de%20trabajo%201_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/PUBLI-02_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/PUBLI-03_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/afiche_Mesa%20de%20trabajo%201_Catalina%20Pagura.png, imgs/2025/POD/tipografia-interactiva/Comp%201_1_Catalina%20Pagura.mp4",
     "VI - Gráfica esquemática": "imgs/2025/VI/grafica-esquematica/Frame%207_Catalina%20Pagura.jpg",
     "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/FINAL_Catalina%20Pagura.jpg, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/app_Catalina%20Pagura.mp4, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/publicacion%201_Catalina%20Pagura.png, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/Free%20iPhone%2014%20Pro%20in%20Hand%20Mockup_Catalina%20Pagura.png"
   },
@@ -586,9 +586,9 @@
     "Apellido": "Bunge",
     "DNI": "94176664",
     "Cohorte": "2025",
-    "Lab VI - Entorno sonoro": "imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-01_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-02_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-03_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-04_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-05_Beltran%20Bunge%20Marque.jpg",
-    "Lab VI - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/playyble..%20(1)_Beltran%20Bunge%20Marque.mp4, imgs/2025/lab-VI/entorno-virtual/yka_Beltran%20Bunge%20Marque.gif, imgs/2025/lab-VI/entorno-virtual/sinopsis%20(1)_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-virtual/moodboard%20(1)_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-virtual/etapa%202_%20sonoro%20y%20visual%20(1)_Beltran%20Bunge%20Marque.jpg",
-    "Lab VI - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/7_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/experiencia-audiovisual/8_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/experiencia-audiovisual/9_Beltran%20Bunge%20Marque.jpg"
+    "Lab VI - De Marziani - Experiencia sonoro": "imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-01_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-02_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-03_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-04_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-sonoro/EntregaPR1-05_Beltran%20Bunge%20Marque.jpg",
+    "Lab VI - De Marziani - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/playyble..%20(1)_Beltran%20Bunge%20Marque.mp4, imgs/2025/lab-VI/entorno-virtual/yka_Beltran%20Bunge%20Marque.gif, imgs/2025/lab-VI/entorno-virtual/sinopsis%20(1)_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-virtual/moodboard%20(1)_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/entorno-virtual/etapa%202_%20sonoro%20y%20visual%20(1)_Beltran%20Bunge%20Marque.jpg",
+    "Lab VI - De Marziani - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/7_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/experiencia-audiovisual/8_Beltran%20Bunge%20Marque.jpg, imgs/2025/lab-VI/experiencia-audiovisual/9_Beltran%20Bunge%20Marque.jpg"
   },
   {
     "ID": "48",
@@ -611,13 +611,13 @@
     "Cohorte": "2023",
     "Lab V - Construir sentido": "imgs/2025/lab-V/construir-sentido/Sacchi_NavegandoPorLaMente_Overview_Santiago%20Sacchi.mp4, imgs/2025/lab-V/construir-sentido/Sacchi_NavegandoPorLaMente_Pasado_Santiago%20Sacchi.mp4, imgs/2025/lab-V/construir-sentido/Sacchi_NavegandoPorLaMente_Start_Santiago%20Sacchi.jpg, imgs/2025/lab-V/construir-sentido/Sacchi_NavegandoPorLaMente_Drogas_Santiago%20Sacchi.jpg, imgs/2025/lab-V/construir-sentido/Sacchi_NavegandoPorLaMente_End_Santiago%20Sacchi.jpg",
     "Lab V - Diseño para el espacio público": "imgs/2025/lab-V/diseno-para-el-espacio-publico/SacchiNelsonSalgado_CosDiaspo__Mapa_Santiago%20Sacchi.jpg, imgs/2025/lab-V/diseno-para-el-espacio-publico/SacchiNelsonSalgado_CosDiaspo__Render_Santiago%20Sacchi.jpg, imgs/2025/lab-V/diseno-para-el-espacio-publico/SacchiNelsonSalgado_CosDiaspo__ParejaBurguesa_Santiago%20Sacchi.jpg, imgs/2025/lab-V/diseno-para-el-espacio-publico/SacchiNelsonSalgado_CosDiaspo__Carpas_Santiago%20Sacchi.jpg, imgs/2025/lab-V/diseno-para-el-espacio-publico/SacchiNelsonSalgado_CosDiaspo__Objetos_Santiago%20Sacchi.jpg",
-    "Lab VI - Entorno sonoro": "imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Audio_Santiago%20Sacchi.mp4, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Abstract_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_L%C3%ADneaDeTiempo_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Efectos_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Reaper_Santiago%20Sacchi.jpg",
-    "Lab VI - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Entorno_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Cyber_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Cuerpos_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Circus_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Sonoro_Santiago%20Sacchi.jpg",
-    "Lab VI - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Video3D_Santiago%20Sacchi.mp4, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Abstract_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Ideas_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Loop_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Sonoro_Santiago%20Sacchi.jpg",
-    "POD - Tipografía interactiva": "imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Panel_Santiago%20Sacchi.jpg, imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Escribiendo_Santiago%20Sacchi.mp4, imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Puntos_Santiago%20Sacchi.mp4, imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Abecedario_Santiago%20Sacchi.mp4",
+    "Lab VI - De Marziani - Entorno sonoro": "imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Audio_Santiago%20Sacchi.mp4, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Abstract_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_L%C3%ADneaDeTiempo_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Efectos_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-sonoro/Sacchi_EcosEnColisi%C3%B3n_Reaper_Santiago%20Sacchi.jpg",
+    "Lab VI - De Marziani - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Entorno_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Cyber_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Cuerpos_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Circus_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/entorno-virtual/SacchiRovasioZanon_EnElMedio_Sonoro_Santiago%20Sacchi.jpg",
+    "Lab VI - De Marziani - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Video3D_Santiago%20Sacchi.mp4, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Abstract_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Ideas_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Loop_Santiago%20Sacchi.jpg, imgs/2025/lab-VI/experiencia-audiovisual/SacchiRovasioZanon_Viernes_Sonoro_Santiago%20Sacchi.jpg",
+    "POD - Araujo - Tipografia interactiva": "imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Panel_Santiago%20Sacchi.jpg, imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Escribiendo_Santiago%20Sacchi.mp4, imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Puntos_Santiago%20Sacchi.mp4, imgs/2025/POD/tipografia-interactiva/SacchiDamianiNelson_PUNKTURA_Abecedario_Santiago%20Sacchi.mp4",
     "VI - Gráfica instructiva": "imgs/2025/VI/grafica-instructiva/SacchiCuetoNelson_Malabares_Portada_Santiago%20Sacchi.jpg, imgs/2025/VI/grafica-instructiva/SacchiCuetoNelson_Malabares_Explicado_Santiago%20Sacchi.jpg, imgs/2025/VI/grafica-instructiva/SacchiCuetoNelson_Malabares_PrimerMockup_Santiago%20Sacchi.jpg, imgs/2025/VI/grafica-instructiva/SacchiCuetoNelson_Malabares_SegundoMockup_Santiago%20Sacchi.jpg, imgs/2025/VI/grafica-instructiva/SacchiCuetoNelson_Malabares_VideoMockup_Santiago%20Sacchi.mp4",
     "VI - Gráfica esquemática": "imgs/2025/VI/grafica-esquematica/SacchiCuetoNelson_BombasAt%C3%B3micas_EsquemaCompl_Santiago%20Sacchi.jpg, imgs/2025/VI/grafica-esquematica/SacchiCuetoNelson_BombasAt%C3%B3micas_EsquemaSuper_Santiago%20Sacchi.jpg, imgs/2025/VI/grafica-esquematica/SacchiCuetoNelson_BombasAt%C3%B3micas_EsquemaInfer_Santiago%20Sacchi.jpg",
-    "VI - Gráfiaca descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/SacchiCuetoNelson_Carpincho_GraficoDescriptiv_SantiagoSacchi.jpg, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/SacchiCuetoNelson_Carpincho_Interactivo_Santiago%20Sacchi.mp4"
+    "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/SacchiCuetoNelson_Carpincho_GraficoDescriptiv_SantiagoSacchi.jpg, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/SacchiCuetoNelson_Carpincho_Interactivo_Santiago%20Sacchi.mp4"
   },
   {
     "ID": "50",
@@ -626,7 +626,7 @@
     "Apellido": "Hernandez Marquez",
     "DNI": "51715663",
     "Cohorte": "2023",
-    "Lab VI - Entorno sonoro": "imgs/2025/lab-VI/entorno-sonoro/LO%20QUE%20ACECHA_Luis%20Hernandez%20Marqu.jpg",
+    "Lab VI - De Marziani - Entorno sonoro": "imgs/2025/lab-VI/entorno-sonoro/LO%20QUE%20ACECHA_Luis%20Hernandez%20Marqu.jpg",
     "VI - Gráfica instructiva": "imgs/2025/VI/grafica-instructiva/papel%20reciclado%20entrega-03_Luis%20Hernandez%20Marqu.jpg",
     "VI - Gráfica esquemática": "imgs/2025/VI/grafica-esquematica/Infograf%C3%ADa;%20linaje%20del%20pop_Luis%20Hernandez%20Marqu.jpg, imgs/2025/VI/grafica-esquematica/Pieza%20extra;%20linaje%20del%20pop_Luis%20Hernandez%20Marqu.jpg",
     "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/aguara%20final-01_Luis%20Hernandez%20Marqu.jpg"
@@ -638,7 +638,7 @@
     "Apellido": "Oteyza",
     "DNI": "46499319",
     "Cohorte": "2025",
-    "Lab VI - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/S2G4_PR2_Malena%20Oteyza.mp4",
+    "Lab VI - De Marziani - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/S2G4_PR2_Malena%20Oteyza.mp4",
     "VI - Gráfica descriptiva estática e interactiva": "imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/TITO%20FINAL_Malena%20Oteyza.jpg, imgs/2025/VI/grafica-descriptiva-estatica-e-interactiva/TITO_interactivoMalena-Oteyza.mp4"
   },
   {
@@ -648,7 +648,7 @@
     "Apellido": "Baltasar",
     "DNI": "46171562",
     "Cohorte": "2023",
-    "POD - Tipografía interactiva": "imgs/2025/POD/tipografia-interactiva/POSTER%203_Baltasar%20Briones.jpg, imgs/2025/POD/tipografia-interactiva/poster%204_Baltasar%20Briones.jpg, imgs/2025/POD/tipografia-interactiva/ABECEDARIO_Mesa%20de%20trabajo%201%20copia%2010_Baltasar%20Briones.jpg, imgs/2025/POD/tipografia-interactiva/posters-07_Baltasar%20Briones.jpg",
+    "POD - Araujo - Tipografia interactiva": "imgs/2025/POD/tipografia-interactiva/POSTER%203_Baltasar%20Briones.jpg, imgs/2025/POD/tipografia-interactiva/poster%204_Baltasar%20Briones.jpg, imgs/2025/POD/tipografia-interactiva/ABECEDARIO_Mesa%20de%20trabajo%201%20copia%2010_Baltasar%20Briones.jpg, imgs/2025/POD/tipografia-interactiva/posters-07_Baltasar%20Briones.jpg",
     "VI - Gráfica esquemática": "imgs/2025/VI/grafica-esquematica/FINAL_Baltasar%20Briones.jpg"
   },
   {
@@ -658,8 +658,8 @@
     "Apellido": "Acosta",
     "DNI": "45885930",
     "Cohorte": "2025",
-    "Lab VI - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/PR2-G7-2_Rosario%20Acosta.mp4",
-    "Lab VI - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/S1-G7_Rosario%20Acosta.mp4"
+    "Lab VI - De Marziani - Entorno virtual": "imgs/2025/lab-VI/entorno-virtual/PR2-G7-2_Rosario%20Acosta.mp4",
+    "Lab VI - De Marziani - Experiencia audiovisual": "imgs/2025/lab-VI/experiencia-audiovisual/S1-G7_Rosario%20Acosta.mp4"
   },
   {
     "ID": "54",
@@ -668,9 +668,9 @@
     "Apellido": "Mesch",
     "DNI": "45072239",
     "Cohorte": "2025",
-    "DGC - Fanzine": "imgs/2025/DGC/fanzine/DGC_SINTESIS%20NACIONAL_PAGINAS_Micaela%20Mesch.jpg, imgs/2025/DGC/fanzine/DGC_SINTESIS%20NACIONAL_PORTADA_Micaela%20Mesch.jpg",
-    "DGC - Brand book": "imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_1_Micaela%20Mesch.jpg, imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_2_Micaela%20Mesch.jpg, imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_3_Micaela%20Mesch.jpg, imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_4_Micaela%20Mesch.jpg",
-    "DGC - Video/Teaser": "imgs/2025/DGC/video-teaser/DGC_SINTESIS%20NACIONAL_Micaela%20Mesch.mp4"
+    "DGC -  Fanzine": "imgs/2025/DGC/fanzine/DGC_SINTESIS%20NACIONAL_PAGINAS_Micaela%20Mesch.jpg, imgs/2025/DGC/fanzine/DGC_SINTESIS%20NACIONAL_PORTADA_Micaela%20Mesch.jpg",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_1_Micaela%20Mesch.jpg, imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_2_Micaela%20Mesch.jpg, imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_3_Micaela%20Mesch.jpg, imgs/2025/DGC/brand-book/DGC_SINTESIS%20NACIONAL_4_Micaela%20Mesch.jpg",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/DGC_SINTESIS%20NACIONAL_Micaela%20Mesch.mp4"
   },
   {
     "ID": "55",
@@ -680,9 +680,9 @@
     "DNI": "45238027",
     "Cohorte": "2022",
     "Lab VI y VII - Diseño de videojuego de arcade": "imgs/2025/lab-VI-VII/diseno-videojuego-arcade/LACALESITA_Pilar%20Tricerri.mp4, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/LACALESITA1_Pilar%20Tricerri.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/LACALESITA2_Pilar%20Tricerri.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/LACALESITA3_Pilar%20Tricerri.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/LACALESITA4_Pilar%20Tricerri.jpg",
-    "Lab VIII - Brief ": "imgs/2025/lab-VIII/brief/mapa-con-imagenes-Pilar_Tricerri.jpg",
+    "Lab VIII - Brief": "imgs/2025/lab-VIII/brief/mapa-con-imagenes-Pilar_Tricerri.jpg",
     "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/MODULOVIVO_RECORRIDO_Pilar%20Tricerri.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/MODULOVIVO_Pilar%20Tricerri.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/MODULOVIVO_ENTREGA_Pilar%20Tricerri.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/MODULOVIVO_POSTALES_Pilar%20Tricerri.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/MODULOVIVO_MAQUETA_Pilar%20Tricerri.jpg"
-  },
+  }, 
   {
     "ID": "56",
     "Email": "martina.zorzi@mail.utdt.edu",
@@ -690,7 +690,7 @@
     "Apellido": "Zorzi",
     "DNI": "44485797",
     "Cohorte": "2021",
-    "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/Zorzi_lab-VII_Videomapping_video_Martina%20Zorzi.mp4, imgs/2025/lab-VII/video-mapping/Zorzi_lab-VII_Videomapping_Martina%20Zorzi.mp4",
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/Zorzi_LabVII_Videomapping_video_Martina_Zorzi.mp4, imgs/2025/lab-VII/video-mapping/Zorzi_lab-VII_Videomapping_Martina%20Zorzi.mp4",
     "Lab VIII - Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/TRAZ_Intro%20Web_1_Martina%20Zorzi.mp4, imgs/2025/lab-VIII/planteo-general/TRAILER_Martina%20Zorzi.mp4",
     "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/G19_Traz_Petrovich-Valenzuela-Zorzi_Martina%20Zorzi.jpg"
   },
@@ -701,9 +701,9 @@
     "Apellido": "Regueira Mansinho",
     "DNI": "44360809",
     "Cohorte": "2022",
-    "DGC - Prof. Escobar -Fanzine": "imgs/2025/DGC/fanzine/Brava%20fanzine%201_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%202_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%203_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%204_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%205_Julieta%20Regueira%20Man.png",
-    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/A4%20-%201_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%202_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%203_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%204_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%205_Julieta%20Regueira%20Man.png",
-    "DGC - Prof. Escobar -Video Teaser": "imgs/2025/DGC/video-teaser/TEASER%20BRAVA%20FINAL%202_Julieta%20Regueira%20Man.mp4"
+    "DGC -  Fanzine": "imgs/2025/DGC/fanzine/Brava%20fanzine%201_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%202_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%203_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%204_Julieta%20Regueira%20Man.png, imgs/2025/DGC/fanzine/Brava%20fanzine%205_Julieta%20Regueira%20Man.png",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/A4%20-%201_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%202_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%203_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%204_Julieta%20Regueira%20Man.png, imgs/2025/DGC/brand-book/A4%20-%205_Julieta%20Regueira%20Man.png",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/TEASER%20BRAVA%20FINAL%202_Julieta%20Regueira%20Man.mp4"
   },
   {
     "ID": "58",
@@ -712,11 +712,11 @@
     "Apellido": "Blanc",
     "DNI": "45680678",
     "Cohorte": "2022",
-    "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/Mapping%201_Corina%20Blanc.mp4, imgs/2025/lab-VII/video-mapping/2_Corina%20Blanc.png, imgs/2025/lab-VII/video-mapping/3_Corina%20Blanc.png, imgs/2025/lab-VII/video-mapping/4_Corina%20Blanc.jpg, imgs/2025/lab-VII/video-mapping/5_Corina%20Blanc.jpg",
-    "Lab VII - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/1%20VIDEO_Corina%20Blanc.mp4, imgs/2025/lab-VII/espacio-interactivo/2%20FOTO%20intro_Corina%20Blanc.png, imgs/2025/lab-VII/espacio-interactivo/3%20INTRO_Corina%20Blanc.png, imgs/2025/lab-VII/espacio-interactivo/4%20EXPLICACION_Corina%20Blanc.png, imgs/2025/lab-VII/espacio-interactivo/5%20FOTO_Corina%20Blanc.jpg",
-    "DGC - Fanzine": "imgs/2025/DGC/fanzine/compressedImage%20(1)_Corina%20Blanc.jpeg, imgs/2025/DGC/fanzine/compressedImage%20(2)_Corina%20Blanc.jpeg, imgs/2025/DGC/fanzine/compressedImage%20(3)_Corina%20Blanc.jpeg, imgs/2025/DGC/fanzine/Fanzine%20dgc_Corina%20Blanc.mp4",
-    "DGC - Brand book": "imgs/2025/DGC/brand-book/1_Corina%20Blanc.png, imgs/2025/DGC/brand-book/2_Corina%20Blanc.png, imgs/2025/DGC/brand-book/3_Corina%20Blanc.jpeg, imgs/2025/DGC/brand-book/4_Corina%20Blanc.jpeg, imgs/2025/DGC/brand-book/5_Corina_Blanc.mp4",
-    "DGC - Video Teaser": "imgs/2025/DGC/video-teaser/Barullo%20Teaser_Corina%20Blanc.mp4",
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/Mapping%201_Corina%20Blanc.mp4, imgs/2025/lab-VII/video-mapping/2_Corina%20Blanc.png, imgs/2025/lab-VII/video-mapping/3_Corina%20Blanc.png, imgs/2025/lab-VII/video-mapping/4_Corina%20Blanc.jpg, imgs/2025/lab-VII/video-mapping/5_Corina%20Blanc.jpg",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/1%20VIDEO_Corina%20Blanc.mp4, imgs/2025/lab-VII/espacio-interactivo/2%20FOTO%20intro_Corina%20Blanc.png, imgs/2025/lab-VII/espacio-interactivo/3%20INTRO_Corina%20Blanc.png, imgs/2025/lab-VII/espacio-interactivo/4%20EXPLICACION_Corina%20Blanc.png, imgs/2025/lab-VII/espacio-interactivo/5%20FOTO_Corina%20Blanc.jpg",
+    "DGC -  Fanzine": "imgs/2025/DGC/fanzine/compressedImage%20(1)_Corina%20Blanc.jpeg, imgs/2025/DGC/fanzine/compressedImage%20(2)_Corina%20Blanc.jpeg, imgs/2025/DGC/fanzine/compressedImage%20(3)_Corina%20Blanc.jpeg, imgs/2025/DGC/fanzine/Fanzine%20dgc_Corina%20Blanc.mp4",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/1_Corina%20Blanc.png, imgs/2025/DGC/brand-book/2_Corina%20Blanc.png, imgs/2025/DGC/brand-book/3_Corina%20Blanc.jpeg, imgs/2025/DGC/brand-book/4_Corina%20Blanc.jpeg, imgs/2025/DGC/brand-book/5_Corina_Blanc.mp4",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/Barullo%20Teaser_Corina%20Blanc.mp4",
     "Lab VIII - Investigación de proyecto y campo temático": "imgs/2025/lab-VIII/investigacion-proyecto/1_Corina%20Blanc.png, imgs/2025/lab-VIII/investigacion-proyecto/Slide%2016_9%20-%2055_Corina%20Blanc.png, imgs/2025/lab-VIII/investigacion-proyecto/Slide%2016_9%20-%2056_Corina%20Blanc.png, imgs/2025/lab-VIII/investigacion-proyecto/Slide%2016_9%20-%2057_Corina%20Blanc.png",
     "Lab VIII - Brief": "imgs/2025/lab-VIII/brief/1_Corina%20Blanc.png, imgs/2025/lab-VIII/brief/2_Corina%20Blanc.png, imgs/2025/lab-VIII/brief/3_Corina%20Blanc.png, imgs/2025/lab-VIII/brief/4_Corina%20Blanc.png, imgs/2025/lab-VIII/brief/5_Corina%20Blanc.png",
     "Lab VIII - Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/1_Corina%20Blanc.png, imgs/2025/lab-VIII/planteo-general/2_Corina%20Blanc.png, imgs/2025/lab-VIII/planteo-general/3_Corina%20Blanc.png, imgs/2025/lab-VIII/planteo-general/4_Corina%20Blanc.png, imgs/2025/lab-VIII/planteo-general/5_Corina%20Blanc.png",
@@ -732,9 +732,9 @@
     "Cohorte": "2022",
     "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/video%20mapping_Maitena%20Van%20Houtte.mp4",
     "Lab VII - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/video%20caracoles_Maitena%20Van%20Houtte.mp4, imgs/2025/lab-VII/espacio-interactivo/Frame%202_Maitena%20Van%20Houtte.png, imgs/2025/lab-VII/espacio-interactivo/Frame%204_Maitena%20Van%20Houtte.png, imgs/2025/lab-VII/espacio-interactivo/Frame%205_Maitena%20Van%20Houtte.png, imgs/2025/lab-VII/espacio-interactivo/Frame%206_Maitena%20Van%20Houtte.png",
-    "DGC - Fanzine": "imgs/2025/DGC/fanzine/Brava%20fanzine%205_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%204_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%203_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%202_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%201_Maitena%20Van%20Houtte.png",
-    "DGC - Brand book": "imgs/2025/DGC/brand-book/A4%20-%205_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%204_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%203_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%202_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%201_Maitena%20Van%20Houtte.png",
-    "DGC - Video Teaser": "imgs/2025/DGC/video-teaser/TEASER%20BRAVA%20FINAL%202_Maitena%20Van%20Houtte.mp4"
+    "DGC -  Fanzine": "imgs/2025/DGC/fanzine/Brava%20fanzine%205_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%204_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%203_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%202_Maitena%20Van%20Houtte.png, imgs/2025/DGC/fanzine/Brava%20fanzine%201_Maitena%20Van%20Houtte.png",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/A4%20-%205_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%204_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%203_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%202_Maitena%20Van%20Houtte.png, imgs/2025/DGC/brand-book/A4%20-%201_Maitena%20Van%20Houtte.png",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/TEASER%20BRAVA%20FINAL%202_Maitena%20Van%20Houtte.mp4"
   },
   {
     "ID": "60",
@@ -743,10 +743,10 @@
     "Apellido": "Pauluk",
     "DNI": "44541672",
     "Cohorte": "2022",
-    "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/WhatsApp Video 2025-12-11 at 14.55.49_Fatima Pauluk.mp4",
-    "Lab VII - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/WhatsApp Video 2025-12-11 at 14.52.33_Fatima Pauluk.mp4, imgs/2025/lab-VII/espacio-interactivo/Frame 4_Fatima Pauluk.png, imgs/2025/lab-VII/espacio-interactivo/Frame 2_Fatima Pauluk.png, imgs/2025/lab-VII/espacio-interactivo/Frame 5_Fatima Pauluk.png, imgs/2025/lab-VII/espacio-interactivo/Frame 6_Fatima Pauluk.png",
-    "DGC -Brand book": "imgs/2025/DGC/brand-book/Frame 55_Fatima Pauluk.png, imgs/2025/DGC/brand-book/A4-30_Fatima_Pauluk.png, imgs/2025/DGC/brand-book/Frame 704_Fatima Pauluk.png, imgs/2025/DGC/brand-book/Frame 72_Fatima Pauluk.png, imgs/2025/DGC/brand-book/EXHIBICIÓN_Fatima Pauluk.png",
-    "DGC - Video/Teaser": "imgs/2025/DGC/video-teaser/WhatsApp Video 2025-12-11 at 15.26.15_Fatima Pauluk.mp4",
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/WhatsApp-Video-2025-12-11-at-14-55-49_Fatima-Pauluk.mp4",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/WhatsApp Video 2025-12-11 at 14.52.33_Fatima Pauluk.mp4, imgs/2025/lab-VII/espacio-interactivo/Frame 4_Fatima Pauluk.png, imgs/2025/lab-VII/espacio-interactivo/Frame 2_Fatima Pauluk.png, imgs/2025/lab-VII/espacio-interactivo/Frame 5_Fatima Pauluk.png, imgs/2025/lab-VII/espacio-interactivo/Frame 6_Fatima Pauluk.png",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/Frame 55_Fatima Pauluk.png, imgs/2025/DGC/brand-book/A4-30_Fatima_Pauluk.png, imgs/2025/DGC/brand-book/Frame 704_Fatima Pauluk.png, imgs/2025/DGC/brand-book/Frame 72_Fatima Pauluk.png, imgs/2025/DGC/brand-book/EXHIBICIÓN_Fatima Pauluk.png",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/WhatsApp Video 2025-12-11 at 15.26.15_Fatima Pauluk.mp4",
     "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/G41_Panel_Gaspar-Pauluk-Regueira (1)_page-0_Fatima Pauluk.jpg"
   },
   {
@@ -756,10 +756,10 @@
     "Apellido": "Castellanos Gutiérrez",
     "DNI": "46174119",
     "Cohorte": "2022",
-    "Lab VII-Prof. De Marziani-Video mapping": "imgs/2025/lab-VII/video-mapping/Etereo abstract_Valentina Castellano.jpg, imgs/2025/lab-VII/video-mapping/Etereo mapping_Valentina Castellano.mp4",
-    "Lab VII-Prof. De Marziani-Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Antártica abstract_Valentina Castellano.jpg, imgs/2025/lab-VII/espacio-interactivo/Antartica_que_es_Valentina_Castellano.jpg, imgs/2025/lab-VII/espacio-interactivo/Antártica_bienvenida_Valentina Castellano.mp4, imgs/2025/lab-VII/espacio-interactivo/Antártica_bases_Valentina Castellano.mp4, imgs/2025/lab-VII/espacio-interactivo/Antártica_auroras_Valentina Castellano.mp4",
-    "DGC - Prof. Escobar -Fanzine": "imgs/2025/DGC/fanzine/fanzine 1_Valentina Castellano.jpg, imgs/2025/DGC/fanzine/fanzine 2_Valentina Castellano.jpg, imgs/2025/DGC/fanzine/fanzine 3_Valentina Castellano.jpg, imgs/2025/DGC/fanzine/fanzine 4_Valentina Castellano.jpg",
-    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/57_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/56_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/55_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/Grabación de pantalla 2025-12-11 a la(s) 4.1_Valentina Castellano.mov"
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/Etereo abstract_Valentina Castellano.jpg, imgs/2025/lab-VII/video-mapping/Etereo mapping_Valentina Castellano.mp4",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Antártica abstract_Valentina Castellano.jpg, imgs/2025/lab-VII/espacio-interactivo/Antartica_que_es_Valentina_Castellano.jpg, imgs/2025/lab-VII/espacio-interactivo/Antártica_bienvenida_Valentina Castellano.mp4, imgs/2025/lab-VII/espacio-interactivo/Antártica_bases_Valentina Castellano.mp4, imgs/2025/lab-VII/espacio-interactivo/Antártica_auroras_Valentina Castellano.mp4",
+    "DGC -  Fanzine": "imgs/2025/DGC/fanzine/fanzine 1_Valentina Castellano.jpg, imgs/2025/DGC/fanzine/fanzine 2_Valentina Castellano.jpg, imgs/2025/DGC/fanzine/fanzine 3_Valentina Castellano.jpg, imgs/2025/DGC/fanzine/fanzine 4_Valentina Castellano.jpg",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/57_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/56_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/55_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/Grabación de pantalla 2025-12-11 a la(s) 4.1_Valentina Castellano.mov"
   },
   {
     "ID": "62",
@@ -768,11 +768,11 @@
     "Apellido": "Parrak Krieg",
     "DNI": "45233288",
     "Cohorte": "2022",
-    "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/video_Catalina Parra Krieg.mp4, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 1_Catalina Parra Krieg.jpg, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 3_Catalina Parra Krieg.jpg, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 5_Catalina Parra Krieg.jpg, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 7_Catalina Parra Krieg.jpg",
-    "Lab VII - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Frame 2_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/Frame 4_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/Frame 5_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/Frame 6_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/WhatsApp Video 2025-12-11 at 14.52.33_Catalina Parra Krieg.mp4",
-    "DGC - Brand book": "imgs/2025/DGC/brand-book/Frame 637_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/A4 - 30_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/WEB_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/LOGO_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/Frame 704_Catalina Parra Krieg.png",
-    "DGC - Video/Teaser": "imgs/2025/DGC/video-teaser/VIDEO-2025-07-11-10-17-59_Catalina Parra Krieg.mp4",
-    "Lab VIII -  Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/PANEL_Catalina Parra Krieg.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/presentacion_Catalina Parra Krieg.jpg"
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/video_Catalina Parra Krieg.mp4, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 1_Catalina Parra Krieg.jpg, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 3_Catalina Parra Krieg.jpg, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 5_Catalina Parra Krieg.jpg, imgs/2025/lab-VII/video-mapping/Slide 16_9 - 7_Catalina Parra Krieg.jpg",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Frame 2_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/Frame 4_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/Frame 5_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/Frame 6_Catalina Parra Krieg.png, imgs/2025/lab-VII/espacio-interactivo/WhatsApp Video 2025-12-11 at 14.52.33_Catalina Parra Krieg.mp4",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/Frame 637_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/A4 - 30_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/WEB_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/LOGO_Catalina Parra Krieg.png, imgs/2025/DGC/brand-book/Frame 704_Catalina Parra Krieg.png",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/VIDEO-2025-07-11-10-17-59_Catalina Parra Krieg.mp4",
+    "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/PANEL_Catalina Parra Krieg.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/presentacion_Catalina Parra Krieg.jpg"
   },
   {
     "ID": "63",
@@ -781,15 +781,15 @@
     "Apellido": "Victorica",
     "DNI": "45201708",
     "Cohorte": "2022",
-    "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/1 titulo_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/2 Brief_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/3 Analisis-sonoro_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/4 Maqueta_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/Video mapping_Candelaria Victorica.mov",
-    "Lab VII - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/1 VIDEO_Candelaria Victorica.mp4, imgs/2025/lab-VII/espacio-interactivo/2 FOTO intro_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/3 INTRO_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/4 EXPLICACION_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/5 FOTO_Candelaria Victorica.jpg",
-    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/1-intro_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/2-concept_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/3-comunicacion_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/4-piezas_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/5-entrega_Candelaria Victorica.jpg",
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/1 titulo_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/2 Brief_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/3 Analisis-sonoro_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/4 Maqueta_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/Video mapping_Candelaria Victorica.mov",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/1 VIDEO_Candelaria Victorica.mp4, imgs/2025/lab-VII/espacio-interactivo/2 FOTO intro_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/3 INTRO_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/4 EXPLICACION_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/5 FOTO_Candelaria Victorica.jpg",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/1-intro_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/2-concept_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/3-comunicacion_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/4-piezas_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/5-entrega_Candelaria Victorica.jpg",
     "Lab VIII - Visualización de procesos previos": "imgs/2025/lab-VIII/visualizacion-procesos/Cartografia-Procesos_Candelaria Victorica.jpg",
     "Lab VIII - Investigación de proyecto y campo temático": "imgs/2025/lab-VIII/investigacion-proyecto/1 intro_Candelaria Victorica.jpg, imgs/2025/lab-VIII/investigacion-proyecto/2 invest_Candelaria Victorica.jpg, imgs/2025/lab-VIII/investigacion-proyecto/3 inves_Candelaria Victorica.jpg, imgs/2025/lab-VIII/investigacion-proyecto/4 invest_Candelaria Victorica.jpg",
-    "Brief ": "imgs/2025/lab-VIII/brief/brief_Candelaria Victorica.jpg",
-    "Lab VIII -  Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/1 codificacion_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/2 despliegue espacial_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/3 el cero_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/4 el 50_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/5 el 100_Candelaria Victorica.jpg",
-    "Lab VIII -  Detalle de componentes y recursos": "imgs/2025/lab-VIII/detalle-componentes/1 sala_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/2 sala_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/3 mirador_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/4 sinfonia_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/5 torre_Candelaria Victorica.jpg",
-    "Lab VIII -  Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/1 maqueta_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/2 closeup_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/3 top_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/4 sala_Candelaria Victorica.jpg"
+    "Lab VIII - Brief": "imgs/2025/lab-VIII/brief/brief_Candelaria Victorica.jpg",
+    "Lab VIII - Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/1 codificacion_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/2 despliegue espacial_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/3 el cero_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/4 el 50_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/5 el 100_Candelaria Victorica.jpg",
+    "Lab VIII - Detalle de componentes y recursos": "imgs/2025/lab-VIII/detalle-componentes/1 sala_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/2 sala_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/3 mirador_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/4 sinfonia_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/5 torre_Candelaria Victorica.jpg",
+    "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/1 maqueta_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/2 closeup_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/3 top_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/4 sala_Candelaria Victorica.jpg"
   },
   {
     "ID": "64",
@@ -798,9 +798,9 @@
     "Apellido": "Acosta",
     "DNI": "44860152",
     "Cohorte": "2022",
-    "Lab VII-Prof. De Marziani-Video mapping": "imgs/2025/lab-VII/video-mapping/Render-baja-Acosta-Camila_Camila-Acosta-Sánche.mp4, imgs/2025/lab-VII/video-mapping/Maqueta-Acosta-Camila_2_Camila-Acosta-Sánche.mp4, imgs/2025/lab-VII/video-mapping/Presentación-Acosta-Camila_Camila-Acosta-Sánche.png",
-    "Lab VII-Prof. De Marziani-Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Media-Acosta-Blanc-Victorica_Camila Acosta Sánche.mp4, imgs/2025/lab-VII/espacio-interactivo/2 FOTO intro_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/3 INTRO_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/4 EXPLICACION_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/5 FOTO_Camila Acosta Sánche.jpg",
-    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/comportamientos loop_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Stories_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Web_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Kiosco_Camila Acosta Sánchez.mp4"
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/Render-baja-Acosta-Camila_Camila-Acosta-Sánche.mp4, imgs/2025/lab-VII/video-mapping/Maqueta-Acosta-Camila_2_Camila-Acosta-Sánche.mp4, imgs/2025/lab-VII/video-mapping/Presentación-Acosta-Camila_Camila-Acosta-Sánche.png",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Media-Acosta-Blanc-Victorica_Camila Acosta Sánche.mp4, imgs/2025/lab-VII/espacio-interactivo/2 FOTO intro_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/3 INTRO_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/4 EXPLICACION_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/5 FOTO_Camila Acosta Sánche.jpg",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/comportamientos loop_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Stories_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Web_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Kiosco_Camila Acosta Sánchez.mp4"
   },
   {
     "ID": "65",
@@ -809,11 +809,11 @@
     "Apellido": "Fernández Pastor",
     "DNI": "45415016",
     "Cohorte": "2022",
-    "Lab VI y VII-Prof. Becerril- Diseño de videojuego de arcade": "imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor__Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%202_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%203_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/reglas_Juana%20Fern%C3%A1ndez%20Past.png, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/WhatsApp%20Image%202025-06-30%20at%2009.35.35_Juana%20Fern%C3%A1ndez%20Past.jpeg",
-    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/bitacora_Juana%20Fern%C3%A1ndez%20Past.jpg",
-    "DGC - Prof. Escobar -Video/Teaser": "imgs/2025/DGC/video-teaser/TEASER%20VEREDA_Juana%20Fern%C3%A1ndez%20Past.mp4",
+    "Lab VI y VII - Diseño de videojuego de arcade": "imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor__Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%202_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%203_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/reglas_Juana%20Fern%C3%A1ndez%20Past.png, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/WhatsApp%20Image%202025-06-30%20at%2009.35.35_Juana%20Fern%C3%A1ndez%20Past.jpeg",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/bitacora_Juana%20Fern%C3%A1ndez%20Past.jpg",
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/TEASER%20VEREDA_Juana%20Fern%C3%A1ndez%20Past.mp4",
     "Lab VIII - Investigación de proyecto y campo temático": "imgs/2025/lab-VIII/investigacion-proyecto/frame_Juana%20Fern%C3%A1ndez%20Past.jpg",
-    "Lab VIII - Brief ": "imgs/2025/lab-VIII/brief/brief_Juana%20Fern%C3%A1ndez%20Past.jpg",
+    "Lab VIII - Brief": "imgs/2025/lab-VIII/brief/brief_Juana%20Fern%C3%A1ndez%20Past.jpg",
     "Lab VIII - Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/Frame%20403_Juana%20Fern%C3%A1ndez%20Past.jpg",
     "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/PANEL_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/Slide%2016_9%20-%2096_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/piezas_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/G42_Video%20Web_Ferna%CC%81ndezPastor-Guerrieri-Parr_Juana%20Fern%C3%A1ndez%20Past.mov"
   },
@@ -824,7 +824,7 @@
     "Apellido": "Caminos",
     "DNI": "45676911",
     "Cohorte": "2022",
-    "DGC - Prof. Escobar -Video/Teaser": "imgs/2025/DGC/video-teaser/S2_G2_TRAILER_Lara%20Caminos.mp4"
+    "DGC - Video-Teaser": "imgs/2025/DGC/video-teaser/S2_G2_TRAILER_Lara%20Caminos.mp4"
   },
   {
     "ID": "67",
@@ -833,9 +833,9 @@
     "Apellido": "Banderet",
     "DNI": "45676234",
     "Cohorte": "2022",
-    "Lab VII-Prof. De Marziani-Video mapping": "imgs/2025/lab-VII/video-mapping/Comp%202_3_Maria%20Banderet.mp4, imgs/2025/lab-VII/video-mapping/panel%20tp2%20lab%20VII_Banderet_Maria%20Banderet.jpg",
-    "Lab VII-Prof. De Marziani-Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/tp3%20VIII_%20tiburones_Maria%20Banderet.jpg, imgs/2025/lab-VII/espacio-interactivo/mi%20parte_tiburones_Maria%20Banderet.mp4",
-    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/1-intro_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/2-concept_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/3-comunicacion_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/4-piezas_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/5-entrega_Maria%20Banderet.jpg",
-    "Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/G04_Panel_Banderet-Pisk%20panel_Maria%20Banderet.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/WhatsApp%20Image%202025-12-11%20at%2019.26.07_Maria%20Banderet.jpeg; imgs/2025/lab-VIII/definicion-presentacion-proyecto/WhatsApp%20Video%202025-12-11%20at%2019.27.20_Maria%20Banderet.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/Recorrido_Maria%20Banderet.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/mockup%20grandeeeeee_Maria%20Banderet.png"
+    "Lab VII - De Marziani - Video mapping": "imgs/2025/lab-VII/video-mapping/Comp%202_3_Maria%20Banderet.mp4, imgs/2025/lab-VII/video-mapping/panel%20tp2%20lab%20VII_Banderet_Maria%20Banderet.jpg",
+    "Lab VII - De Marziani - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/tp3%20VIII_%20tiburones_Maria%20Banderet.jpg, imgs/2025/lab-VII/espacio-interactivo/mi%20parte_tiburones_Maria%20Banderet.mp4",
+    "DGC - Brand Book": "imgs/2025/DGC/brand-book/1-intro_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/2-concept_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/3-comunicacion_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/4-piezas_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/5-entrega_Maria%20Banderet.jpg",
+    "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/G04_Panel_Banderet-Pisk%20panel_Maria%20Banderet.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/WhatsApp%20Image%202025-12-11%20at%2019.26.07_Maria%20Banderet.jpeg; imgs/2025/lab-VIII/definicion-presentacion-proyecto/WhatsApp%20Video%202025-12-11%20at%2019.27.20_Maria%20Banderet.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/Recorrido_Maria%20Banderet.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/mockup%20grandeeeeee_Maria%20Banderet.png"
   }
 ]
