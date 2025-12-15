@@ -685,7 +685,7 @@
   },
   {
     "ID": "56",
-    "Email":"martina.zorzi@mail.utdt.edu",
+    "Email": "martina.zorzi@mail.utdt.edu",
     "Nombre": "Martina",
     "Apellido": "Zorzi",
     "DNI": "44485797",
@@ -751,7 +751,7 @@
   },
   {
     "ID": "61",
-    "Email":"vcastellanosgutierrez@alumniutdt.onmicrosoft.com",
+    "Email": "vcastellanosgutierrez@alumniutdt.onmicrosoft.com",
     "Nombre": "Valentina",
     "Apellido": "Castellanos Gutiérrez",
     "DNI": "46174119",
@@ -762,7 +762,8 @@
     "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/57_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/56_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/55_Valentina Castellano.jpg, imgs/2025/DGC/brand-book/Grabación de pantalla 2025-12-11 a la(s) 4.1_Valentina Castellano.mov"
   },
   {
-    "Correo electrónico": "cparrakrieg@mail.utdt.edu",
+    "ID": "62",
+    "Email": "cparrakrieg@mail.utdt.edu",
     "Nombre": "Catalina",
     "Apellido": "Parrak Krieg",
     "DNI": "45233288",
@@ -774,62 +775,67 @@
     "Lab VIII -  Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/PANEL_Catalina Parra Krieg.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/presentacion_Catalina Parra Krieg.jpg"
   },
   {
-    "Correo electrónico": "cvictorica@mail.utdt.edu",
+    "ID": "63",
+    "Email": "cvictorica@mail.utdt.edu",
     "Nombre": "Candelaria",
     "Apellido": "Victorica",
     "DNI": "45201708",
     "Cohorte": "2022",
-    "Lab VII-Prof. De Marziani-Video mapping\n": "\/1%20titulo_Candelaria%20Victorica.jpg, \/2%20Brief_Candelaria%20Victorica.jpg, \/3%20Analisis-sonoro_Candelaria%20Victorica.jpg, \/4%20Maqueta_Candelaria%20Victorica.jpg, \/Video%20mapping_Candelaria%20Victorica.mov",
-    "Lab VII-Prof. De Marziani-Espacio interactivo\n": "/1%20VIDEO_Candelaria%20Victorica.mp4, /2%20FOTO%20intro_Candelaria%20Victorica.png, /3%20INTRO_Candelaria%20Victorica.png, /4%20EXPLICACION_Candelaria%20Victorica.png, /5%20FOTO_Candelaria%20Victorica.jpg",
-    "DGC - Prof. Escobar -Brand book\n": "DGC/brand-book\/1-intro_Candelaria%20Victorica.jpg, DGC/brand-book\/2-concept_Candelaria%20Victorica.jpg, DGC/brand-book\/3-comunicacion_Candelaria%20Victorica.jpg, DGC/brand-book\/4-piezas_Candelaria%20Victorica.jpg, DGC/brand-book\/5-entrega_Candelaria%20Victorica.jpg",
-    "Visualización de procesos previos (fecha de entrega: 7\/8\/2025)": "POD%20-%C2%A0Prof%20Araujo%20-%C2%A0Monstruo\/Cartografia-Procesos_Candelaria%20Victorica.jpg",
-    "Investigación de proyecto y campo temático (fecha de entrega: 18\/8\/2025)": "lab-VIII/investigacion-proyecto\/1%20intro_Candelaria%20Victorica.jpg, lab-VIII/investigacion-proyecto\/2%20invest_Candelaria%20Victorica.jpg, lab-VIII/investigacion-proyecto\/3%20inves_Candelaria%20Victorica.jpg, lab-VIII/investigacion-proyecto\/4%20invest_Candelaria%20Victorica.jpg",
-    "Brief ": "Investigaci%C3%B3n%20de%20proyecto%20y%20campo%20tem%C3%A1tico%20(fecha\/brief_Candelaria%20Victorica.jpg",
-    "Lab VIII -  Planteo general y analítico del proyecto": "lab-VIII/planteo-general/\/1%20codificacion_Candelaria%20Victorica.jpg, lab-VIII/planteo-general/\/2%20despliegue%20espacial_Candelaria%20Victorica.jpg, lab-VIII/planteo-general/\/3%20el%20cero_Candelaria%20Victorica.jpg, lab-VIII/planteo-general/\/4%20el%2050_Candelaria%20Victorica.jpg, lab-VIII/planteo-general/\/5%20el%20100_Candelaria%20Victorica.jpg",
-    "Lab VIII -  Detalle de componentes y recursos": "lab-VIII/detalle-componentes/\/1%20sala_Candelaria%20Victorica.jpg, lab-VIII/detalle-componentes/\/2%20sala_Candelaria%20Victorica.jpg, lab-VIII/detalle-componentes/\/3%20mirador_Candelaria%20Victorica.jpg, lab-VIII/detalle-componentes/\/4%20sinfonia_Candelaria%20Victorica.jpg, lab-VIII/detalle-componentes/\/5%20torre_Candelaria%20Victorica.jpg",
-    "Lab VIII -  Definición y presentación de proyecto": "lab-VIII/definicion-presentacion-proyecto/\/1%20maqueta_Candelaria%20Victorica.jpg, lab-VIII/definicion-presentacion-proyecto/\/2%20closeup_Candelaria%20Victorica.jpg, lab-VIII/definicion-presentacion-proyecto/\/3%20top_Candelaria%20Victorica.jpg, lab-VIII/definicion-presentacion-proyecto/\/4%20sala_Candelaria%20Victorica.jpg"
+    "Lab VII - Video mapping": "imgs/2025/lab-VII/video-mapping/1 titulo_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/2 Brief_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/3 Analisis-sonoro_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/4 Maqueta_Candelaria Victorica.jpg, imgs/2025/lab-VII/video-mapping/Video mapping_Candelaria Victorica.mov",
+    "Lab VII - Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/1 VIDEO_Candelaria Victorica.mp4, imgs/2025/lab-VII/espacio-interactivo/2 FOTO intro_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/3 INTRO_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/4 EXPLICACION_Candelaria Victorica.png, imgs/2025/lab-VII/espacio-interactivo/5 FOTO_Candelaria Victorica.jpg",
+    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/1-intro_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/2-concept_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/3-comunicacion_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/4-piezas_Candelaria Victorica.jpg, imgs/2025/DGC/brand-book/5-entrega_Candelaria Victorica.jpg",
+    "Lab VIII - Visualización de procesos previos": "imgs/2025/lab-VIII/visualizacion-procesos/Cartografia-Procesos_Candelaria Victorica.jpg",
+    "Lab VIII - Investigación de proyecto y campo temático": "imgs/2025/lab-VIII/investigacion-proyecto/1 intro_Candelaria Victorica.jpg, imgs/2025/lab-VIII/investigacion-proyecto/2 invest_Candelaria Victorica.jpg, imgs/2025/lab-VIII/investigacion-proyecto/3 inves_Candelaria Victorica.jpg, imgs/2025/lab-VIII/investigacion-proyecto/4 invest_Candelaria Victorica.jpg",
+    "Brief ": "imgs/2025/lab-VIII/brief/brief_Candelaria Victorica.jpg",
+    "Lab VIII -  Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/1 codificacion_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/2 despliegue espacial_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/3 el cero_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/4 el 50_Candelaria Victorica.jpg, imgs/2025/lab-VIII/planteo-general/5 el 100_Candelaria Victorica.jpg",
+    "Lab VIII -  Detalle de componentes y recursos": "imgs/2025/lab-VIII/detalle-componentes/1 sala_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/2 sala_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/3 mirador_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/4 sinfonia_Candelaria Victorica.jpg, imgs/2025/lab-VIII/detalle-componentes/5 torre_Candelaria Victorica.jpg",
+    "Lab VIII -  Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/1 maqueta_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/2 closeup_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/3 top_Candelaria Victorica.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/4 sala_Candelaria Victorica.jpg"
   },
   {
-    "Correo electrónico": "cacostasanchez@mail.utdt.edu",
+    "ID": "64",
+    "Email": "cacostasanchez@mail.utdt.edu",
     "Nombre": "Camila",
     "Apellido": "Acosta",
     "DNI": "44860152",
     "Cohorte": "2022",
-    "Lab VII-Prof. De Marziani-Video mapping\n": "\/Render-baja-Acosta-Camila_Camila%20Acosta%20S%C3%A1nche.mp4, \/Maqueta-Acosta-Camila_2_Camila%20Acosta%20S%C3%A1nche.mp4, \/Presentacio%CC%81n-Acosta-Camila_Camila%20Acosta%20S%C3%A1nche.png",
-    "Lab VII-Prof. De Marziani-Espacio interactivo\n": "/Media-Acosta-Blanc-Victorica_Camila%20Acosta%20S%C3%A1nche.mp4, /2%20FOTO%20intro_Camila%20Acosta%20S%C3%A1nche.png, /3%20INTRO_Camila%20Acosta%20S%C3%A1nche.png, /4%20EXPLICACION_Camila%20Acosta%20S%C3%A1nche.png, /5%20FOTO_Camila%20Acosta%20S%C3%A1nche.jpg",
-    "DGC - Prof. Escobar -Brand book\n": "DGC/brand-book\/comportamientos%20loop_Camila%20Acosta%20S%C3%A1nche.mp4, DGC/brand-book\/DGC-Stories_Camila%20Acosta%20S%C3%A1nche.mp4, DGC/brand-book\/DGC-Web_Camila%20Acosta%20S%C3%A1nche.mp4, DGC/brand-book\/DGC-Kiosco_Camila%20Acosta%20S%C3%A1nche.mp4"
+    "Lab VII-Prof. De Marziani-Video mapping": "imgs/2025/lab-VII/video-mapping/Render-baja-Acosta-Camila_Camila-Acosta-Sánche.mp4, imgs/2025/lab-VII/video-mapping/Maqueta-Acosta-Camila_2_Camila-Acosta-Sánche.mp4, imgs/2025/lab-VII/video-mapping/Presentación-Acosta-Camila_Camila-Acosta-Sánche.png",
+    "Lab VII-Prof. De Marziani-Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/Media-Acosta-Blanc-Victorica_Camila Acosta Sánche.mp4, imgs/2025/lab-VII/espacio-interactivo/2 FOTO intro_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/3 INTRO_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/4 EXPLICACION_Camila Acosta Sánche.png, imgs/2025/lab-VII/espacio-interactivo/5 FOTO_Camila Acosta Sánche.jpg",
+    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/comportamientos loop_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Stories_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Web_Camila Acosta Sánchez.mp4, imgs/2025/DGC/brand-book/DGC-Kiosco_Camila Acosta Sánchez.mp4"
   },
   {
-    "Correo electrónico": "jfernandezpastor@mail.utdt.edu",
+    "ID": "65",
+    "Email": "jfernandezpastor@mail.utdt.edu",
     "Nombre": "Juana",
     "Apellido": "Fernández Pastor",
     "DNI": "45415016",
     "Cohorte": "2022",
-    "Lab VI y VII-Prof. Becerril- Diseño de videojuego de arcade\n": "Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor__Juana%20Fern%C3%A1ndez%20Past.jpg, Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%202_Juana%20Fern%C3%A1ndez%20Past.jpg, Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%203_Juana%20Fern%C3%A1ndez%20Past.jpg, reglas_Juana%20Fern%C3%A1ndez%20Past.png, WhatsApp%20Image%202025-06-30%20at%2009.35.35_Juana%20Fern%C3%A1ndez%20Past.jpeg",
-    "DGC - Prof. Escobar -Brand book\n": "DGC/brand-book\/bitacora_Juana%20Fern%C3%A1ndez%20Past.jpg",
-    "DGC - Prof. Escobar -Video\/Teaser\n": "DGC/video-teaser/\/TEASER%20VEREDA_Juana%20Fern%C3%A1ndez%20Past.mp4",
-    "Investigación de proyecto y campo temático (fecha de entrega: 18\/8\/2025)": "lab-VIII/investigacion-proyecto\/frame_Juana%20Fern%C3%A1ndez%20Past.jpg",
-    "Brief ": "Investigaci%C3%B3n%20de%20proyecto%20y%20campo%20tem%C3%A1tico%20(fecha\/brief_Juana%20Fern%C3%A1ndez%20Past.jpg",
-    "Planteo general y analítico del proyecto": "lab-VIII/planteo-general/\/Frame%20403_Juana%20Fern%C3%A1ndez%20Past.jpg",
-    "Definición y presentación de proyecto": "lab-VIII/definicion-presentacion-proyecto/\/PANEL_Juana%20Fern%C3%A1ndez%20Past.jpg, lab-VIII/definicion-presentacion-proyecto/\/Slide%2016_9%20-%2096_Juana%20Fern%C3%A1ndez%20Past.jpg, lab-VIII/definicion-presentacion-proyecto/\/piezas_Juana%20Fern%C3%A1ndez%20Past.jpg, lab-VIII/definicion-presentacion-proyecto/\/G42_Video%20Web_Ferna%CC%81ndezPastor-Guerrieri-Parr_Juana%20Fern%C3%A1ndez%20Past.mov"
+    "Lab VI y VII-Prof. Becerril- Diseño de videojuego de arcade": "imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor__Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%202_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/Lab6_JuegosAnalo%CC%81gicos_2025_Fernandez%20Pastor_%203_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/reglas_Juana%20Fern%C3%A1ndez%20Past.png, imgs/2025/lab-VI-VII/diseno-videojuego-arcade/WhatsApp%20Image%202025-06-30%20at%2009.35.35_Juana%20Fern%C3%A1ndez%20Past.jpeg",
+    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/bitacora_Juana%20Fern%C3%A1ndez%20Past.jpg",
+    "DGC - Prof. Escobar -Video/Teaser": "imgs/2025/DGC/video-teaser/TEASER%20VEREDA_Juana%20Fern%C3%A1ndez%20Past.mp4",
+    "Lab VIII - Investigación de proyecto y campo temático": "imgs/2025/lab-VIII/investigacion-proyecto/frame_Juana%20Fern%C3%A1ndez%20Past.jpg",
+    "Lab VIII - Brief ": "imgs/2025/lab-VIII/brief/brief_Juana%20Fern%C3%A1ndez%20Past.jpg",
+    "Lab VIII - Planteo general y analítico del proyecto": "imgs/2025/lab-VIII/planteo-general/Frame%20403_Juana%20Fern%C3%A1ndez%20Past.jpg",
+    "Lab VIII - Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/PANEL_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/Slide%2016_9%20-%2096_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/piezas_Juana%20Fern%C3%A1ndez%20Past.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/G42_Video%20Web_Ferna%CC%81ndezPastor-Guerrieri-Parr_Juana%20Fern%C3%A1ndez%20Past.mov"
   },
   {
-    "Correo electrónico": "lcaminos@mail.utdt.edu",
+    "ID": "66",
+    "Email": "lcaminos@mail.utdt.edu",
     "Nombre": "Lara",
     "Apellido": "Caminos",
     "DNI": "45676911",
     "Cohorte": "2022",
-    "DGC - Prof. Escobar -Video\/Teaser\n": "DGC/video-teaser/\/S2_G2_TRAILER_Lara%20Caminos.mp4"
+    "DGC - Prof. Escobar -Video/Teaser": "imgs/2025/DGC/video-teaser/S2_G2_TRAILER_Lara%20Caminos.mp4"
   },
   {
-    "Correo electrónico": "mbanderet@mail.utdt.edu",
+    "ID": "67",
+    "Email": "mbanderet@mail.utdt.edu",
     "Nombre": "María",
     "Apellido": "Banderet",
     "DNI": "45676234",
     "Cohorte": "2022",
-    "Lab VII-Prof. De Marziani-Video mapping\n": "\/Comp%202_3_Maria%20Banderet.mp4, \/panel%20tp2%20lab%20VII_Banderet_Maria%20Banderet.jpg",
-    "Lab VII-Prof. De Marziani-Espacio interactivo\n": "/tp3%20VIII_%20tiburones_Maria%20Banderet.jpg, /mi%20parte_tiburones_Maria%20Banderet.mp4",
-    "DGC - Prof. Escobar -Brand book\n": "DGC/brand-book\/1-intro_Maria%20Banderet.jpg, DGC/brand-book\/2-concept_Maria%20Banderet.jpg, DGC/brand-book\/3-comunicacion_Maria%20Banderet.jpg, DGC/brand-book\/4-piezas_Maria%20Banderet.jpg, DGC/brand-book\/5-entrega_Maria%20Banderet.jpg",
-    "Definición y presentación de proyecto": "lab-VIII/definicion-presentacion-proyecto/\/G04_Panel_Banderet-Pisk%20panel_Maria%20Banderet.jpg, lab-VIII/definicion-presentacion-proyecto/\/WhatsApp%20Image%202025-12-11%20at%2019.26.07_Maria%20Banderet.jpeg; lab-VIII/definicion-presentacion-proyecto/\/WhatsApp%20Video%202025-12-11%20at%2019.27.20_Maria%20Banderet.mp4, lab-VIII/definicion-presentacion-proyecto/\/Recorrido_Maria%20Banderet.mp4, lab-VIII/definicion-presentacion-proyecto/\/mockup%20grandeeeeee_Maria%20Banderet.png"
+    "Lab VII-Prof. De Marziani-Video mapping": "imgs/2025/lab-VII/video-mapping/Comp%202_3_Maria%20Banderet.mp4, imgs/2025/lab-VII/video-mapping/panel%20tp2%20lab%20VII_Banderet_Maria%20Banderet.jpg",
+    "Lab VII-Prof. De Marziani-Espacio interactivo": "imgs/2025/lab-VII/espacio-interactivo/tp3%20VIII_%20tiburones_Maria%20Banderet.jpg, imgs/2025/lab-VII/espacio-interactivo/mi%20parte_tiburones_Maria%20Banderet.mp4",
+    "DGC - Prof. Escobar -Brand book": "imgs/2025/DGC/brand-book/1-intro_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/2-concept_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/3-comunicacion_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/4-piezas_Maria%20Banderet.jpg, imgs/2025/DGC/brand-book/5-entrega_Maria%20Banderet.jpg",
+    "Definición y presentación de proyecto": "imgs/2025/lab-VIII/definicion-presentacion-proyecto/G04_Panel_Banderet-Pisk%20panel_Maria%20Banderet.jpg, imgs/2025/lab-VIII/definicion-presentacion-proyecto/WhatsApp%20Image%202025-12-11%20at%2019.26.07_Maria%20Banderet.jpeg; imgs/2025/lab-VIII/definicion-presentacion-proyecto/WhatsApp%20Video%202025-12-11%20at%2019.27.20_Maria%20Banderet.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/Recorrido_Maria%20Banderet.mp4, imgs/2025/lab-VIII/definicion-presentacion-proyecto/mockup%20grandeeeeee_Maria%20Banderet.png"
   }
 ]
