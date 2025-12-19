@@ -117,6 +117,7 @@ const materiasPorAnio = ref({
     { nombre: "Lab IV", nl: "Laboratorio de Diseño IV" },
     { nombre: "Lab V", nl: "Laboratorio de Diseño V" },
     { nombre: "Lab VI", nl: "Laboratorio de Diseño VI" },
+    { nombre: "Lab VI y VII", nl:"Laboratorio de Diseño VI y VII (Arcade)"},
     { nombre: "Lab VII", nl: "Laboratorio de Diseño VII" },
     { nombre: "Lab VIII", nl: "Laboratorio de Diseño VIII" },
     { nombre: "DGC", nl: "Diseño y Gestión Cultural" },
